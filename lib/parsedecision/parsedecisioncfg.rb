@@ -33,7 +33,14 @@ class ParseDecisionCfg < KtCfg::CfgFile
   # returns:: a hash containing configuration info.
   def load
     $LOG.debug "ParseDecisionCfg::load"
-    @cfg = read("parsedecisioncfg.yml")
+	
+	filepath = cfgFilePath("parsedecisioncfg.yml")
+    if(!File.exists?( filepath ))		# TODO: This needs to be moved into KtCfg.
+		$LOG.debug "Config file does not exist. Returning default config obj."
+		return @cfg
+	end
+
+	@cfg = read("parsedecisioncfg.yml")
   end
   
   

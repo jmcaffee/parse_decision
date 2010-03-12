@@ -43,7 +43,7 @@ class  TestParseDecision < Test::Unit::TestCase #(3)
 #
 #------------------------------------------------------------------------------------------------------------#
   def test_parsedecision_ctor
-    target = ParseDecision.new
+    target = ParseDecisionTool.new
     
     assert(nil != target)
   end
