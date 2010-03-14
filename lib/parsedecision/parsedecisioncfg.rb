@@ -25,7 +25,31 @@ class ParseDecisionCfg < KtCfg::CfgFile
   
   def setDefaults
     $LOG.debug "ParseDecisionCfg::setDefaults"
-    @cfg[:appPath] = formatPath(File.join(ENV["LOCALAPPDATA"], "parsedecision"), :unix)
+	
+	# Blow away the existing cfg hash
+	@cfg = {}
+	
+	# Notes about APPDATA paths:
+	#	Local app data should be used when an app's data is too 
+	#	big to move around. Or is specific to the machine running
+	#	the application.
+	#
+	#	Roaming app data files could be pushed to a server (in a 
+	#	domain environment) and downloaded onto a different work
+	#	station.
+	#
+	#	LocalLow is used for data that must be sandboxed. Currently
+	#	it is only used by IE for addons and storing data from 
+	#	untrusted sources (as far as I know).
+	#
+
+
+    #appDataPath 	= ENV["APPDATA"]					# APPDATA returns AppData\Roaming on Vista/W7
+    appDataPath 	= ENV["LOCALAPPDATA"]				# LOCALAPPDATA returns AppData\Local on Vista/W7
+    @cfg[:appPath] 	= formatPath(File.join(appDataPath, "parsedecision"), :unix)
+    @cfg[:version] 	= PARSEDECISION_VERSION
+    @cfg[:file] 	= "2.decision.txt"
+    @cfg[:logging] 	= false
   end
   
   
@@ -45,9 +69,18 @@ class ParseDecisionCfg < KtCfg::CfgFile
   
   
   # Save the @cfg hash to a YAML file.
-  def save
-    $LOG.debug "ParseDecisionCfg::save"
+  def save(cfg=nil)
+    $LOG.debug "ParseDecisionCfg::save( cfg )"
+	if( nil != cfg )
+		@cfg = cfg
+	end
     write("parsedecisioncfg.yml", @cfg)
+  end
+  
+  
+  def addKeyValue(key, value)
+    $LOG.debug "ParseDecisionCfg::addKeyValue( #{key.to_s}, #{value} )"
+	@cfg[key] = value
   end
   
   

@@ -11,24 +11,40 @@ require 'find'
 require 'logger'
 require 'win32ole'
 
-$LOGGING = true   # TODO: Change this flag to false when releasing production build.
+
+PARSEDECISION_VERSION = "0.0.1"
+PARSEDECISION_APPNAME = "ParseDecision"
+PARSEDECISION_COPYRIGHT = "Copyright (c) 2010, kTech Systems LLC. All rights reserved"
 
 if(!$LOG)
+	$LOG = Logger.new(STDERR)
+	$LOG.level = Logger::ERROR
+end
+
+$LOGGING = false
+# Uncomment line below to force logging:
+#$LOGGING = true   # TODO: Change this flag to false when releasing production build.
+
+require "#{File.join( File.dirname(__FILE__), 'parsedecision','parsedecisioncfg')}"
+	logcfg = ParseDecisionCfg.new.load
+	if(logcfg.key?(:logging) && (true == logcfg[:logging]) )
+		$LOGGING = true 
+	end
+
     if($LOGGING)
       # Create a new log file each time:
       file = File.open('parsedecision.log', File::WRONLY | File::APPEND | File::CREAT | File::TRUNC)
       $LOG = Logger.new(file)
-      #$LOG = Logger.new('xledit.log', 2)
       $LOG.level = Logger::DEBUG
       #$LOG.level = Logger::INFO
     else
-      $LOG = Logger.new(STDERR)
-      $LOG.level = Logger::ERROR
+      if(File.exists?('parsedecision.log'))
+		FileUtils.rm('parsedecision.log')
+	  end
     end
     $LOG.info "**********************************************************************"
     $LOG.info "Logging started for ParseDecision library."
     $LOG.info "**********************************************************************"
-end
 
 
 class_files = File.join( File.dirname(__FILE__), 'parsedecision', '*.rb')
