@@ -113,6 +113,8 @@ class ParseDecisionTool
 			@fnameTemplate = "@PROD@-RULES.xml"
 			@startStr = "<Rules>"
 			@stopStr = "</Decision>"
+			@ruleData = []
+			@lineCount = 0
 		end
 
 		def execute(context, ln)
@@ -124,23 +126,38 @@ class ParseDecisionTool
 						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
 						puts ">>> Creating product rules file: #{outfile}" if context.verbose
 						File.open(context.outputPath(outfile), "w") do |f|
-							f.write "<#{context.product}_RULES>"
+							f.write "<#{context.product}_RULES>\n"
 							f.write ln
 						end
+						@lineCount = 0
+						@ruleData.clear
 						return true
 					end # ln.include start string
 					return false
 				else # we are collecting rules
-					outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
-					File.open(context.outputPath(outfile), "a") do |f|
-						f.write ln
-						if(ln.include?(@stopStr))
-							f.write "</#{context.product}_RULES>"
+					@ruleData << ln
+					@lineCount += 1
+					if(ln.include?(@stopStr))
+						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
+						File.open(context.outputPath(outfile), "a") do |f|
+							f.write @ruleData
+							f.write "</#{context.product}_RULES>\n"
 							context.collectingRules = false
 							context.product = nil
 							puts "<<< Closing product rules file: #{outfile}" if context.verbose
 						end
+						return true
 					end
+					if(@lineCount > 100)
+						puts "Writing 100 lines of rule data." if context.verbose
+						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
+						File.open(context.outputPath(outfile), "a") do |f|
+							f.write @ruleData
+						end
+						@lineCount = 0
+						@ruleData.clear
+					end
+						
 					return true
 				end # !collectingRules
 			end # context.product not nil
