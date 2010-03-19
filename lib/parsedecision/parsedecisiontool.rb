@@ -27,6 +27,14 @@ class ParseDecisionTool
 			output = template.gsub(pattern, replacement)
 		end
 
+		def applyTemplates(template, repPatterns)
+			output = template
+			repPatterns.each do |p,r|
+				output = output.gsub(p, r)
+			end # repPatterns.each
+			output
+		end
+
 		def execute(context, ln)
 				$LOG.debug "PDPlugin::execute"
 			return false
@@ -37,15 +45,18 @@ class ParseDecisionTool
 	class PDPluginApplication < PDPlugin
 		def initialize()
 				$LOG.debug "PDPluginApplication::initialize"
-			@fnameTemplate = "APP.xml"
+			@fnameTemplate = "@INDEX@-APP.xml"
 			@searchStr = "<DECISION_REQUEST><APPLICATION"
 		end
 
 		def execute(context, ln)
 				#$LOG.debug "PDPluginApplication::execute"
 			if(ln.include?(@searchStr))
-				puts "Creating Application XML file: #{@fnameTemplate}" if context.verbose
-				File.open(context.outputPath(@fnameTemplate), "w") do |f|
+				context.nextIndex
+				context.state = :app
+				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.index.to_s)
+				puts "Creating Application XML file: #{outfile}" if context.verbose
+				File.open(context.outputPath(outfile), "w") do |f|
 					f.write ln
 				end
 				return true
@@ -55,112 +66,214 @@ class ParseDecisionTool
 	end
 
 
+	class PDPluginPpmXpath < PDPlugin
+		def initialize()
+				$LOG.debug "PDPluginPpmXpath::initialize"
+			@fnameTemplate = "@INDEX@-APP-PPMXPATH.xml"
+			@searchStr1 = "*APP XPATH xml*"
+			@searchStr2 = "<PPXPATH>"
+		end
+
+		def execute(context, ln)
+				#$LOG.debug "PDPluginPpmXpath::execute"
+			if((context.state == :app) && ln.include?(@searchStr1))
+				context.state = :appPpmXpath
+				return true
+			elsif((context.state == :appPpmXpath) && ln.include?(@searchStr2))
+				context.state = :app
+				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.index.to_s)
+				puts "Creating App XML XPath file: #{outfile}" if context.verbose
+				File.open(context.outputPath(outfile), "w") do |f|
+					f.write ln
+				end
+				return true
+			elsif(context.state == :appPpmXpath)
+				# Is probably an empty line.
+				# Return true since we're in the xpath state and there is no need for
+				# any other plugin to handle this line.
+				return true
+			end
+			return false
+		end
+	end
+
+
+	class PDPluginPreDecisionGuideline < PDPlugin
+		def initialize()
+				$LOG.debug "PDPluginPreDecisionGuideline::initialize"
+			@fnameTemplate 		= "@INDEX@-@GDL@-Rules.xml"
+			@searchStrPpms 		= "<PARAMS><_DATA_SET"
+			@searchStrGdl 		= "<Guideline "
+			@searchStrGdlEnd	= "<Decision GuidelineId"
+			@ppmData 			= ""
+			@ruleData			= []
+			
+			@openTag			= "<@TAG@_DATA>\n"
+			@closeTag			= "</@TAG@_DATA>\n"
+		end
+
+		def execute(context, ln)
+				#$LOG.debug "PDPluginPreDecisionGuideline::execute"
+			if((context.state == :app) && ln.include?(@searchStrPpms))
+				@ppmData = ln
+				return true
+			elsif((context.state == :app) && ln.include?(@searchStrGdl))
+				context.state = :preDecisionGdl
+				@ruleData.clear
+				@ruleData << "<!-- #{ln} -->"		# The leading element tag is not valid XML (no quotes around attrib params).
+				return true
+			elsif((context.state == :preDecisionGdl) && ln.include?(@searchStrGdlEnd))
+				@ruleData << ln
+				gdlName = "PreDecision"
+				match = ln.match /\sGuidelineName="([^"]+)/
+				if(match && match.length > 1)
+					gdlName = match[1]
+					gdlName = context.createValidName(gdlName)
+				end
+
+				outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.index.to_s, "@GDL@"=>gdlName})
+					
+				puts "Creating Gdl Rules file: #{outfile}" if context.verbose
+				
+				File.open(context.outputPath(outfile), "w") do |f|
+					f.write applyTemplate(@openTag, "@TAG@", gdlName)
+					f.write @ppmData
+					f.write @ruleData
+					f.write applyTemplate(@closeTag, "@TAG@", gdlName)
+				end
+				context.state = :app
+				return true
+			elsif(context.state == :preDecisionGdl)
+				@ruleData << ln
+				return true
+			end
+			return false
+		end
+	end
+
+	
+	class PDPluginProductXpath < PDPlugin
+		def initialize()
+				$LOG.debug "PDPluginProductXpath::initialize"
+			@searchStr1 = "*PRODUCT XPATH xml*"
+			@searchStr2 = "<PPXPATH>"
+		end
+
+		def execute(context, ln)
+				#$LOG.debug "PDPluginProductXpath::execute"
+			if((context.state == :app) && ln.include?(@searchStr1))
+				context.state = :productXpath
+				return true
+			end
+				
+			if((context.state == :productXpath) && ln.include?(@searchStr2))
+				context.state = :app
+				context.productXpath = ln
+				return true
+			end
+			
+			if(context.state == :productXpath)
+				# Probably a blank line. Claim it so we don't waste anyone else's time.
+				return true
+			end
+
+			return false
+		end
+	end
+
+	
+
 	class PDPluginProduct < PDPlugin
+		
 		def initialize()
 				$LOG.debug "PDPluginProduct::initialize"
-			@fnameTemplate = "@PROD@-PRODUCT.xml"
-			@searchStr = "<PRODUCTS><PRODUCT"
+			@fnameTemplate 	= "@INDEX@-@PROD@-PRODUCT.xml"
+			@searchStr1 	= "<PRODUCTS><PRODUCT"
+			@searchStr2 	= "<PARAMS><_DATA_SET"
+
+			@ruleStartStr 	= "<Rules>"
+			@gdlStartStr 	= "<Decision GuidelineId"
+			@stopStr 		= "</Decision>"
+
+			@data 			= []
+			@outfile 		= ""
+			@openTag		= "<@TAG@_DATA>\n"
+			@closeTag		= "</@TAG@_DATA>\n"
+			@lineCount 		= 0
+			@chunkSize 		= 1000
+			@product		= ""
+
 		end
 
 		def execute(context, ln)
 				#$LOG.debug "PDPluginProduct::execute"
-			if(ln.include?(@searchStr))
+			if((context.state == :app) && ln.include?(@searchStr1))
+				context.state = :productXml
+				@data.clear
+				@outfile = ""
+
 				match = ln.match /\sName="([^"]+)/
-				product = nil
-				if(match.length > 1)
+				product = "UnkProduct"
+				if(match && match.length > 1)
 					product = match[1]
-					context.product = product
-					outfile = applyTemplate(@fnameTemplate, "@PROD@", product)
-					puts "Creating product XML file: #{outfile}" if context.verbose
-					File.open(context.outputPath(outfile), "w") do |f|
-						f.write ln
-					end
-					return true
 				end
+				@product = context.createValidName(product)
+				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.index.to_s, "@PROD@"=>@product})
+				puts "Creating product file: #{@outfile}" if context.verbose
+				@data << ln
+				File.open(context.outputPath(@outfile), "w") do |f|
+					f.write applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+					f.write context.productXpath
+					f.write @data
+				end
+				@data.clear
+				return true
 			end
-			return false
-		end
-	end
-
-
-	class PDPluginPpmProductValues < PDPlugin
-		def initialize()
-				$LOG.debug "PDPluginPpmProductValues::initialize"
-			@fnameTemplate = "@PROD@-PPM-Values.xml"
-			@searchStr = "<PARAMS><_DATA_SET"
-		end
-
-		def execute(context, ln)
-				#$LOG.debug "PDPluginPpmProductValues::execute"
-			if(ln.include?(@searchStr))
-				if(nil != context.product)
-					outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
-					puts "Creating product PPM file: #{outfile}" if context.verbose
-					File.open(context.outputPath(outfile), "w") do |f|
-						f.write ln
-					end
-					return true
-				end # context.product not nil
+			
+			if((context.state == :productXml) && ln.include?(@searchStr2))
+				context.state = :productPpms
+				
+				@data << ln
+				return true
 			end
-			return false
-		end
-	end
-
-
-	class PDPluginPpmProductRules < PDPlugin
-		def initialize()
-				$LOG.debug "PDPluginPpmProductRules::initialize"
-			@fnameTemplate = "@PROD@-RULES.xml"
-			@startStr = "<Rules>"
-			@stopStr = "</Decision>"
-			@ruleData = []
-			@lineCount = 0
-		end
-
-		def execute(context, ln)
-				#$LOG.debug "PDPluginPpmProductRules::execute"
-			if(nil != context.product)
-				if(!context.collectingRules)
-					if(ln.include?(@startStr))
-						context.collectingRules = true
-						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
-						puts ">>> Creating product rules file: #{outfile}" if context.verbose
-						File.open(context.outputPath(outfile), "w") do |f|
-							f.write "<#{context.product}_RULES>\n"
-							f.write ln
-						end
-						@lineCount = 0
-						@ruleData.clear
-						return true
-					end # ln.include start string
-					return false
-				else # we are collecting rules
-					@ruleData << ln
-					@lineCount += 1
-					if(ln.include?(@stopStr))
-						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
-						File.open(context.outputPath(outfile), "a") do |f|
-							f.write @ruleData
-							f.write "</#{context.product}_RULES>\n"
-							context.collectingRules = false
-							context.product = nil
-							puts "<<< Closing product rules file: #{outfile}" if context.verbose
-						end
-						return true
+			
+			if((context.state == :productPpms) && (ln.include?(@ruleStartStr) || ln.include?(@gdlStartStr)))
+				context.state = :productRules
+				
+				@data << ln
+				return true
+			end
+			
+			if((context.state == :productRules) && !ln.include?(@stopStr))
+				@data << ln
+				@lineCount += 1
+				
+				if(@lineCount > @chunkSize)
+					puts "Writing rule data chunk." if context.verbose
+					File.open(context.outputPath(@outfile), "a") do |f|
+						f.write @data
 					end
-					if(@lineCount > 100)
-						puts "Writing 100 lines of rule data." if context.verbose
-						outfile = applyTemplate(@fnameTemplate, "@PROD@", context.product)
-						File.open(context.outputPath(outfile), "a") do |f|
-							f.write @ruleData
-						end
-						@lineCount = 0
-						@ruleData.clear
-					end
-						
-					return true
-				end # !collectingRules
-			end # context.product not nil
+					@lineCount = 0
+					@data.clear
+				end
+				return true
+			end
+			
+			if((context.state == :productRules) && ln.include?(@stopStr))
+				@data << ln
+				@lineCount += 1
+				
+				puts "Closing product file." if context.verbose
+				File.open(context.outputPath(@outfile), "a") do |f|
+					f.write @data
+					f.write applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+				end
+				@lineCount = 0
+				@data.clear
+				context.state = :app
+				return true
+			end
+			
 			return false
 		end
 	end
@@ -172,9 +285,12 @@ class ParseDecisionTool
 		attr_reader :srcdir
 		attr_reader :file
 		attr_reader :verbose
+		attr_reader :index
+		attr_reader :state
 			
-		attr_accessor :product
-		attr_accessor :collectingRules
+		#attr_reader :product
+		attr_reader :productXpath
+		#attr_accessor :collectingRules
 
 		def initialize()
 				$LOG.debug "PDContext::initialize"
@@ -182,9 +298,11 @@ class ParseDecisionTool
 			@srcdir 	= "."
 			@file		= nil
 			@verbose	= false
+			@index		= 0
 			
-			@product 	= nil
-			@collectingRules = false
+			#@product 	= nil
+			#@collectingRules = false
+			@availableStates = [:app, :appPpmXpath, :preDecisionGdl, :productXpath, :productXml, :productPpms, :productRules, ]
 		end
 
 		def outdir=(dir)
@@ -207,6 +325,35 @@ class ParseDecisionTool
 			outputPath = File.join(@outdir, filename)
 		end
 
+		def productXpath=(xpath)
+			@productXpath = xpath
+		end
+
+		def state=(nextState)
+			if(@availableStates.include?(nextState))
+				@state = nextState
+			else
+				puts "ERROR: Unknown state change requested to unknown state: #{nextState.to_s}"
+			end
+		end
+
+		def nextIndex()
+			@index += 1
+		end
+
+		def createValidName(inname)
+			return nil if nil == inname
+			
+			outname = inname.gsub(/[\s\/\\?*#+]/,'')				# Remove illegal chars (replace with underscore).
+			outname.gsub!(/_+/,"_")									# Replace consecutive uscores with single uscore.
+			outname.gsub!(/\./,"-")									# Replace period with dash.
+			outname.gsub!(/[\(\)\$]/,"")							# Remove L & R Parens, dollar signs.
+			outname.gsub!(/\%/,"Perc")								# Replace '%' with Perc.
+
+			outname
+		end
+
+
 
 	end
 
@@ -217,7 +364,12 @@ class ParseDecisionTool
     $LOG.debug "ParseDecisionTool::initialize"
     @cfg = ParseDecisionCfg.new.load
     @someFlag = false
-	@plugins = [PDPluginApplication.new, PDPluginProduct.new, PDPluginPpmProductValues.new, PDPluginPpmProductRules.new, ]
+	@plugins = [PDPluginApplication.new, 
+				PDPluginPpmXpath.new, 
+				PDPluginPreDecisionGuideline.new, 
+				PDPluginProductXpath.new, 
+				PDPluginProduct.new, 
+				]
 	@context = PDContext.new
   end
   
