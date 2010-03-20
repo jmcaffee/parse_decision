@@ -54,7 +54,7 @@ class ParseDecisionTool
 			if(ln.include?(@searchStr))
 				context.nextIndex
 				context.state = :app
-				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.index.to_s)
+				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.indexStr)
 				puts "Creating Application XML file: #{outfile}" if context.verbose
 				File.open(context.outputPath(outfile), "w") do |f|
 					f.write ln
@@ -81,7 +81,7 @@ class ParseDecisionTool
 				return true
 			elsif((context.state == :appPpmXpath) && ln.include?(@searchStr2))
 				context.state = :app
-				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.index.to_s)
+				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.indexStr)
 				puts "Creating App XML XPath file: #{outfile}" if context.verbose
 				File.open(context.outputPath(outfile), "w") do |f|
 					f.write ln
@@ -131,7 +131,7 @@ class ParseDecisionTool
 					gdlName = context.createValidName(gdlName)
 				end
 
-				outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.index.to_s, "@GDL@"=>gdlName})
+				outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@GDL@"=>gdlName})
 					
 				puts "Creating Gdl Rules file: #{outfile}" if context.verbose
 				
@@ -218,7 +218,7 @@ class ParseDecisionTool
 					product = match[1]
 				end
 				@product = context.createValidName(product)
-				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.index.to_s, "@PROD@"=>@product})
+				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
 				puts "Creating product file: #{@outfile}" if context.verbose
 				@data << ln
 				File.open(context.outputPath(@outfile), "w") do |f|
@@ -341,6 +341,11 @@ class ParseDecisionTool
 			@index += 1
 		end
 
+		def indexStr()
+			return "%02d" % @index
+		end
+		
+		
 		def createValidName(inname)
 			return nil if nil == inname
 			
@@ -428,6 +433,8 @@ class ParseDecisionTool
 	end
 		
 	parseFile(@context.file)
+	
+	FileUtils.cp(@context.file, @context.outdir)	# Copy the decision log to the output dir.
   end
       
   

@@ -86,7 +86,10 @@ class ParseDecisionController
 		
 	end
 	
-	@cfg.save
+	cfgCtrl = ParseDecisionCfg.new
+	cfgCtrl.load
+	cfgCtrl.cfg.merge!(@cfg)
+	cfgCtrl.save
   end
       
   
