@@ -306,15 +306,15 @@ class ParseDecisionTool
 		end
 
 		def outdir=(dir)
-			@outdir = formatPath(dir, :unix) unless nil == dir
+			@outdir = File.rubypath(dir) unless nil == dir
 		end
 
 		def srcdir=(dir)
-			@srcdir = formatPath(dir, :unix) unless nil == dir
+			@srcdir = File.rubypath(dir) unless nil == dir
 		end
 
 		def file=(filename)
-			@file = formatPath(filename, :unix) unless nil == filename
+			@file = File.rubypath(filename) unless nil == filename
 		end
 
 		def verbose=(verbose)

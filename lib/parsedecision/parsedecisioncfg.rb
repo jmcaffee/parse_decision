@@ -46,7 +46,7 @@ class ParseDecisionCfg < KtCfg::CfgFile
 
     #appDataPath 	= ENV["APPDATA"]					# APPDATA returns AppData\Roaming on Vista/W7
     appDataPath 	= ENV["LOCALAPPDATA"]				# LOCALAPPDATA returns AppData\Local on Vista/W7
-    @cfg[:appPath] 	= formatPath(File.join(appDataPath, "parsedecision"), :unix)
+    @cfg[:appPath] 	= File.rubypath(File.join(appDataPath, "parsedecision"))
     @cfg[:version] 	= PARSEDECISION_VERSION
     @cfg[:file] 	= "2.decision.txt"
     @cfg[:logging] 	= false
