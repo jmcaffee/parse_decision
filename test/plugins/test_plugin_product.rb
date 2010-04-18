@@ -19,6 +19,8 @@ require 'parsedecision'
 class  TestPluginProduct < Test::Unit::TestCase #(3)
     include FileUtils
     include FlexMock::TestCase
+	include ParseDecision
+	
 #-------------------------------------------------------------------------------------------------------------#
 # setup - Set up test fixture
 #

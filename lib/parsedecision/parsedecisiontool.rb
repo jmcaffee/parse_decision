@@ -13,7 +13,12 @@ require 'parsedecision/plugin'
 
       #$LOG.level = Logger::ERROR
 
+##############################################################################
+# Everything is contained in Module	ParseDecision
+module ParseDecision
 	  
+	##########################################################################
+	# Context class holds all info and state about the current parsing process
 	class PDContext
 
 		attr_reader :outdir
@@ -99,112 +104,115 @@ require 'parsedecision/plugin'
 
 
 	  
-class ParseDecisionTool
+	##########################################################################
+	# The Tool class runs the show. This class is called by the app object
+	class ParseDecisionTool
 
-    
-  def initialize()
-    $LOG.debug "ParseDecisionTool::initialize"
-    @cfg = ParseDecisionCfg.new.load
-	@plugins = [Plugin::Application.new, 
-				Plugin::PpmXpath.new, 
-				Plugin::PreDecisionGuideline.new, 
-				Plugin::ProductXpath.new, 
-				Plugin::Product.new, 
-				]
-	@context = PDContext.new
-  end
-  
+		
+	  def initialize()
+		$LOG.debug "ParseDecisionTool::initialize"
+		@cfg = ParseDecisionCfg.new.load
+		@plugins = [Plugin::Application.new, 
+					Plugin::PpmXpath.new, 
+					Plugin::PreDecisionGuideline.new, 
+					Plugin::ProductXpath.new, 
+					Plugin::Product.new, 
+					]
+		@context = PDContext.new
+	  end
+	  
 
-  def version()
-	return PARSEDECISION_VERSION
-  end
-  
-  
-  def validateCfg(cfg)
-	
-	if(!(cfg.key?(:file) && (nil != cfg[:file]))) 
-		puts "Missing --file option."
-		return false 
-	end
-	if(!(cfg.key?(:outdir) && (nil != cfg[:outdir])) )
-		puts "Missing --outdir option."
-		return false 
-	end
-	
-	@context.file 		= cfg[:file]
-	@context.outdir 	= cfg[:outdir]
-	
-	if(cfg.key?(:srcdir) && cfg[:srcdir] != nil)
-		@context.srcdir = cfg[:srcdir]
-	end
-	
-	if(cfg.key?(:verbose) && cfg[:verbose] != nil)
-		@context.verbose = cfg[:verbose]
-	end
-	
-	return true
-  
-  end
-  
-  
-  def parseCfg(cfg)
-    $LOG.debug "ParseDecisionTool::parseCfg( cfg )"
+	  def version()
+		return PARSEDECISION_VERSION
+	  end
+	  
+	  
+	  def validateCfg(cfg)
+		
+		if(!(cfg.key?(:file) && (nil != cfg[:file]))) 
+			puts "Missing --file option."
+			return false 
+		end
+		if(!(cfg.key?(:outdir) && (nil != cfg[:outdir])) )
+			puts "Missing --outdir option."
+			return false 
+		end
+		
+		@context.file 		= cfg[:file]
+		@context.outdir 	= cfg[:outdir]
+		
+		if(cfg.key?(:srcdir) && cfg[:srcdir] != nil)
+			@context.srcdir = cfg[:srcdir]
+		end
+		
+		if(cfg.key?(:verbose) && cfg[:verbose] != nil)
+			@context.verbose = cfg[:verbose]
+		end
+		
+		return true
+	  
+	  end
+	  
+	  
+	  def parseCfg(cfg)
+		$LOG.debug "ParseDecisionTool::parseCfg( cfg )"
 
-	if( !validateCfg(cfg) )
-		puts "ERROR: Invalid options."
-		return
-	end
-	
-	if( !File.exists?(@context.file) )
-		@context.file = File.join( @context.srcdir, @context.file )
-		if( !File.exists?(@context.file) )
-			puts "ERROR: unable to locate src file: #{@context.file}"
+		if( !validateCfg(cfg) )
+			puts "ERROR: Invalid options."
 			return
 		end
-	end
 		
-	if( !File.exists?(@context.outdir) )
-		FileUtils.mkdir_p( @context.outdir )
-		puts "Output dir created: #{@context.outdir}"
-	end
+		if( !File.exists?(@context.file) )
+			@context.file = File.join( @context.srcdir, @context.file )
+			if( !File.exists?(@context.file) )
+				puts "ERROR: unable to locate src file: #{@context.file}"
+				return
+			end
+		end
+			
+		if( !File.exists?(@context.outdir) )
+			FileUtils.mkdir_p( @context.outdir )
+			puts "Output dir created: #{@context.outdir}"
+		end
+			
+		parseFile(@context.file)
 		
-	parseFile(@context.file)
-	
-	FileUtils.cp(@context.file, @context.outdir)	# Copy the decision log to the output dir.
-  end
-      
-  
-  def parseFile(fname)
-    $LOG.debug "ParseDecisionTool::parseFile( #{fname} )"
-	puts "Parsing file: #{fname}" if @context.verbose
-	
-	# Open the file and read line by line
-	df = File.open(fname).each do |ln|
-		@plugins.each do |plug|
-			break if ( true == plug.execute(@context, ln))
-		end # plugins.each
-	end # do file
-  end
-      
-  
-  def parseFileWithSwitch(arg)
-    $LOG.debug "ParseDecisionTool::parseFileWithSwitch( #{arg} )"
-  end
-      
-  
-  def parseFileWithCmdLineArg(arg)
-    $LOG.debug "ParseDecisionTool::parseFileWithCmdLineArg( #{arg} )"
-  end
-      
-	def setOutdir(dir)
-		@context.outdir = dir
-	end
-  
-  def noCmdLineArg()
-    $LOG.debug "ParseDecisionTool::noCmdLineArg"
-  end
-      
-  
-end # class ParseDecisionTool
+		FileUtils.cp(@context.file, @context.outdir)	# Copy the decision log to the output dir.
+	  end
+		  
+	  
+	  def parseFile(fname)
+		$LOG.debug "ParseDecisionTool::parseFile( #{fname} )"
+		puts "Parsing file: #{fname}" if @context.verbose
+		
+		# Open the file and read line by line
+		df = File.open(fname).each do |ln|
+			@plugins.each do |plug|
+				break if ( true == plug.execute(@context, ln))
+			end # plugins.each
+		end # do file
+	  end
+		  
+	  
+	  def parseFileWithSwitch(arg)
+		$LOG.debug "ParseDecisionTool::parseFileWithSwitch( #{arg} )"
+	  end
+		  
+	  
+	  def parseFileWithCmdLineArg(arg)
+		$LOG.debug "ParseDecisionTool::parseFileWithCmdLineArg( #{arg} )"
+	  end
+		  
+		def setOutdir(dir)
+			@context.outdir = dir
+		end
+	  
+	  def noCmdLineArg()
+		$LOG.debug "ParseDecisionTool::noCmdLineArg"
+	  end
+		  
+	  
+	end # class ParseDecisionTool
 
 
+end # module ParseDecision

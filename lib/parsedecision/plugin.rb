@@ -7,6 +7,8 @@
 # Website::   http://ktechsystems.com
 ##############################################################################
 
+##############################################################################
+module ParseDecision
 
 ##############################################################################
 module Plugin
@@ -100,6 +102,9 @@ module Plugin
 	## #######################################################################
 	# Pre-Decision Guideline XML plugin
 	class PreDecisionGuideline < Plugin
+	
+		attr_reader :ppmData
+		
 		def initialize()
 				$LOG.debug "PreDecisionGuideline::initialize"
 			@fnameTemplate 		= "@INDEX@-@GDL@-Rules.xml"
@@ -295,3 +300,4 @@ module Plugin
 
 end # module Plugin
 
+end # module ParseDecision
