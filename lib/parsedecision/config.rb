@@ -1,5 +1,5 @@
 ##############################################################################
-# File:: cfg.rb
+# File:: config.rb
 # Purpose:: ParseDecision configuration file reader/writer class.
 # 
 # Author::    Jeff McAffee 03/12/2010

@@ -21,8 +21,8 @@ module ParseDecision
 
 	  def initialize()
 		$LOG.debug "Controller::initialize"
-		@cfg = ParseDecisionCfg.new.load
-		@cfg = ParseDecisionCfg.new.load
+		@cfg = Config.new.load
+		@cfg = Config.new.load
 		@model = ParseDecisionTool.new
 	  end
 	  
@@ -31,7 +31,7 @@ module ParseDecision
 		$LOG.debug "Controller::doSomething"
 		
 		# Save current cfg
-		ParseDecisionCfg.new.save( @cfg )
+		Config.new.save( @cfg )
 		@model.parseCfg( @cfg )
 	  end
 		  
@@ -41,13 +41,13 @@ module ParseDecision
 		
 		case switch 
 			when :logging
-				cfgCtrl = ParseDecisionCfg.new
+				cfgCtrl = Config.new
 				cfgCtrl.load
 				cfgCtrl.addKeyValue(:logging, arg)
 				cfgCtrl.save
 			
 			when :reset
-				cfgCtrl = ParseDecisionCfg.new
+				cfgCtrl = Config.new
 				cfgCtrl.save
 			
 			when :verbose
@@ -90,7 +90,7 @@ module ParseDecision
 			
 		end
 		
-		cfgCtrl = ParseDecisionCfg.new
+		cfgCtrl = Config.new
 		cfgCtrl.load
 		cfgCtrl.cfg.merge!(@cfg)
 		cfgCtrl.save

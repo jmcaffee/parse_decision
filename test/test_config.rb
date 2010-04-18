@@ -1,6 +1,6 @@
 ##############################################################################
-# File:: testparsedecisioncfg.rb
-# Purpose:: Test ParseDecisionCfg class functionality
+# File:: testconfig.rb
+# Purpose:: Test Config class functionality
 # 
 # Author::    Jeff McAffee 03/12/2010
 # Copyright:: Copyright (c) 2010, kTech Systems LLC. All rights reserved.
@@ -16,9 +16,11 @@ require 'fileutils'
 
 require 'parsedecision'
 
-class  TestParseDecisionCfg < Test::Unit::TestCase #(3)
+class  TestConfig < Test::Unit::TestCase #(3)
     include FileUtils
     include FlexMock::TestCase
+	include ParseDecision
+	
 #-------------------------------------------------------------------------------------------------------------#
 # setup - Set up test fixture
 #
@@ -39,24 +41,24 @@ class  TestParseDecisionCfg < Test::Unit::TestCase #(3)
   end
   
 #-------------------------------------------------------------------------------------------------------------#
-# test_parsedecisioncfg_ctor - Test the constructor
+# test_config_ctor - Test the constructor
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parsedecisioncfg_ctor
-    target = ParseDecisionCfg.new(@dataDir)
+  def test_config_ctor
+    target = Config.new(@dataDir)
     
     assert(nil != target)
   end
 
 #-------------------------------------------------------------------------------------------------------------#
-# test_parsedecisioncfg_writes_cfg_file
+# test_config_writes_cfg_file
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parsedecisioncfg_writes_cfg_file
-    targetFile = File.join(@dataDir, "parsedecisioncfg.yml")
+  def test_config_writes_cfg_file
+    targetFile = File.join(@dataDir, "pdconfig.yml")
     rm_rf(targetFile) if(File.exists?(targetFile))
     
-    target = ParseDecisionCfg.new(@dataDir)
+    target = Config.new(@dataDir)
     target.save
     
     assert(File.exists?(targetFile), "Cfg file not written to disk")
@@ -64,20 +66,20 @@ class  TestParseDecisionCfg < Test::Unit::TestCase #(3)
   
 
 #-------------------------------------------------------------------------------------------------------------#
-# test_parsedecisioncfg_reads_cfg_file
+# test_config_reads_cfg_file
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parsedecisioncfg_reads_cfg_file
-    targetFile = File.join(@dataDir, "parsedecisioncfg.yml")
+  def test_config_reads_cfg_file
+    targetFile = File.join(@dataDir, "pdconfig.yml")
     rm_rf(targetFile) if(File.exists?(targetFile))
     
     expected = "Test Data"
-    helper = ParseDecisionCfg.new(@dataDir)
+    helper = Config.new(@dataDir)
     helper.cfg[:appPath] = expected
     helper.save
     helper = nil
     
-    target = ParseDecisionCfg.new(@dataDir)
+    target = Config.new(@dataDir)
     target.load
     
     assert(!target.cfg[:appPath].empty?, "Cfg file not read from disk")
@@ -85,4 +87,4 @@ class  TestParseDecisionCfg < Test::Unit::TestCase #(3)
   end
   
 
-end # TestParseDecisionCfg
+end # TestConfig

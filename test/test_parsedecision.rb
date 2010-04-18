@@ -1,5 +1,5 @@
 ##############################################################################
-# File:: testparsedecisioncfg.rb
+# File:: testparsedecision.rb
 # Purpose:: Test ParseDecision class functionality
 # 
 # Author::    Jeff McAffee 03/12/2010

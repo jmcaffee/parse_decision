@@ -111,7 +111,7 @@ module ParseDecision
 		
 	  def initialize()
 		$LOG.debug "ParseDecisionTool::initialize"
-		@cfg = ParseDecisionCfg.new.load
+		@cfg = Config.new.load
 		@plugins = [Plugin::Application.new, 
 					Plugin::PpmXpath.new, 
 					Plugin::PreDecisionGuideline.new, 

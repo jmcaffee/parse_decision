@@ -25,8 +25,8 @@ $LOGGING = false
 # Uncomment line below to force logging:
 #$LOGGING = true   # TODO: Change this flag to false when releasing production build.
 
-require "#{File.join( File.dirname(__FILE__), 'parsedecision','parsedecisioncfg')}"
-	logcfg = ParseDecisionCfg.new.load
+require "#{File.join( File.dirname(__FILE__), 'parsedecision','config')}"
+	logcfg = ParseDecision::Config.new.load
 	if(logcfg.key?(:logging) && (true == logcfg[:logging]) )
 		$LOGGING = true 
 	end
