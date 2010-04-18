@@ -10,6 +10,16 @@ require 'rake'
 require 'rake/clean'
 
 
+#######################################
+
+desc "rebuild project -- clean, install, test"
+task :rebuild => ["setup:clean", "setup:install", "setup:test"] do
+	puts "* rebuild complete." if $verbose
+	
+end
+	
+
+
 namespace :setup do
 
   #######################################
@@ -55,9 +65,9 @@ namespace :setup do
 
   #######################################
 
-	desc "un-install"
-	task :uninst => :init do
-		puts "* setup:uninst: removing files from Ruby dirs" if $verbose
+	desc "clean (un-install) project from ruby dirs"
+	task :clean => :init do
+		puts "* setup:clean: removing files from Ruby dirs" if $verbose
 		ruby('setup.rb', 'clean')
 		
 	end
