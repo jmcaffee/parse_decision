@@ -1,5 +1,5 @@
 ##############################################################################
-# File:: testparsedecision.rb
+# File:: test_parser.rb
 # Purpose:: Test ParseDecision class functionality
 # 
 # Author::    Jeff McAffee 03/12/2010
@@ -16,7 +16,7 @@ require 'fileutils'
 
 require 'parsedecision'
 
-class  TestParseDecision < Test::Unit::TestCase #(3)
+class  TestParser < Test::Unit::TestCase #(3)
     include FileUtils
     include FlexMock::TestCase
 	include ParseDecision
@@ -59,4 +59,4 @@ class  TestParseDecision < Test::Unit::TestCase #(3)
   end
   
 
-end # TestParseDecision
+end # TestParser
