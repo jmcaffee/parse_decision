@@ -17,7 +17,7 @@ class ParseDecisionApp < UserChoices::Command
     
     def initialize()
         super
-        @controller = ParseDecisionController.new
+        @controller = Controller.new
     end
     
     

@@ -15,7 +15,7 @@ class ParseDecisionTask
 		dsnFile = File.basename(logSrcPath)
 		dsnDir	= File.dirname(logSrcPath)
 		
-		app = ParseDecision::ParseDecisionController.new
+		app = ParseDecision::Controller.new
 		
 		# Set switches
 		

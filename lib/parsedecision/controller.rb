@@ -1,5 +1,5 @@
 ##############################################################################
-# File:: parsedecisioncontroller.rb
+# File:: controller.rb
 # Purpose:: Main Controller object for ParseDecision utility
 # 
 # Author::    Jeff McAffee 03/12/2010
@@ -17,10 +17,10 @@ module ParseDecision
 	##########################################################################
 	# Controller class handles interactions bewteen the view (cmdline script)
 	# and the model (Tool).
-	class ParseDecisionController
+	class Controller
 
 	  def initialize()
-		$LOG.debug "ParseDecisionController::initialize"
+		$LOG.debug "Controller::initialize"
 		@cfg = ParseDecisionCfg.new.load
 		@cfg = ParseDecisionCfg.new.load
 		@model = ParseDecisionTool.new
@@ -28,7 +28,7 @@ module ParseDecision
 	  
 
 	  def doSomething()
-		$LOG.debug "ParseDecisionController::doSomething"
+		$LOG.debug "Controller::doSomething"
 		
 		# Save current cfg
 		ParseDecisionCfg.new.save( @cfg )
@@ -37,7 +37,7 @@ module ParseDecision
 		  
 	  
 	  def setUserSwitch(switch, arg)
-		$LOG.debug "ParseDecisionController::setUserSwitch( #{switch.to_s}, #{arg} )"
+		$LOG.debug "Controller::setUserSwitch( #{switch.to_s}, #{arg} )"
 		
 		case switch 
 			when :logging
@@ -70,7 +70,7 @@ module ParseDecision
 		  
 	  
 	  def setUserOption(option, arg)
-		$LOG.debug "ParseDecisionController::setUserOption( #{option.to_s}, #{arg} )"
+		$LOG.debug "Controller::setUserOption( #{option.to_s}, #{arg} )"
 		
 		case option 
 			when :file
@@ -98,14 +98,14 @@ module ParseDecision
 		  
 	  
 	  def doSomethingWithCmdLineArg(arg)
-		$LOG.debug "ParseDecisionController::doSomethingWithCmdLineArg( #{arg} )"
+		$LOG.debug "Controller::doSomethingWithCmdLineArg( #{arg} )"
 		@cfg[:outdir] = arg
 		return true # if ok to continue, false to exit app.
 	  end
 		  
 	  
 	  def noCmdLineArg()
-		$LOG.debug "ParseDecisionController::noCmdLineArg"
+		$LOG.debug "Controller::noCmdLineArg"
 		if( @cfg.key?(:outdir) && !@cfg[:outdir].empty? )
 			return true # if ok to continue, false to exit app.
 		end
@@ -119,7 +119,7 @@ module ParseDecision
 	  end
 		  
 	  
-	end # class ParseDecisionController
+	end # class Controller
 
 
 end # module ParseDecision
