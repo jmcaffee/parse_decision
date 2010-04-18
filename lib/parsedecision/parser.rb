@@ -105,12 +105,12 @@ module ParseDecision
 
 	  
 	##########################################################################
-	# The Tool class runs the show. This class is called by the app object
-	class ParseDecisionTool
+	# The Tool class runs the show. This class is called by the controller object
+	class Parser
 
 		
 	  def initialize()
-		$LOG.debug "ParseDecisionTool::initialize"
+		$LOG.debug "Parser::initialize"
 		@cfg = Config.new.load
 		@plugins = [Plugin::Application.new, 
 					Plugin::PpmXpath.new, 
@@ -155,7 +155,7 @@ module ParseDecision
 	  
 	  
 	  def parseCfg(cfg)
-		$LOG.debug "ParseDecisionTool::parseCfg( cfg )"
+		$LOG.debug "Parser::parseCfg( cfg )"
 
 		if( !validateCfg(cfg) )
 			puts "ERROR: Invalid options."
@@ -182,7 +182,7 @@ module ParseDecision
 		  
 	  
 	  def parseFile(fname)
-		$LOG.debug "ParseDecisionTool::parseFile( #{fname} )"
+		$LOG.debug "Parser::parseFile( #{fname} )"
 		puts "Parsing file: #{fname}" if @context.verbose
 		
 		# Open the file and read line by line
@@ -195,12 +195,12 @@ module ParseDecision
 		  
 	  
 	  def parseFileWithSwitch(arg)
-		$LOG.debug "ParseDecisionTool::parseFileWithSwitch( #{arg} )"
+		$LOG.debug "Parser::parseFileWithSwitch( #{arg} )"
 	  end
 		  
 	  
 	  def parseFileWithCmdLineArg(arg)
-		$LOG.debug "ParseDecisionTool::parseFileWithCmdLineArg( #{arg} )"
+		$LOG.debug "Parser::parseFileWithCmdLineArg( #{arg} )"
 	  end
 		  
 		def setOutdir(dir)
@@ -208,11 +208,11 @@ module ParseDecision
 		end
 	  
 	  def noCmdLineArg()
-		$LOG.debug "ParseDecisionTool::noCmdLineArg"
+		$LOG.debug "Parser::noCmdLineArg"
 	  end
 		  
 	  
-	end # class ParseDecisionTool
+	end # class Parser
 
 
 end # module ParseDecision

@@ -27,7 +27,7 @@ class ParseDecisionTask
 		app.setUserOption :file, dsnFile		# Name of decision file.
 		app.setUserOption :srcdir, dsnDir		# Path to src decision file directory.
 		app.setUserOption :outdir, destDir		# Path to dir where results will be placed.
-		app.doSomething()
+		app.execute()
 	end
 end # class ParseDecisionTask
 

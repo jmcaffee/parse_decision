@@ -89,7 +89,7 @@ class  TestPluginProduct < Test::Unit::TestCase #(3)
 #
 #------------------------------------------------------------------------------------------------------------#
   def INOPtest_parsedecision_parse
-    target = ParseDecisionTool.new
+    target = Parser.new
     assert(nil != target)
 
 	fname = "2.decision.txt"

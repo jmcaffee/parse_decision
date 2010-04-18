@@ -23,12 +23,12 @@ module ParseDecision
 		$LOG.debug "Controller::initialize"
 		@cfg = Config.new.load
 		@cfg = Config.new.load
-		@model = ParseDecisionTool.new
+		@model = Parser.new
 	  end
 	  
 
-	  def doSomething()
-		$LOG.debug "Controller::doSomething"
+	  def execute()
+		$LOG.debug "Controller::execute"
 		
 		# Save current cfg
 		Config.new.save( @cfg )
@@ -97,8 +97,8 @@ module ParseDecision
 	  end
 		  
 	  
-	  def doSomethingWithCmdLineArg(arg)
-		$LOG.debug "Controller::doSomethingWithCmdLineArg( #{arg} )"
+	  def executeWithCmdLineArg(arg)
+		$LOG.debug "Controller::executeWithCmdLineArg( #{arg} )"
 		@cfg[:outdir] = arg
 		return true # if ok to continue, false to exit app.
 	  end

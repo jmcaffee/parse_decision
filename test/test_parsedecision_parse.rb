@@ -64,7 +64,7 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
 #
 #------------------------------------------------------------------------------------------------------------#
   def DUPtest_parsedecision_parse
-    target = ParseDecisionTool.new
+    target = Parser.new
     assert(nil != target)
 
 	fname = "2.decision.txt"
@@ -79,7 +79,7 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
 #
 #------------------------------------------------------------------------------------------------------------#
   def test_parsedecision_parse
-    target = ParseDecisionTool.new
+    target = Parser.new
     assert(nil != target)
 
 	fname = "2.decision.txt"

@@ -134,12 +134,12 @@ class ParseDecisionApp < UserChoices::Command
 			return
 		end
       else
-		  if( !@controller.doSomethingWithCmdLineArg(@user_choices[:cmdArg]) )
+		  if( !@controller.executeWithCmdLineArg(@user_choices[:cmdArg]) )
 			return
 		  end
 	  end
       
-      @controller.doSomething()
+      @controller.execute()
     end # def execute
         
     
