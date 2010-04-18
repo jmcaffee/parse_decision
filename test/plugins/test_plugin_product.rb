@@ -1,8 +1,8 @@
 ##############################################################################
-# File:: test_parsedecision_parse.rb
-# Purpose:: Test ParseDecision Parse class functionality
+# File:: test_plugin_product.rb
+# Purpose:: Test Plugin::Product class functionality
 # 
-# Author::    Jeff McAffee 03/12/2010
+# Author::    Jeff McAffee 04/18/2010
 # Copyright:: Copyright (c) 2010, kTech Systems LLC. All rights reserved.
 # Website::   http://ktechsystems.com
 ##############################################################################
@@ -16,7 +16,7 @@ require 'fileutils'
 
 require 'parsedecision'
 
-class  TestParseDecisionParse < Test::Unit::TestCase #(3)
+class  TestPluginProduct < Test::Unit::TestCase #(3)
     include FileUtils
     include FlexMock::TestCase
 #-------------------------------------------------------------------------------------------------------------#
@@ -26,10 +26,14 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
   def setup
     $LOG = Logger.new(STDERR)
     $LOG.level = Logger::DEBUG
-    @baseDir = File.dirname(__FILE__)
+    @baseDir = File.expand_path(File.join(File.dirname(__FILE__), ".."))
     @dataDir = File.join(@baseDir, "data")
     @outputDir = File.join(@dataDir, "output")
     
+    @context = PDContext.new
+    assert(nil != @context)
+
+	
   end
   
 #-------------------------------------------------------------------------------------------------------------#
@@ -37,6 +41,7 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
 #
 #------------------------------------------------------------------------------------------------------------#
   def teardown
+	@context = nil
   end
   
 #-------------------------------------------------------------------------------------------------------------#
@@ -58,25 +63,30 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
   end
   
 #-------------------------------------------------------------------------------------------------------------#
-# test_parsedecision_parse - Test the parseFile function
+# test_plugin_product_attrib_replacement - Test the Plugin::Product class
 #
 #------------------------------------------------------------------------------------------------------------#
-  def DUPtest_parsedecision_parse
-    target = ParseDecisionTool.new
-    assert(nil != target)
+  def test_plugin_product_attrib_replacement
+    plugin = Plugin::Product.new
+    assert(nil != plugin)
 
-	fname = "2.decision.txt"
-	srcFile = File.join(@dataDir, fname)
-    assert(File.exists?(srcFile))
-
-	target.parseFile(srcFile)
+	target = "<PARAMS><_DATA_SET _Name='Test1' _Value='1'/><_DATA_SET _Name='Test2' _Value='2'/><_DATA_SET _Name='Test3' _Value='3'/></PARAMS>"
+	expected = "<PARAMS><DATA_SET Name='Test1' Value='1'/><DATA_SET Name='Test2' Value='2'/><DATA_SET Name='Test3' Value='3'/></PARAMS>"
+	
+	@context.state = :productXml
+	result = plugin.execute( @context, target )
+	assert(result, "Product.execute() returned false.")
+	
+	output = plugin.data[0]
+	assert(output == expected, "Output did not match expected.")
+	
   end
 
 #-------------------------------------------------------------------------------------------------------------#
 # test_parsedecision_parse - Test the parseFile function
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parsedecision_parse
+  def INOPtest_parsedecision_parse
     target = ParseDecisionTool.new
     assert(nil != target)
 
@@ -100,9 +110,9 @@ class  TestParseDecisionParse < Test::Unit::TestCase #(3)
 # test_parsedecision_does_something
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parsedecision_does_something
+  def test_plugin_product_does_something
     
   end
   
 
-end # TestParseDecisionParse
+end # TestPluginProduct

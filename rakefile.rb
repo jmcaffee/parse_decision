@@ -26,6 +26,21 @@ PROJNAME        = "ParseDecision"
 
 #directory BUILDDIR
 
+$verbose = true
+	
+
+#############################################################################
+#### Imports
+# Note: Rake loads imports only after the current rakefile has been completely loaded.
+
+# Load local tasks.
+imports = FileList['tasks/**/*.rake']
+imports.each do |imp|
+	puts "Importing local task file: #{imp}" if $verbose
+	import "#{imp}"
+end
+
+
 
 #############################################################################
 #task :init => [BUILDDIR] do
