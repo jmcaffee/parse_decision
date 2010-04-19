@@ -91,25 +91,9 @@ class ParseDecisionApp < UserChoices::Command
     def execute
       $LOG.debug "ParseDecisionApp::execute"
 
-      if(@user_choices[:logging])
-		@controller.setUserSwitch(:logging, @user_choices[:logging])
-		return
-	  else
-		@controller.setUserSwitch(:logging, false)
-      end
-      
-      if(@user_choices[:reset])
-        @controller.setUserSwitch(:reset, @user_choices[:reset])
-        return
-      end
-      
-      if(@user_choices[:verbose])
-        @controller.setUserSwitch(:verbose, @user_choices[:verbose])
-      end
-      
-      if(@user_choices[:version])
-        @controller.setUserSwitch(:version, @user_choices[:version])
-        return
+	  options = @user_choices
+      if(!options[:logging])
+		options[:logging] = false
       end
       
       if(@user_choices[:which])
@@ -117,19 +101,9 @@ class ParseDecisionApp < UserChoices::Command
         return
       end
       
-      if(@user_choices[:file])
-        @controller.setUserOption(:file, @user_choices[:file])
-      end
-      
-      if(@user_choices[:outdir])
-        @controller.setUserOption(:outdir, @user_choices[:outdir])
-      end
-      
-      if(@user_choices[:srcdir])
-        @controller.setUserOption(:srcdir, @user_choices[:srcdir])
-      end
-      
-      if(@user_choices[:cmdArg].empty?) # If no cmd line arg...
+      @controller.setOptions(options)
+	  
+	  if(@user_choices[:cmdArg].empty?) # If no cmd line arg...
         if( !@controller.noCmdLineArg() )
 			return
 		end

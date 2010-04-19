@@ -26,7 +26,8 @@ module ParseDecision
 		@model = Parser.new
 	  end
 	  
-
+		
+	  # Save the current config values and start the parse.
 	  def execute()
 		$LOG.debug "Controller::execute"
 		
@@ -35,68 +36,81 @@ module ParseDecision
 		@model.parseCfg( @cfg )
 	  end
 		  
-	  
-	  def setUserSwitch(switch, arg)
-		$LOG.debug "Controller::setUserSwitch( #{switch.to_s}, #{arg} )"
+	  # Set switches with values from a hash. This should only be
+	  # called from +setOptions+.
+	  def setSwitches(options={})
+		$LOG.debug "Controller::setSwitches( options={} )"
 		
-		case switch 
-			when :logging
-				cfgCtrl = Config.new
-				cfgCtrl.load
-				cfgCtrl.addKeyValue(:logging, arg)
-				cfgCtrl.save
-			
-			when :reset
-				cfgCtrl = Config.new
-				cfgCtrl.save
-			
-			when :verbose
-				# Set verbose flag
-				@cfg[:verbose] = true
-			
-			when :version
-				# Print the version and exit.
-				verStr1 = "#{PARSEDECISION_APPNAME} v#{@model.version}"
-				verStr2 = "#{PARSEDECISION_COPYRIGHT}"
-				puts verStr1
-				puts verStr2
-				puts
-				
-			else
-				# Don't know what you want but I don't recognize it.
-			
-		end
+		if(options.length)
+			options.each do |opt, arg|
+				case opt 
+					when :logging
+						cfgCtrl = Config.new
+						cfgCtrl.load
+						cfgCtrl.addKeyValue(:logging, arg)
+						cfgCtrl.save
+					
+					when :reset
+						cfgCtrl = Config.new
+						cfgCtrl.save
+					
+					when :verbose
+						# Set verbose flag
+						@cfg[:verbose] = true
+					
+					when :version
+						# Print the version and exit.
+						verStr1 = "#{PARSEDECISION_APPNAME} v#{@model.version}"
+						verStr2 = "#{PARSEDECISION_COPYRIGHT}"
+						puts verStr1
+						puts verStr2
+						puts
+						
+					else
+						# Don't know what you want but I don't recognize it.
+					
+				end # case opt
+			end # options.each
+		end # if more than 1 option
+	  end
+	  private :setSwitches  
+	  
+	  # Set all options and switches with values from a hash.
+	  def setOptions(options={})
+		$LOG.debug "Controller::setOptions( options={} )"
+		
+		setSwitches(options)
+		
+		if(options.length)
+			options.each do |opt, arg|
+				case opt 
+					when :file
+						# Set cfg decision file name
+						@cfg[:file] = arg
+					
+					when :outdir
+						# Set context output dir
+						@cfg[:outdir] = arg
+					
+					when :srcdir
+						# Set context src dir
+						@cfg[:srcdir] = arg
+						
+					else
+						# Don't know what you want but I don't recognize it.
+					
+				end
+			end # options.each
+		
+			cfgCtrl = Config.new
+			cfgCtrl.load
+			cfgCtrl.cfg.merge!(@cfg)
+			cfgCtrl.save
+		end # if more than 1 option
 	  end
 		  
 	  
-	  def setUserOption(option, arg)
-		$LOG.debug "Controller::setUserOption( #{option.to_s}, #{arg} )"
-		
-		case option 
-			when :file
-				# Set cfg decision file name
-				@cfg[:file] = arg
-			
-			when :outdir
-				# Set context output dir
-				@cfg[:outdir] = arg
-			
-			when :srcdir
-				# Set context src dir
-				@cfg[:srcdir] = arg
-				
-			else
-				# Don't know what you want but I don't recognize it.
-			
-		end
-		
-		cfgCtrl = Config.new
-		cfgCtrl.load
-		cfgCtrl.cfg.merge!(@cfg)
-		cfgCtrl.save
-	  end
-		  
-	  
+	  # Command line arg will be used as the +outdir+.
 	  def executeWithCmdLineArg(arg)
 		$LOG.debug "Controller::executeWithCmdLineArg( #{arg} )"
 		@cfg[:outdir] = arg
@@ -104,6 +118,8 @@ module ParseDecision
 	  end
 		  
 	  
+	  # Make sure +outdir+ has been set.
+	  # Returns true as long as outdir is set one way or the other.
 	  def noCmdLineArg()
 		$LOG.debug "Controller::noCmdLineArg"
 		if( @cfg.key?(:outdir) && !@cfg[:outdir].empty? )

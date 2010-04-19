@@ -17,16 +17,13 @@ class ParseDecisionTask
 		
 		app = ParseDecision::Controller.new
 		
-		# Set switches
-		
-		app.setUserSwitch :reset, true			# Reset the config file every time.
-		app.setUserSwitch :verbose, verbose
-		
-		# Set options
-		
-		app.setUserOption :file, dsnFile		# Name of decision file.
-		app.setUserOption :srcdir, dsnDir		# Path to src decision file directory.
-		app.setUserOption :outdir, destDir		# Path to dir where results will be placed.
+		options = {	:reset => true, 			# Set switches
+					:verbose => verbose,
+					:file => dsnFile,			# Set options
+					:srcdir => dsnDir,
+					:outdir => destDir, }
+					
+		app.setOptions( options )
 		app.execute()
 	end
 end # class ParseDecisionTask
