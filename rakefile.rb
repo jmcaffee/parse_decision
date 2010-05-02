@@ -51,9 +51,10 @@ end
 
 #############################################################################
 Rake::RDocTask.new do |rdoc|
-    files = ['lib/**/*.rb', 'app/**/*.rb']
+    files = ['docs/**/*.rdoc', 'lib/**/*.rb', 'app/**/*.rb']
     rdoc.rdoc_files.add( files )
-    rdoc.main = "README"                    # Page to start on
+    rdoc.main = "docs/README.rdoc"           	# Page to start on
+	#puts "PWD: #{FileUtils.pwd}"
     rdoc.title = "#{PROJNAME} Documentation"
     rdoc.rdoc_dir = 'doc'                   # rdoc output folder
     rdoc.options << '--line-numbers' << '--inline-source' << '--all'
