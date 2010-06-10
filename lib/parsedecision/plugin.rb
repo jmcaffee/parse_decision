@@ -180,7 +180,7 @@ module Plugin
 				
 			if((context.state == :productXpath) && ln.include?(@searchStr2))
 				context.state = :app
-				context.productXpath = ln
+				context[:productXpath] = ln
 				return true
 			end
 			
@@ -238,7 +238,7 @@ module Plugin
 				@data << ln
 				File.open(context.outputPath(@outfile), "w") do |f|
 					f.write applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
-					f.write context.productXpath
+					f.write context[:productXpath] if !context[:productXpath].nil?
 					f.write @data
 				end
 				@data.clear
@@ -298,6 +298,97 @@ module Plugin
 		end
 	end # class Product
 
+	
+	## #######################################################################
+	# Product info plugin - specific to webdecisions
+	class WebProduct < Plugin
+		attr_reader :data
+		
+		def initialize()
+				$LOG.debug "WebProduct::initialize"
+			@fnameTemplate 	= "@INDEX@-@PROD@-PRODUCT.xml"
+
+			@ruleStartStr 	= "<Rules>"
+			@gdlStartStr 	= "<Decision GuidelineId"
+			@stopStr 		= "</Decision>"
+
+			@data 			= []
+			@outfile 		= ""
+			@openTag		= "<@TAG@_DATA>\n"
+			@closeTag		= "</@TAG@_DATA>\n"
+			@lineCount 		= 0
+			@chunkSize 		= 1000
+			@product		= ""
+
+		end
+
+		def execute(context, ln)
+				#$LOG.debug "WebProduct::execute"
+			if((context.state == :app) && ln.include?(@ruleStartStr))
+				context.state = :gdlRules
+				@data.clear
+				@outfile = ""
+
+				product = "Product"
+				@product = context.createValidName(product)
+				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
+				puts "Creating product file: #{@outfile}" if context.verbose
+				@data << ln
+				File.open(context.outputPath(@outfile), "w") do |f|
+					f.write applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+					f.write context[:productXpath] if !context[:productXpath].nil?
+					f.write @data
+				end
+				@data.clear
+				return true
+			end
+			
+			if((context.state == :gdlRules))
+				context.state = :productRules
+				
+				@data << ln
+				return true
+			end
+			
+			if((context.state == :productRules) && !ln.include?(@stopStr))
+				if(ln.include?("----"))				# Skip comment lines (they are not valid XML).
+					commentLine = ln.slice(0,4)
+					return true if(commentLine.include?("----"))
+				end
+				
+				@data << ln
+				@lineCount += 1
+				
+				if(@lineCount > @chunkSize)
+					puts "Writing rule data chunk." if context.verbose
+					File.open(context.outputPath(@outfile), "a") do |f|
+						f.write @data
+					end
+					@lineCount = 0
+					@data.clear
+				end
+				return true
+			end
+			
+			if((context.state == :productRules) && ln.include?(@stopStr))
+				@data << ln
+				@lineCount += 1
+				
+				puts "Closing product file." if context.verbose
+				File.open(context.outputPath(@outfile), "a") do |f|
+					f.write @data
+					f.write applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+				end
+				@lineCount = 0
+				@data.clear
+				context.state = :app
+				return true
+			end
+			
+			return false
+		end
+	end # class WebProduct
+	
 end # module Plugin
 
 end # module ParseDecision

@@ -27,10 +27,8 @@ module ParseDecision
 		attr_reader :verbose
 		attr_reader :index
 		attr_reader :state
+		attr_reader :parseMode
 			
-		#attr_reader :product
-		attr_reader :productXpath
-		#attr_accessor :collectingRules
 
 		def initialize()
 				$LOG.debug "PDContext::initialize"
@@ -39,38 +37,77 @@ module ParseDecision
 			@file		= nil
 			@verbose	= false
 			@index		= 0
+			@parseMode	= :default 	# :webdecision
+			@data		= nil		# Hash to store plugin data in
 			
-			#@product 	= nil
-			#@collectingRules = false
-			@availableStates = [:app, :appPpmXpath, :preDecisionGdl, :productXpath, :productXml, :productPpms, :productRules, ]
+			@availableStates = {}
+			@availableStates[:default] 		= [:app, :appPpmXpath, :preDecisionGdl, :productXpath, :productXml, :productPpms, :productRules, ]
+			@availableStates[:webdecision] 	= [:app, :gdlRules, :productRules, :decisionResponse, :preDecisionGdl, ]
 		end
 
+		
+		# Return the data hash, creating it if needed.
+		def data()
+			@data ||= {}
+		end
+		
+		
+		# Return data from hash.
+		def [](sym)
+			return data[sym]
+		end
+		
+		
+		# Return data from hash.
+		def []=(sym, val)
+			return data[sym] = val
+		end
+		
+		
+		# Return array of current available states.
+		def availableStates()
+			return @availableStates[@parseMode]
+		end
+		
+		
+		# Set the parse mode.
+		def parseMode=(mode)
+			@parseMode = mode if [:default, :webdecision].include?(mode)
+		end
+
+		
+		# Set the output dir path.
 		def outdir=(dir)
 			@outdir = File.rubypath(dir) unless nil == dir
 		end
 
+		
+		# Set the source dir path.
 		def srcdir=(dir)
 			@srcdir = File.rubypath(dir) unless nil == dir
 		end
 
+		
+		# Set the name of file to parse.
 		def file=(filename)
 			@file = File.rubypath(filename) unless nil == filename
 		end
 
+		
+		# Turn on verbose mode.
 		def verbose=(verbose)
 			@verbose = verbose
 		end
 
+		
+		# Return the full output path including the filename.
 		def outputPath(filename)
 			outputPath = File.join(@outdir, filename)
 		end
 
-		def productXpath=(xpath)
-			@productXpath = xpath
-		end
-
+		
 		def state=(nextState)
-			if(@availableStates.include?(nextState))
+			if((availableStates).include?(nextState))
 				@state = nextState
 			else
 				puts "ERROR: Unknown state change requested to unknown state: #{nextState.to_s}"
@@ -105,7 +142,7 @@ module ParseDecision
 
 	  
 	##########################################################################
-	# The Tool class runs the show. This class is called by the controller object
+	# The Parser class runs the show. This class is called by the controller object
 	class Parser
 
 		
@@ -122,11 +159,13 @@ module ParseDecision
 	  end
 	  
 
+	  # Return the application's version string.
 	  def version()
 		return PARSEDECISION_VERSION
 	  end
 	  
 	  
+	  # Validate the configuration.
 	  def validateCfg(cfg)
 		
 		if(!(cfg.key?(:file) && (nil != cfg[:file]))) 
@@ -154,6 +193,7 @@ module ParseDecision
 	  end
 	  
 	  
+	  # Parse files based on the configuration.
 	  def parseCfg(cfg)
 		$LOG.debug "Parser::parseCfg( cfg )"
 
@@ -181,9 +221,13 @@ module ParseDecision
 	  end
 		  
 	  
+	  # Parse an XML decision file.
 	  def parseFile(fname)
 		$LOG.debug "Parser::parseFile( #{fname} )"
 		puts "Parsing file: #{fname}" if @context.verbose
+		
+		# Determine the mode and configure plugins based on the file data.
+		configureForFileMode(fname)
 		
 		# Open the file and read line by line
 		df = File.open(fname).each do |ln|
@@ -194,6 +238,46 @@ module ParseDecision
 	  end
 		  
 	  
+	  def configureForFileMode(fname)
+		$LOG.debug "Parser::configureForFileMode( #{fname} )"
+
+		mode = :default
+		fileTypeFound = false
+		
+		# Open the file and read line by line looking for indications of which mode to use.
+		df = File.open(fname).each do |ln|
+			# Search for 'normal' decision file.
+			if(ln.include?("<PARAMS>"))
+				fileTypeFound = true
+				puts "Decision file type = :default (not webdecision)"
+				break
+			end
+			
+			# Search for web decision file.
+			if(ln.include?("Next Decision"))
+				fileTypeFound = true
+				mode = :webdecision
+				puts "Decision file type = :webdecision"
+				break
+			end
+
+			# Exit file search if mode has been determined.
+			if(true == fileTypeFound)
+				break
+			end
+		end # do file
+		
+		# If the file is a web decision, reset the plugins.
+		if(mode == :webdecision)
+			@context.parseMode = mode
+			@plugins = [Plugin::Application.new, 
+						Plugin::WebProduct.new, 
+						]
+
+		end
+	  end
+	  
+	  
 	  def parseFileWithSwitch(arg)
 		$LOG.debug "Parser::parseFileWithSwitch( #{arg} )"
 	  end
@@ -203,6 +287,7 @@ module ParseDecision
 		$LOG.debug "Parser::parseFileWithCmdLineArg( #{arg} )"
 	  end
 		  
+		# Set directory where generated files are placed.
 		def setOutdir(dir)
 			@context.outdir = dir
 		end
