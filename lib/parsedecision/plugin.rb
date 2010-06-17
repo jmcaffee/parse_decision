@@ -319,17 +319,30 @@ module Plugin
 			@lineCount 		= 0
 			@chunkSize 		= 1000
 			@product		= ""
+			@productIndex	= 1
+			@appIndex		= "00"
 
 		end
 
+		def productIndexStr()
+			return "%02d" % @productIndex
+		end
+		
+		
 		def execute(context, ln)
 				#$LOG.debug "WebProduct::execute"
 			if((context.state == :app) && ln.include?(@ruleStartStr))
 				context.state = :gdlRules
 				@data.clear
 				@outfile = ""
-
-				product = "Product"
+				
+				if(!@appIndex.eql?(context.indexStr))
+					@productIndex = 1
+					@appIndex = context.indexStr
+				end
+				
+				product = productIndexStr()
+				@productIndex += 1
 				@product = context.createValidName(product)
 				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
 				puts "Creating product file: #{@outfile}" if context.verbose
@@ -382,6 +395,7 @@ module Plugin
 				@lineCount = 0
 				@data.clear
 				context.state = :app
+				#@productIndex = 1
 				return true
 			end
 			
