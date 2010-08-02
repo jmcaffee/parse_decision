@@ -341,7 +341,7 @@ module Plugin
 					@appIndex = context.indexStr
 				end
 				
-				product = productIndexStr()
+				product = "Product" + productIndexStr()
 				@productIndex += 1
 				@product = context.createValidName(product)
 				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})

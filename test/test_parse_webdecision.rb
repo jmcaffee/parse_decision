@@ -81,8 +81,8 @@ class  TestParseWebDecision < Test::Unit::TestCase #(3)
 	puts "OUTPUT DIR: #{@outputDir}"
 	
 	assert(File.exists?(File.join(@outputDir, "01-APP.xml")))
-	assert(File.exists?(File.join(@outputDir, "01-rules.xml")))
-	assert(File.exists?(File.join(@outputDir, "01-decisionResponse.xml")))
+	assert(File.exists?(File.join(@outputDir, "01-Product01-PRODUCT.xml")))
+	#assert(File.exists?(File.join(@outputDir, "01-decisionResponse.xml")))
   end
 
 #-------------------------------------------------------------------------------------------------------------#
