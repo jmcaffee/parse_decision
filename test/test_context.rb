@@ -1,6 +1,6 @@
 ##############################################################################
-# File:: test_parser.rb
-# Purpose:: Test ParseDecision class functionality
+# File:: test_context.rb
+# Purpose:: Test PDContext class functionality
 # 
 # Author::    Jeff McAffee 03/12/2010
 # Copyright:: Copyright (c) 2010, kTech Systems LLC. All rights reserved.
@@ -16,7 +16,7 @@ require 'fileutils'
 
 require 'parser'
 
-class  TestParser < Test::Unit::TestCase #(3)
+class  TestPDContext < Test::Unit::TestCase #(3)
     include FileUtils
     include FlexMock::TestCase
 	include ParseDecision
@@ -41,29 +41,63 @@ class  TestParser < Test::Unit::TestCase #(3)
   end
   
 #-------------------------------------------------------------------------------------------------------------#
-# test_parser_ctor - Test the constructor
+# test_pdcontext_ctor - Test the constructor
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parser_ctor
-    target = Parser.new
+  def test_pdcontext_ctor
+    target = PDContext.new
     
     assert(nil != target)
   end
 
   
-  def test_parser_data
-    target = Parser.new
+  def test_pdcontext_data
+    ctx 	= PDContext.new
+    target 	= :testVal
+	expected = "This is a Test Value"
     
-    assert(nil != target)
+	ctx[target] = expected
+	
+    assert(ctx[target] == expected)
   end
 
+  
+  def test_pdcontext_nil_data
+    ctx 	= PDContext.new
+    target 	= :testVal
+	
+    assert(ctx[target].nil?)
+  end
+
+  
+  def test_pdcontext_set_parsemode
+    ctx 	= PDContext.new
+    target 	= :webdecision
+	
+	ctx.parseMode = target
+    assert(ctx.parseMode == target)
+  end
+
+  
+  def test_pdcontext_set_invalid_parsemode
+    ctx 	= PDContext.new
+    target 	= :badMode
+	expected = :default
+	
+	ctx.parseMode = expected
+	ctx.parseMode = target
+    assert(ctx.parseMode == expected)
+  end
+
+  
+  
 #-------------------------------------------------------------------------------------------------------------#
-# test_parser_does_something
+# test_pdcontext_does_something
 #
 #------------------------------------------------------------------------------------------------------------#
-  def test_parser_does_something
+  def test_pdcontext_does_something
     
   end
   
 
-end # TestParser
+end # TestPDContext
