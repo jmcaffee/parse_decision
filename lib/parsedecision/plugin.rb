@@ -54,6 +54,9 @@ module Plugin
 				context.nextIndex
 				context.state = :app
 				outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.indexStr)
+				puts "" if context.verbose
+				puts "= = = = = = = = = = = = = = = = = = = = = = = = = = = =" if context.verbose
+				puts "" if context.verbose
 				puts "Creating Application XML file: #{outfile}" if context.verbose
 				File.open(context.outputPath(outfile), "w") do |f|
 					f.write ln
@@ -291,11 +294,14 @@ module Plugin
 				@lineCount = 0
 				@data.clear
 				context.state = :app
+				
 				return true
 			end
 			
 			return false
 		end
+		
+		
 	end # class Product
 
 	
@@ -311,6 +317,10 @@ module Plugin
 			@ruleStartStr 	= "<Rules>"
 			@gdlStartStr 	= "<Decision GuidelineId"
 			@stopStr 		= "</Decision>"
+			
+			@openProgramNameDpm = '>'
+			@closeProgramNameDpm = '</DPM>'
+			
 
 			@data 			= []
 			@outfile 		= ""
@@ -335,6 +345,8 @@ module Plugin
 				context.state = :gdlRules
 				@data.clear
 				@outfile = ""
+				context["programNameFound"] = false
+				context["productName"] 		= ""
 				
 				if(!@appIndex.eql?(context.indexStr))
 					@productIndex = 1
@@ -345,6 +357,9 @@ module Plugin
 				@productIndex += 1
 				@product = context.createValidName(product)
 				@outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
+				puts "" if context.verbose
+				puts "- + - + - + -" if context.verbose
+				puts "" if context.verbose
 				puts "Creating product file: #{@outfile}" if context.verbose
 				@data << ln
 				File.open(context.outputPath(@outfile), "w") do |f|
@@ -372,6 +387,16 @@ module Plugin
 				@data << ln
 				@lineCount += 1
 				
+				if(!context["programNameFound"])
+					if(ln.include?('Name="Program Name"'))
+						productName = getSubString(ln, @openProgramNameDpm, @closeProgramNameDpm)
+						context["programNameFound"] = true
+						context["productName"] = productName
+						puts "........Program Name DPM found: #{productName}" if context.verbose
+
+					end # if ln.include?
+				end # if !context["programNameFound"]
+				
 				if(@lineCount > @chunkSize)
 					puts "Writing rule data chunk." if context.verbose
 					File.open(context.outputPath(@outfile), "a") do |f|
@@ -396,11 +421,47 @@ module Plugin
 				@data.clear
 				context.state = :app
 				#@productIndex = 1
+
+				if(context["programNameFound"])
+					pname = context.createValidName(context["productName"])
+					newFileName = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>pname})
+					
+					renameFile(context, @outfile, newFileName)
+				end # if context["programNameFound"]
+				
+				context["programNameFound"] = false
+				
 				return true
 			end
 			
 			return false
 		end
+		
+		
+		def getSubString(haystack, startDelim, stopDelim)		
+				#$LOG.debug "WebProduct::getSubString( #{haystack}, #{startDelim}, #{stopDelim} )"
+				#puts "WebProduct::getSubString()" # #{haystack}, #{startDelim}, #{stopDelim} )"
+				#puts "    haystack: #{haystack}"
+				#puts "  startDelim: #{startDelim}"
+				#puts "   stopDelim: #{stopDelim}"
+				
+			start 	= haystack.index(startDelim)
+				#puts "       start: " + (start.nil? ? "nil" : "#{start}")
+			return if start.nil?
+			
+			start += startDelim.size
+			stop 	= haystack.rindex(stopDelim)
+			
+			res		= haystack[start,(stop - start)]
+		end # getSubString
+		
+		
+		def renameFile(context, srcFileName, destFileName)		
+			puts "Renaming #{srcFileName} => #{destFileName}" if context.verbose
+			FileUtils.mv(context.outputPath(srcFileName), context.outputPath(destFileName))
+		end # renameFile
+		
+		
 	end # class WebProduct
 	
 end # module Plugin
