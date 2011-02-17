@@ -7,6 +7,30 @@
 # Website::   http://ktechsystems.com
 ##############################################################################
 
+#############################################################
+#		Stage Change Flow
+#
+#	default mode:
+#		:app
+#			:appPpmXpath
+#				:preDecisionGdl
+#					:productXpath
+#						:productXml
+#							:productPpms
+#								:productRules
+#
+#	webdecision mode:
+#		:app
+#			:gdlRules
+#				:productRules
+#					:decisionResponse
+#						:preDecisionGdl
+#
+#
+#
+#
+#############################################################
+
 ##############################################################################
 module ParseDecision
 
@@ -46,6 +70,7 @@ module Plugin
 				$LOG.debug "Application::initialize"
 			@fnameTemplate = "@INDEX@-APP.xml"
 			@searchStr = "<DECISION_REQUEST><APPLICATION"
+			@searchStr = "<APPLICATION "						# Note that the space at end is required.
 		end
 
 		def execute(context, ln)
@@ -217,6 +242,8 @@ module Plugin
 			@outfile 		= ""
 			@openTag		= "<@TAG@_DATA>\n"
 			@closeTag		= "</@TAG@_DATA>\n"
+			@openTag		= "<PRODUCT_DATA>\n"
+			@closeTag		= "</PRODUCT_DATA>\n"
 			@lineCount 		= 0
 			@chunkSize 		= 1000
 			@product		= ""
@@ -240,7 +267,7 @@ module Plugin
 				puts "Creating product file: #{@outfile}" if context.verbose
 				@data << ln
 				File.open(context.outputPath(@outfile), "w") do |f|
-					f.write applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+					f.write @openTag # applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
 					f.write context[:productXpath] if !context[:productXpath].nil?
 					f.write @data
 				end
@@ -289,7 +316,7 @@ module Plugin
 				puts "Closing product file." if context.verbose
 				File.open(context.outputPath(@outfile), "a") do |f|
 					f.write @data
-					f.write applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+					f.write @closeTag # applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
 				end
 				@lineCount = 0
 				@data.clear
@@ -326,6 +353,8 @@ module Plugin
 			@outfile 		= ""
 			@openTag		= "<@TAG@_DATA>\n"
 			@closeTag		= "</@TAG@_DATA>\n"
+			@openTag		= "<PRODUCT_DATA>\n"
+			@closeTag		= "</PRODUCT_DATA>\n"
 			@lineCount 		= 0
 			@chunkSize 		= 1000
 			@product		= ""
@@ -363,7 +392,7 @@ module Plugin
 				puts "Creating product file: #{@outfile}" if context.verbose
 				@data << ln
 				File.open(context.outputPath(@outfile), "w") do |f|
-					f.write applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+					f.write @openTag # applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
 					f.write context[:productXpath] if !context[:productXpath].nil?
 					f.write @data
 				end
@@ -415,7 +444,7 @@ module Plugin
 				puts "Closing product file." if context.verbose
 				File.open(context.outputPath(@outfile), "a") do |f|
 					f.write @data
-					f.write applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+					f.write @closeTag # applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
 				end
 				@lineCount = 0
 				@data.clear
