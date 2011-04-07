@@ -60,11 +60,12 @@ module ParseDecision
 					
 					when :version
 						# Print the version and exit.
-						verStr1 = "#{PARSEDECISION_APPNAME} v#{@model.version}"
-						verStr2 = "#{PARSEDECISION_COPYRIGHT}"
+						verStr1 = "#{ParseDecision::APPNAME} v#{@model.version}"
+						verStr2 = "#{ParseDecision::COPYRIGHT}"
 						puts verStr1
 						puts verStr2
 						puts
+						exit
 						
 					else
 						# Don't know what you want but I don't recognize it.

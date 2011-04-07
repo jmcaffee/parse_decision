@@ -161,7 +161,7 @@ module ParseDecision
 
 	  # Return the application's version string.
 	  def version()
-		return PARSEDECISION_VERSION
+		return ParseDecision::VERSION
 	  end
 	  
 	  

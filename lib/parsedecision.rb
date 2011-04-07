@@ -12,9 +12,11 @@ require 'logger'
 require 'win32ole'
 
 
+=begin
 PARSEDECISION_VERSION = "0.0.1"
 PARSEDECISION_APPNAME = "ParseDecision"
 PARSEDECISION_COPYRIGHT = "Copyright (c) 2010, kTech Systems LLC. All rights reserved"
+=end
 
 if(!$LOG)
 	$LOG = Logger.new(STDERR)
@@ -25,6 +27,7 @@ $LOGGING = false
 # Uncomment line below to force logging:
 #$LOGGING = true   # TODO: Change this flag to false when releasing production build.
 
+require "#{File.join( File.dirname(__FILE__), 'parsedecision','version')}"
 require "#{File.join( File.dirname(__FILE__), 'parsedecision','config')}"
 	logcfg = ParseDecision::Config.new.load
 	if(logcfg.key?(:logging) && (true == logcfg[:logging]) )

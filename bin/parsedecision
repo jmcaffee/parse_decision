@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 ##############################################################################
 # File:: parsedecision.rb
 # Purpose:: Utility to ...
@@ -17,7 +18,7 @@ class ParseDecisionApp < UserChoices::Command
     
     def initialize()
         super
-        @controller = Controller.new
+        @controller = ParseDecision::Controller.new
     end
     
     
@@ -120,6 +121,6 @@ class ParseDecisionApp < UserChoices::Command
 end # class ParseDecisionApp
 
 
-if $0 == __FILE__
+#if $0 == __FILE__
     ParseDecisionApp.new.execute
-end    
+#end    
