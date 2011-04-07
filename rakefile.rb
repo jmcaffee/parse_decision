@@ -96,7 +96,7 @@ spec = Gem::Specification.new do |s|
 	s.email = "gems@ktechdesign.com"
 	s.homepage = "http://gems.ktechdesign.com"
 	s.description = <<EOF
-ParseDecision parses AMS decision dogs.
+ParseDecision parses AMS decision logs.
 EOF
 end
 
