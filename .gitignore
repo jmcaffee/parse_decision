@@ -1,0 +1,9 @@
+# Files and directories that should be ignored
+
+# Specific files to ignore
+/buildgem
+/buildgem.cmd
+/pdconfig.yml
+
+# Dir to ignore
+pkg/
