@@ -1,0 +1,536 @@
+<Validation_DATA>
+<PARAMS><DATA_SET Name='ORIGINAL LOAN STANDARD SECURITY' Value='N'/><DATA_SET Name='RATE TERM EXCEPTION REASON' Value=''/><DATA_SET Name='CORPORATE ADVANCES NON TAX NON INSURANCE' Value='0'/><DATA_SET Name='PROPERTY OCCUPANCY STATUS' Value='Unknown'/><DATA_SET Name='UPCOMING TAX ADVANCES' Value='0'/><DATA_SET Name='CSP INTEREST RATE AFTER MODIFICATION' Value='0'/><DATA_SET Name='HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='INTERNAL STATUS CODE' Value='1LMCode-NotActive'/><DATA_SET Name='PROPERTY TAXES DUE DATE' Value=''/><DATA_SET Name='MODIFICATION AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='DOCS RECEIVED DATE' Value='2/25/2013 12:00:00 AM'/><DATA_SET Name='DQ FEES' Value='0'/><DATA_SET Name='MATURITY DATE' Value='6/30/2028 12:00:00 AM'/><DATA_SET Name='APPROVAL' Value='N'/><DATA_SET Name='PRODUCT BEFORE MODIFICATION' Value='FixedRate'/><DATA_SET Name='DENIAL EXPLANATION' Value=''/><DATA_SET Name='FIRST NAME BORR2' Value='DORCU CHINYE'/><DATA_SET Name='CURRENTLY ON ACTIVE MOD' Value='N'/><DATA_SET Name='OTHER CURRENT MONTHLY PAYMENT' Value=''/><DATA_SET Name='BANKRUPTCY LITIGATION' Value='N'/><DATA_SET Name='BORROWER AGREES ESCROW SETUP' Value='N'/><DATA_SET Name='CSP AMORTIZATION TERM AFTER MODIFICATION' Value='0'/><DATA_SET Name='HAZARD INSURANCE DUE DATE' Value=''/><DATA_SET Name='LOCKED HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='DOD LOCK DATE' Value='2/25/2013 1:23:44 PM'/><DATA_SET Name='FFIEC' Value='N'/><DATA_SET Name='ESCROW PAYMENT PARTIAL' Value='0'/><DATA_SET Name='ACCOUNT IN LITIGATION' Value='N'/><DATA_SET Name='OTHER INCOME' Value='0'/><DATA_SET Name='CURRENT LOAN STAGE' Value='25 Underwriting Review'/><DATA_SET Name='TODAYS DATE' Value='2/25/2013 12:00:00 AM'/><DATA_SET Name='UDF USE VALIDATION SCRIPTING' Value='N'/><DATA_SET Name='CSP IMMINENT DEFAULT FLAG' Value='N'/><DATA_SET Name='DOCUMENT EXPIRATION DATE' Value=''/><DATA_SET Name='STATE OF THE SUBJECT PROPERTY' Value='SC'/><DATA_SET Name='ESCROW PAYMENT CAPITALIZED' Value='150'/><DATA_SET Name='TEXTAREA1' Value=''/><DATA_SET Name='DOWNPAYMENT COMMITMENT' Value=''/><DATA_SET Name='FORECLOSURE STATUS' Value='None'/><DATA_SET Name='DELINQUENT COUNSELOR CODE' Value='GTF'/><DATA_SET Name='ESCROW PAYMENT NOT CAPITALIZED' Value='150'/><DATA_SET Name='PREVIOUS MOD CATEGORY2 ACTIVATED DATE' Value=''/><DATA_SET Name='TROUBLED DEBT RESERVES FLAG' Value='N'/><DATA_SET Name='RESENT MOD AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='REINSTATEMENT AMOUNT' Value='0'/><DATA_SET Name='LIEN NUMBER' Value='1'/><DATA_SET Name='CURRENT MONTHLY PAYMENT' Value='507.93'/><DATA_SET Name='CORPORATE ADVANCES FOR DQ TAXES' Value='0'/><DATA_SET Name='PRIMARY BORROWER CURRENT EMPLOYMENT TYPE' Value='WageEarner'/><DATA_SET Name='DOC TIMING EXCEPTION EXPIRATION DATE' Value=''/><DATA_SET Name='FORECLOSURE SALE SCHEDULED DATE' Value=''/><DATA_SET Name='FORECLOSURE EXPIRATION DATE' Value=''/><DATA_SET Name='PROJECTED FORECLOSURE SALE DATE' Value=''/><DATA_SET Name='DELINQUENCY STATUS' Value='60DaysDelinquent'/><DATA_SET Name='NOTE DATE' Value='5/21/1998 12:00:00 AM'/><DATA_SET Name='PROPERTY CONDITION' Value='Excellent'/><DATA_SET Name='ESCROW BALANCE' Value='0'/><DATA_SET Name='ACCOUNT NAME' Value='HSBC'/><DATA_SET Name='BANKRUPTCY STATUS' Value='None'/><DATA_SET Name='LIENTYPE' Value='1'/><DATA_SET Name='LOAN AMOUNT' Value='43128.68'/><DATA_SET Name='DENIAL REASON' Value=''/><DATA_SET Name='PROPERTY VALUATION TYPE' Value='DesktopValuation'/><DATA_SET Name='BORROWER REQUIRED TO PAY DOWNPAYMENT' Value='Y'/><DATA_SET Name='REASON FOR DEFAULT' Value='Death of Spouse'/><DATA_SET Name='NO OR LOW INCOME' Value='N'/><DATA_SET Name='POOL ID' Value='0'/><DATA_SET Name='CO BORROWER CURRENT EMPLOYMENT TYPE' Value='UnemployedTemporary'/><DATA_SET Name='INTEREST METHOD TYPE' Value='000'/><DATA_SET Name='PROPERTY TYPE' Value='OneToFourFamilyResidentialConventional'/><DATA_SET Name='AGENCY TYPE' Value='GTF'/></PARAMS>
+		<DPM Name="Override Code 08" Type="DPM">N</DPM>
+		<DPM Name="Override Code 09" Type="DPM">N</DPM>
+		<DPM Name="Override Code 10" Type="DPM">N</DPM>
+		<DPM Name="Override Code 11" Type="DPM">N</DPM>
+		<DPM Name="Override Code 12" Type="DPM">N</DPM>
+		<DPM Name="Override Code 13" Type="DPM">N</DPM>
+		<DPM Name="Override Code 14" Type="DPM">N</DPM>
+		<DPM Name="Override Code 15" Type="DPM">N</DPM>
+		<DPM Name="Override Code 16" Type="DPM">N</DPM>
+		<DPM Name="Override Code 17" Type="DPM">N</DPM>
+		<DPM Name="Override Code 18" Type="DPM">N</DPM>
+		<DPM Name="Override Code 19" Type="DPM">N</DPM>
+		<DPM Name="Override Code 20" Type="DPM">N</DPM>
+		<DPM Name="Override Code 21" Type="DPM">N</DPM>
+		<DPM Name="Override Code 22" Type="DPM">N</DPM>
+		<DPM Name="Override Code 23" Type="DPM">N</DPM>
+		<DPM Name="Override Code 24" Type="DPM">N</DPM>
+		<DPM Name="Override Code 25" Type="DPM">N</DPM>
+		<DPM Name="Override Code 26" Type="DPM">N</DPM>
+		<DPM Name="Override Code 27" Type="DPM">N</DPM>
+		<DPM Name="Override Code 28" Type="DPM">N</DPM>
+		<DPM Name="Override Code 29" Type="DPM">N</DPM>
+		<DPM Name="Override Code 30" Type="DPM">N</DPM>
+		<DPM Name="Override Code 31" Type="DPM">N</DPM>
+		<DPM Name="Override Code 32" Type="DPM">N</DPM>
+		<DPM Name="Override Code 33" Type="DPM">N</DPM>
+		<DPM Name="Override Code 34" Type="DPM">N</DPM>
+		<DPM Name="Override Code 35" Type="DPM">N</DPM>
+		<DPM Name="Override Code 36" Type="DPM">N</DPM>
+		<DPM Name="Override Code 37" Type="DPM">N</DPM>
+		<DPM Name="Override Code 38" Type="DPM">N</DPM>
+		<DPM Name="Override Code 39" Type="DPM">N</DPM>
+		<DPM Name="Override Code 40" Type="DPM">N</DPM>
+		<DPM Name="Override Code 41" Type="DPM">N</DPM>
+		<DPM Name="Override Code 42" Type="DPM">N</DPM>
+		<DPM Name="Override Code 43" Type="DPM">N</DPM>
+		<DPM Name="Override Code 44" Type="DPM">N</DPM>
+		<DPM Name="Override Code 45" Type="DPM">N</DPM>
+		<DPM Name="Override Code 46" Type="DPM">N</DPM>
+		<DPM Name="Override Code 47" Type="DPM">N</DPM>
+		<DPM Name="Override Code 48" Type="DPM">N</DPM>
+		<DPM Name="Override Code 49" Type="DPM">N</DPM>
+		<DPM Name="Override Code 50" Type="DPM">N</DPM>
+		<DPM Name="Override Code 51" Type="DPM">N</DPM>
+		<DPM Name="Override Code 52" Type="DPM">N</DPM>
+		<DPM Name="Override Code 53" Type="DPM">N</DPM>
+		<DPM Name="Override Code 54" Type="DPM">N</DPM>
+		<DPM Name="Override Code 55" Type="DPM">N</DPM>
+		<DPM Name="Override Code 56" Type="DPM">N</DPM>
+		<DPM Name="Override Code 57" Type="DPM">N</DPM>
+		<DPM Name="Override Code 58" Type="DPM">N</DPM>
+		<DPM Name="Override Code 59" Type="DPM">N</DPM>
+		<DPM Name="Override Code 60" Type="DPM">N</DPM>
+		<DPM Name="Override Code 99" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Stage" Type="DPM">25</DPM>
+		<DPM Name="stageNum" Type="DPM">25</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.1" Id="90735" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Status" Type="DPM">N</DPM>
+		<DPM Name="FFIEC" Type="DPM">N</DPM>
+		<DPM Name="Has Permanent Hardship" Type="DPM">N</DPM>
+		<DPM Name="Death Flag" Type="DPM">N</DPM>
+		<DPM Name="Trial Period Started" Type="DPM">N</DPM>
+		<DPM Name="Application Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+		<DPM Name="Agency Flag" Type="DPM">N</DPM>
+		<DPM Name="Can Validate Input Fields" Type="DPM">Y</DPM>
+		<DPM Name="Litigation Flag" Type="DPM">N</DPM>
+		<DPM Name="Income Calc Type" Type="DPM">Verified</DPM>
+		<DPM Name="DocRcvd-Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Mediation Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Redemption Flag" Type="DPM">N</DPM>
+		<DPM Name="Stipulation Flag" Type="DPM">N</DPM>
+		<DPM Name="REO Flag" Type="DPM">N</DPM>
+		<DPM Name="Stop Code" Type="DPM">0</DPM>
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+		<DPM Name="Escrow Balance" Type="DPM">0</DPM>
+		<DPM Name="Pending Escrow Change" Type="DPM">N</DPM>
+		<DPM Name="Has Previous 6 Payment Mod" Type="DPM">N</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">N</DPM>
+		<DPM Name="PWD Available" Type="DPM">N</DPM>
+		<DPM Name="Has DQ Taxes" Type="DPM">N</DPM>
+		<DPM Name="CIT 690 Flag" Type="DPM">N</DPM>
+		<DPM Name="DocRcvd-Resent Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Is Securitized" Type="DPM">N</DPM>
+		<DPM Name="IsDSILoan" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.2" Id="90736" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.3" Id="90737" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.4" Id="90738" ConditionResult="True">
+		<DPM Name="Has Permanent Hardship" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.5" Id="90739" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.6" Id="90740" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.7" Id="90741" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.8" Id="90742" ConditionResult="True">
+		<DPM Name="Application Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.9" Id="90743" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.10" Id="90744" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.11" Id="90745" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.12" Id="90746" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">3</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.13" Id="90747" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.14" Id="90748" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.15" Id="90749" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.16" Id="90750" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.17" Id="90751" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.18" Id="90752" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.19" Id="90753" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.20" Id="90754" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.21" Id="90755" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.22" Id="90756" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.23" Id="90757" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.24" Id="90758" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.25" Id="90759" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.26" Id="90760" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.27" Id="90761" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.28" Id="90762" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.29" Id="90763" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.30" Id="90764" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.31" Id="90765" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.32" Id="90766" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.33" Id="90767" ConditionResult="True">
+		<DPM Name="TDR Flag Actual" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.34" Id="90768" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.35" Id="90769" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.36" Id="90770" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.37" Id="90771" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.38" Id="90772" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.39" Id="90773" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.40" Id="90774" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.41" Id="90775" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.42" Id="90776" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.43" Id="90777" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.44" Id="90778" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.45" Id="90779" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.46" Id="90780" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.47" Id="90781" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.48" Id="90782" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.49" Id="90783" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.50" Id="90784" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.51" Id="90785" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.52" Id="90786" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.53" Id="90787" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.54" Id="90788" ConditionResult="True">
+		<DPM Name="Permanent Eligible Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.55" Id="90789" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.56" Id="90790" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.57" Id="90791" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.58" Id="90792" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.59" Id="90793" ConditionResult="True">
+		<DPM Name="Property Valuation Type" Type="DPM">E</DPM>
+		<DPM Name="Property Valuation Method" Type="DPM">B</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.60" Id="90794" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.61" Id="90795" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.62" Id="90796" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.63" Id="90797" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.64" Id="90798" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.65" Id="90799" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.66" Id="90800" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.67" Id="92624" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-ForeclosureDateDays" Id="72322" ConditionResult="False">
+		<DPM Name="Foreclosure Date Days From Today" Type="DPM">-1</DPM>
+	</Rule>
+	<Rule Name="Calc-ForeclosureDateDays-Anticipated" Id="84044" ConditionResult="False">
+		<DPM Name="Foreclosure Date Days From Today-Anticipated" Type="DPM">-1</DPM>
+	</Rule>
+	<Rule Name="Set-FullReinstatementAmount" Id="84045" ConditionResult="True">
+		<DPM Name="Full Reinstatement Amount" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="SetDocumentExpirationDate-FromMserv" Id="73359" ConditionResult="False">
+	</Rule>
+	<Rule Name="CalcDocumentExpirationDate" Id="73360" ConditionResult="True">
+		<DPM Name="Document Due Date" Type="DPM">3/12/2013 12:00:00 AM</DPM>
+		<DPM Name="Document Expiration Date" Type="DPM">3/22/2013 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="CalcForeclosureExpirationDate" Id="73361" ConditionResult="False">
+	</Rule>
+	<Rule Name="SetDocDueDate-FromMS" Id="80810" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.1" Id="90253" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.2" Id="90254" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.3" Id="90255" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.4" Id="90256" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.5" Id="90257" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK GR.6" Id="90258" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.1" Id="90203" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.2" Id="90204" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.3" Id="90205" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.4" Id="90206" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.5" Id="90207" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.6" Id="90208" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.7" Id="90209" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.8" Id="90210" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.9" Id="90211" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.10" Id="90212" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK SR.11" Id="90213" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.1" Id="90214" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.2" Id="90215" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.3" Id="90216" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.4" Id="90217" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.5" Id="90218" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.6" Id="90219" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.7" Id="90220" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.8" Id="90221" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.9" Id="90222" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.10" Id="90223" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.11" Id="90224" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation PLK JRK.12" Id="90225" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.1" Id="90156" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.2" Id="90157" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.3" Id="90158" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.4" Id="90159" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.5" Id="90160" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.6" Id="90161" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.7" Id="90162" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.8" Id="90163" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.9" Id="90164" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.10" Id="90165" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.11" Id="90166" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.12" Id="90167" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.13" Id="90168" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-Escrow PLK.14" Id="90169" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.1" Id="90174" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.2" Id="90175" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.3" Id="90176" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.4" Id="90177" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.5" Id="90178" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.6" Id="90179" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.7" Id="90180" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.8" Id="90181" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.9" Id="90182" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.10" Id="90183" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.11" Id="90184" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.12" Id="90185" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.13" Id="90186" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.14" Id="90187" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.15" Id="90188" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.16" Id="90189" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.17" Id="90190" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.18" Id="90191" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.19" Id="90192" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.20" Id="90193" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.21" Id="90194" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.22" Id="90195" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.23" Id="90196" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.24" Id="90197" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.25" Id="90198" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.26" Id="90199" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.27" Id="90200" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.28" Id="90201" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-AdverseActionCodes PLK.29" Id="90202" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.1" Id="90226" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.2" Id="90227" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.3" Id="90228" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.4" Id="90229" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.5" Id="90230" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.6" Id="90231" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.7" Id="90232" ConditionResult="False">
+	</Rule>
+	<Rule Name="Validation-RateTermException PLK.8" Id="90233" ConditionResult="False">
+	</Rule>
+	<Rule Name="Scripting PLK.1" Id="90152" ConditionResult="False">
+	</Rule>
+	<Rule Name="Scripting PLK.2" Id="90153" ConditionResult="False">
+	</Rule>
+	<Rule Name="Scripting PLK.3" Id="90154" ConditionResult="False">
+	</Rule>
+</Rules>
+<Decision GuidelineId="39" GuidelineName="Validation" Rulecount="0" ExecutionTime="2/25/2013 2:39:51 PM" ExecutionResult="True">
+     <DerivedParameters>
+          <DPM Id="1396" Name="AAC Override" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="896" Name="Document Due Date" Type="DSM" Order="0" ProductType="2">3/12/2013</DPM>
+          <DPM Id="725" Name="Agency Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1065" Name="Has Permanent Hardship" Type="DSM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1436" Name="PWD Available" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1076" Name="FFIEC" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="983" Name="DocRcvd-Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="797" Name="First Lien Indicator" Type="DSM" Order="0" ProductType="4">1</DPM>
+          <DPM Id="1389" Name="Has Previous 6 Payment Mod" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="727" Name="Decision" Type="DSM" Order="0" ProductType="6">Pass</DPM>
+          <DPM Id="1445" Name="CIT 690 Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1443" Name="DocRcvd-Resent Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="704" Name="Foreclosure Status" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="838" Name="Trial Period Started" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="970" Name="Document Expiration Date" Type="DSM" Order="0" ProductType="2">3/22/2013</DPM>
+          <DPM Id="807" Name="Application Date" Type="DSM" Order="0" ProductType="2">2/25/2013 1:23:44 PM</DPM>
+          <DPM Id="1071" Name="Current Stage" Type="DSM" Order="0" ProductType="6">25 Underwriting Review</DPM>
+          <DPM Id="789" Name="Delinquency Status" Type="DSM" Order="0" ProductType="6">3</DPM>
+          <DPM Id="1352" Name="Currently On Mod" Type="DSM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1419" Name="Property Valuation Type" Type="DSM" Order="0" ProductType="6">E</DPM>
+          <DPM Id="1112" Name="Litigation Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1212" Name="TDR Flag Actual" Type="DSM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1416" Name="Property Valuation Method" Type="DSM" Order="0" ProductType="6">B</DPM>
+          <DPM Id="770" Name="Full Reinstatement Amount" Type="DSM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1321" Name="Override Code 43" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1349" Name="Override Code 52" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1315" Name="Override Code 21" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1334" Name="Override Code 27" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1317" Name="Override Code 36" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1335" Name="Override Code 05" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1351" Name="Stop Code" Type="DPM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1288" Name="Override Code 45" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1361" Name="Override Code 54" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1325" Name="Override Code 19" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1333" Name="Override Code 47" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1354" Name="Override Code 59" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1383" Name="Pending Escrow Change" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1296" Name="Override Code 28" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1379" Name="Escrow Complete" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="995" Name="Income Calc Type" Type="DPM" Order="0" ProductType="6">Verified</DPM>
+          <DPM Id="1324" Name="Override Code 39" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1314" Name="Override Code 08" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1460" Name="Death Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="697" Name="Todays Date" Type="DPM" Order="0" ProductType="2">2/25/2013</DPM>
+          <DPM Id="1247" Name="Stipulation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1292" Name="Override Code 22" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1327" Name="Override Code 31" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1483" Name="IsDSILoan" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1312" Name="Override Code 15" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1304" Name="Override Code 40" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1353" Name="Override Code 55" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1295" Name="Override Code 24" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1331" Name="Override Code 33" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1359" Name="REO Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1303" Name="Override Code 02" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1291" Name="Override Code 11" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1316" Name="Override Code 17" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1329" Name="Override Code 42" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1365" Name="Override Code 51" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1350" Name="Override Code 57" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1319" Name="Override Code 20" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1313" Name="Override Code 26" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1322" Name="Override Code 35" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1310" Name="Override Code 04" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1363" Name="Override Code 60" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1326" Name="Override Code 13" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1293" Name="Override Code 44" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1142" Name="Docs Received Flag" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1362" Name="Override Code 53" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1250" Name="Mediation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1297" Name="Override Code 37" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1287" Name="Override Code 06" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1448" Name="Is Securitized" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1193" Name="Can Validate Input Fields" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="749" Name="tempString" Type="DPM" Order="0" ProductType="6" />
+          <DPM Id="1305" Name="Override Code 46" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1392" Name="Foreclosure Date Days From Today-Anticipated" Type="DPM" Order="0" ProductType="4">-1</DPM>
+          <DPM Id="1225" Name="stageNum" Type="DPM" Order="0" ProductType="4">25</DPM>
+          <DPM Id="739" Name="Foreclosure Date Days From Today" Type="DPM" Order="0" ProductType="4">-1</DPM>
+          <DPM Id="1289" Name="Override Code 99" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1294" Name="Override Code 48" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="695" Name="Escrowed" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1300" Name="Override Code 29" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1330" Name="Override Code 38" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1124" Name="Permanent Eligible Flag" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1254" Name="Foreclosure Redemption Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1381" Name="Escrow Balance" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1336" Name="Override Code 30" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1309" Name="Override Code 09" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1299" Name="Override Code 18" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1328" Name="Override Code 14" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1338" Name="Override Code 49" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1357" Name="Override Code 58" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1306" Name="Override Code 23" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1320" Name="Override Code 32" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1444" Name="Has DQ Taxes" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1332" Name="Override Code 01" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1318" Name="Override Code 07" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1298" Name="Override Code 10" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1307" Name="Override Code 16" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1194" Name="Stage" Type="DPM" Order="0" ProductType="6">25</DPM>
+          <DPM Id="1337" Name="Override Code 41" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1302" Name="Override Code 50" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1356" Name="Override Code 56" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1290" Name="Override Code 25" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="696" Name="Foreclosure Date" Type="DPM" Order="0" ProductType="2" />
+          <DPM Id="1308" Name="Override Code 34" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1311" Name="Override Code 03" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1301" Name="Override Code 12" Type="DPM" Order="0" ProductType="6">N</DPM>
+     </DerivedParameters>
+</Decision></Decision>
+</Validation_DATA>

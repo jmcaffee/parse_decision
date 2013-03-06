@@ -1,0 +1,34 @@
+<WF-DataClearing-Pre_DATA>
+<PARAMS><DATA_SET Name='CURRENT LOAN STAGE' Value='99 Decline Application'/><DATA_SET Name='STATE OF THE SUBJECT PROPERTY' Value='CA'/><DATA_SET Name='TODAYS DATE' Value='3/4/2013 12:00:00 AM'/><DATA_SET Name='FORWARD DATE' Value='3/4/2013 12:00:00 AM'/></PARAMS>
+<!-- <Guideline Id=47 Name=WF-DataClearing-Pre Version=1218/>
+ -->
+<Decision GuidelineId="47" GuidelineName="WF-DataClearing-Pre" Rulecount="0" ExecutionTime="3/4/2013 7:29:01 PM" ExecutionResult="True">
+     <Rules>	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
+		<DPM Name="Current Stage" Type="DPM">99 Decline Application</DPM>
+		<DPM Name="Stage" Type="DPM">99</DPM>
+		<DPM Name="stageNum" Type="DPM">99</DPM>
+	</Rule>
+	<Rule Name="Hold-CalcNumDaysInStage99" Id="100287" ConditionResult="True">
+		<DPM Name="tempDate" Type="DPM">3/4/2013 12:00:00 AM</DPM>
+		<DPM Name="Todays Date" Type="DPM">3/4/2013 12:00:00 AM</DPM>
+		<DPM Name="Temp Number" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Hold-DoNotDataClear" Id="100288" ConditionResult="True">
+		<Message Type="EXCEPTIONS" RuleId="100288" RulesetId="539" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Should not clear. ]]></Message>		<DPM Name="Decision" Type="DPM">Fail</DPM>
+	</Rule>
+</Rules>
+<Decision GuidelineId="47" GuidelineName="WF-DataClearing-Pre" Rulecount="0" ExecutionTime="3/4/2013 7:29:01 PM" ExecutionResult="True">
+     <Messages>
+          <Message Type="Exceptions" RuleId="100288" RulesetId="539"><![CDATA[Should not clear]]></Message>
+     </Messages>
+     <DerivedParameters>
+          <DPM Id="727" Name="Decision" Type="DSM" Order="0" ProductType="6">Fail</DPM>
+          <DPM Id="1071" Name="Current Stage" Type="DSM" Order="0" ProductType="6">99 Decline Application</DPM>
+          <DPM Id="1194" Name="Stage" Type="DPM" Order="0" ProductType="6">99</DPM>
+          <DPM Id="736" Name="tempDate" Type="DPM" Order="0" ProductType="2">3/4/2013</DPM>
+          <DPM Id="697" Name="Todays Date" Type="DPM" Order="0" ProductType="2">3/4/2013</DPM>
+          <DPM Id="1225" Name="stageNum" Type="DPM" Order="0" ProductType="4">99</DPM>
+          <DPM Id="763" Name="Temp Number" Type="DPM" Order="0" ProductType="4">0</DPM>
+     </DerivedParameters>
+</Decision></Decision>
+</WF-DataClearing-Pre_DATA>

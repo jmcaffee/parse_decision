@@ -18,3 +18,12 @@ end
 
 require_relative '../lib/parsedecision'
 require 'pathname'
+
+def file_to_array(filepath)
+  dump = String.new
+  File.open(filepath) do |f|
+    f.each_line {|line| dump << line}
+  end
+  dump
+end
+

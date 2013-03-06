@@ -1,0 +1,1770 @@
+<PRODUCT_DATA>
+<PRODUCTS><PRODUCT ProductID="37" Name="FAP II Loan Modification" Program="FAP II Loan Modification" ProgramDisplayName="FAP II Loan Modification" ProgramID="38" Rate="0.0000" MortgageTypeID="1" Duration="0" IsAssumable="0" IsBiWeekly="0" IsPrepayPenalty="0" IsChallenger="0" MaxLTV="0" MaxCLTV="0" MaxLoanAmount="0.0000" FirstRateAdjustmentCap="0" RateAdjustmentCap="0" RateLifetimeCap="0" RateMargin="0" RateIndex="0" RateFloor="0" PaymentAdjustment="0" PaymentAdjustmentCap="0" AmortizationType="Fixed" ProductType="Mortgage" MortgageType="ConventionalwithPMI" POSGuidelineId="34" GuidelineName="FAP II Loan Modification Program Guideline" UWGuidelineID="34" UWGuidelineName="FAP II Loan Modification Program Guideline" POSGuidelineName="FAP II Loan Modification Program Guideline" AUSSource="CQDS" /></PRODUCTS>
+<PARAMS><DATA_SET Name='INCOMES-STATED MONTHLY PENSIONORRETINCOME-BORR1' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY COMMISSIONS-BORR1' Value='0'/><DATA_SET Name='DQ FEES' Value='0'/><DATA_SET Name='LOAN DURATION' Value='360'/><DATA_SET Name='INTERNAL STATUS CODE' Value='1LMCode-NotActive'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY COMMISSIONS-TOTAL' Value='0'/><DATA_SET Name='TRIAL PAYMENT POSTED DATE 1' Value=''/><DATA_SET Name='EXPENSES-MONTHLY REALESTATETAXES' Value='1'/><DATA_SET Name='LOCKED WORKFLOW - DELINQUENCY STATUS' Value='60DaysDelinquent'/><DATA_SET Name='INCOMES-STATED MONTHLY SOCSECORDISABILITY-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY PENSIONORRETINCOME-TOTAL' Value='0'/><DATA_SET Name='SERVICING SYSTEM' Value='HMS'/><DATA_SET Name='INCOMES-STATED MONTHLY BONUSES-TOTAL' Value='0'/><DATA_SET Name='RESENT MOD AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OVERTIME-BORR2' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 FAILED TRIAL NSF COUNT' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SELFEMPLOYMENT-BORR1' Value='0'/><DATA_SET Name='BORROWER CURRENT FICO' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 COMPLETE DATE' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY COMMISSIONS-BORR2' Value='0'/><DATA_SET Name='TRIAL PAYMENT POSTED DATE 2' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY NETRENTALINCOME-TOTAL' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY CREDITCARD2' Value='0'/><DATA_SET Name='STATE OF THE SUBJECT PROPERTY' Value='SC'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY ALIMONY-BORR2' Value='0'/><DATA_SET Name='APPROVAL' Value='N'/><DATA_SET Name='INCOMES-STATED MONTHLY SELFEMPLOYMENT-TOTAL' Value='0'/><DATA_SET Name='LOCKED PMMS INTEREST RATE' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY TIPSORGRATUITIES-TOTAL' Value='0'/><DATA_SET Name='PRIMARY BORROWER CURRENT EMPLOYMENT TYPE' Value='WageEarner'/><DATA_SET Name='INCOMES-STATED MONTHLY BONUSES-BORR1' Value='0'/><DATA_SET Name='LOCKED 2ND TRIAL PERIOD PAYMENT DATE' Value=''/><DATA_SET Name='BANKRUPTCY LITIGATION' Value='N'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY UNEMPLOYORWELFARE-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY CHILDSUPPORT-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY NETRENTALINCOME-BORR1' Value='0'/><DATA_SET Name='PROPERTY VALUATION AS IS' Value='63900'/><DATA_SET Name='DEDUCTIONS-MONTHLY FEDERALINCOMETAX-TOTAL' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY ELECTRICITY' Value='1'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 FAILED TRIAL DOCNOTSENTCOUNT' Value='0'/><DATA_SET Name='PREVIOUS MODIFICATION DEFERRED INTEREST' Value='5923.91'/><DATA_SET Name='DELINQUENCY STATUS' Value='60DaysDelinquent'/><DATA_SET Name='CURRENT IO PAYMENT' Value='0'/><DATA_SET Name='FORECLOSURE SALE SCHEDULED DATE' Value=''/><DATA_SET Name='SERVICING ADVANCES' Value='136.22'/><DATA_SET Name='INCOMES-STATED MONTHLY COMMISSIONS-BORR2' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY PENSIONORRETINCOME-BORR1' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY PENSIONORRETINCOME-BORR2' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 TOTAL INCOME' Value='0'/><DATA_SET Name='DEDUCTIONS-MONTHLY STATEINCOMETAX-TOTAL' Value='0'/><DATA_SET Name='LOCKED FORBEARANCEAMOUNT' Value=''/><DATA_SET Name='LOAN INVESTOR CODE' Value='30000'/><DATA_SET Name='ACCOUNT NAME' Value='HSBC'/><DATA_SET Name='INCOMES-STATED MONTHLY COMMISSIONS-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY UNEMPLOYORWELFARE-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY OTHER-BORR1' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY TOTAL-BORR1' Value='1'/><DATA_SET Name='LOCKED LENGTH OF TRIAL PERIOD' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY COMMISSIONS-BORR1' Value='0'/><DATA_SET Name='DOWNPAYMENT COMMITMENT' Value=''/><DATA_SET Name='NO. OF UNITS' Value='1'/><DATA_SET Name='BASE EMPL INCOME - ALL APP' Value='1'/><DATA_SET Name='PROJECTED FORECLOSURE SALE DATE' Value=''/><DATA_SET Name='SELLER LOAN NUMBER' Value='0084225749'/><DATA_SET Name='PENDING SERVICE RELEASE' Value='N'/><DATA_SET Name='FIRST NAME BORR2' Value='DORCU CHINYE'/><DATA_SET Name='DOCS RECEIVED DATE' Value='2/25/2013 12:00:00 AM'/><DATA_SET Name='INCOMES-STATED MONTHLY RENTALINCOTHERPROPS-BORR1' Value='0'/><DATA_SET Name='LOAN TERM' Value='0'/><DATA_SET Name='ESCROW BALANCE' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY SOCSECORDISABILITY-BORR1' Value='0'/><DATA_SET Name='UDF DEBUGTEXT2' Value=''/><DATA_SET Name='NOTE DATE' Value='5/21/1998 12:00:00 AM'/><DATA_SET Name='HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='ESCROW PAYMENT CAPITALIZED' Value='150'/><DATA_SET Name='INCOMES-STATED MONTHLY OTHER-TOTAL' Value='0'/><DATA_SET Name='LOCKED PROGRAM - PERMANENT ELIGIBLE FLAG' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY TOTAL-BORR2' Value='0'/><DATA_SET Name='CHILD SUPPORT INCOME-ALL APP' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY CHILDSUPPORT-BORR1' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY RENTALINCOTHERPROPS-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY BASEEMPLINCOME-BORR2' Value='0'/><DATA_SET Name='SELF EMPLOYMENT INCOME - ALL APP' Value='0'/><DATA_SET Name='BALLOON PAYMENT DUE DATE' Value=''/><DATA_SET Name='PROPERTY VALUATION DATE' Value='10/3/2012 12:00:00 AM'/><DATA_SET Name='LOCKED NEWRATE' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY OVERTIME-BORR2' Value='0'/><DATA_SET Name='TRIAL PAYMENT RECEIVED AMOUNT 2' Value=''/><DATA_SET Name='PREVIOUS MOD CATEGORY1 FAILED TRIAL PMTS COUNT' Value='0'/><DATA_SET Name='CORPORATE ADVANCES FOR DQ TAXES' Value='0'/><DATA_SET Name='DEDUCTIONS-MONTHLY IRACONTRIBUTIONS401K-TOTAL' Value='0'/><DATA_SET Name='IS PERSONAL HOME LOAN' Value='N'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY UNEMPLOYORWELFARE-BORR1' Value='0'/><DATA_SET Name='LOCKED NEWBALANCE' Value=''/><DATA_SET Name='SOCIALSECURITYORDISABILITY INCOME-BORR 2' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY PMI' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OTHER-TOTAL' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BONUSES-BORR2' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 DISPOSABLE INCOME' Value='0'/><DATA_SET Name='DATE OF LAST MOD' Value=''/><DATA_SET Name='UDF DEBUGCHECK1' Value='N'/><DATA_SET Name='TRIAL PAYMENT RECEIVED AMOUNT 3' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY TIPSORGRATUITIES-BORR1' Value='0'/><DATA_SET Name='FFIEC' Value='N'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY CHILDSUPPORT-BORR2' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY FLOODINSURANCE' Value='0'/><DATA_SET Name='DOC TIMING EXCEPTION EXPIRATION DATE' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY BONUSES-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY OTHER-BORR2' Value='0'/><DATA_SET Name='LOCKED NEWTERM' Value=''/><DATA_SET Name='ESCROW PAYMENT NOT CAPITALIZED' Value='150'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY NETRENTALINCOME-BORR2' Value='0'/><DATA_SET Name='CORPORATE ADVANCES FOR FORCED PLACED INSURANCE' Value='1222.03'/><DATA_SET Name='INCOMES-STATED MONTHLY ALIMONY-TOTAL' Value='0'/><DATA_SET Name='REASON FOR DEFAULT' Value='Death of Spouse'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OTHER-BORR2' Value='0'/><DATA_SET Name='REINSTATEMENT AMOUNT' Value='0'/><DATA_SET Name='LOCKED 3RD TRIAL PERIOD PAYMENT DATE' Value=''/><DATA_SET Name='CSP PRINCIPAL FORBEARANCE AMOUNT' Value='0'/><DATA_SET Name='DOCUMENT EXPIRATION DATE' Value=''/><DATA_SET Name='CSP IMMINENT DEFAULT FLAG' Value='N'/><DATA_SET Name='UNEMPLOYMENTORWELFARE INCOME-BORR 2' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY RENTALINCOTHERPROPS-BORR1' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY HOMEOWNERASSOCIATIONDUES' Value='0'/><DATA_SET Name='UDF DEBUGCHECK2' Value='N'/><DATA_SET Name='INCOMES-STATED MONTHLY NETRENTALINCOME-TOTAL' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY CREDITCARD4' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY CHILDSUPPORT-TOTAL' Value='0'/><DATA_SET Name='LOCKED NPV RUN DATE' Value=''/><DATA_SET Name='INTEREST METHOD TYPE' Value='000'/><DATA_SET Name='TRUST INCOME - ALL APP' Value='0'/><DATA_SET Name='PROPERTY VALUATION TYPE' Value='DesktopValuation'/><DATA_SET Name='ALL DOCUMENTS RECEIVED' Value='Complete'/><DATA_SET Name='ALIMONY INCOME-ALL APP' Value='0'/><DATA_SET Name='BANKRUPTCY STATUS' Value='None'/><DATA_SET Name='INCOMES-STATED MONTHLY OVERTIME-BORR1' Value='0'/><DATA_SET Name='IR' Value='12.39'/><DATA_SET Name='DATE OF LAST RESTRUCTURE' Value='7/2/2012 12:00:00 AM'/><DATA_SET Name='CSP RUN DATE' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY ALIMONY-BORR1' Value='0'/><DATA_SET Name='CO BORROWER CURRENT EMPLOYMENT TYPE' Value='UnemployedTemporary'/><DATA_SET Name='EXPENSES-MONTHLY NATURALGASOIL' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY ALIMONY-TOTAL' Value='0'/><DATA_SET Name='MODIFICATION AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='PROGRAM NAME' Value='FAP II Loan Modification'/><DATA_SET Name='LIEN NUMBER' Value='1'/><DATA_SET Name='LOCKED VERSIONID' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY NETRENTALINCOME-BORR2' Value='0'/><DATA_SET Name='LOCKED PWD_ELIGIBLE' Value=''/><DATA_SET Name='DOCUMENT EXCEPTION REASON' Value=''/><DATA_SET Name='LOCKED QUAL PAYMENT DUE DATE FINAL' Value=''/><DATA_SET Name='PRODUCT BEFORE MODIFICATION' Value='FixedRate'/><DATA_SET Name='EXPENSES-MONTHLY GARBAGECOLLECTION' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY NETRENTALINCOME-BORR1' Value='0'/><DATA_SET Name='CREDIT TYPE' Value='N'/><DATA_SET Name='NO OR LOW INCOME' Value='N'/><DATA_SET Name='LTV AT ORIGINATION' Value='95'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY TIPSORGRATUITIES-TOTAL' Value='0'/><DATA_SET Name='TODAYS DATE' Value='2/25/2013 12:00:00 AM'/><DATA_SET Name='TIPS/GRATITUDE INCOME - ALL APP' Value='0'/><DATA_SET Name='FORECLOSURE EXPIRATION DATE' Value=''/><DATA_SET Name='LOCKED MODIFICATIONTERM' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY UNEMPLOYORWELFARE-BORR1' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY BASEEMPLINCOME-BORR1' Value='0'/><DATA_SET Name='MATURITY DATE' Value='6/30/2028 12:00:00 AM'/><DATA_SET Name='NET RENTAL INCOME - ALL APP' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY CREDITCARD3' Value='0'/><DATA_SET Name='UNEMPLOYMENTORWELFARE INCOME-BORR 1' Value='0'/><DATA_SET Name='LOAN ID' Value='205'/><DATA_SET Name='INCOMES-STATED MONTHLY SOCSECORDISABILITY-BORR2' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SELFEMPLOYMENT-TOTAL' Value='0'/><DATA_SET Name='FORECLOSURE STATUS' Value='None'/><DATA_SET Name='INCOMES-STATED MONTHLY RENTALINCOTHERPROPS-BORR2' Value='0'/><DATA_SET Name='DOD LOCK DATE' Value='2/25/2013 1:23:44 PM'/><DATA_SET Name='EXPENSES-MONTHLY HAZARDINSURANCE' Value='1'/><DATA_SET Name='INCOMES-STATED MONTHLY UNEMPLOYORWELFARE-BORR2' Value='0'/><DATA_SET Name='DIVIDENDS/INTEREST - ALL APP' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY TOTAL-BORR2' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BONUSES-BORR1' Value='0'/><DATA_SET Name='COMMISSIONS - ALL APP' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY UNEMPLOYORWELFARE-TOTAL' Value='0'/><DATA_SET Name='AGENCY TYPE' Value='GTF'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY RENTALINCOTHERPROPS-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY CHILDSUPPORT-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY SELFEMPLOYMENT-BORR2' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BASEEMPLINCOME-BORR1' Value='1'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BASEEMPLINCOME-BORR2' Value='0'/><DATA_SET Name='TROUBLED DEBT RESERVES FLAG' Value='N'/><DATA_SET Name='OTHER INCOME' Value='0'/><DATA_SET Name='ALIMONY/CHILD SUPPORT INCOME - ALL APP' Value='0'/><DATA_SET Name='SOCIALSECURITYORDISABILITY INCOME-BORR 1' Value='0'/><DATA_SET Name='DENIAL EXPLANATION' Value=''/><DATA_SET Name='PREVIOUS MOD CATEGORY1 COUNT' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY TOTAL' Value='3'/><DATA_SET Name='INCOMES-STATED MONTHLY SELFEMPLOYMENT-BORR1' Value='0'/><DATA_SET Name='UPCOMING TAX ADVANCES' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SOCSECORDISABILITY-BORR1' Value='0'/><DATA_SET Name='OVERTIME-ALL APP' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY2 TERM' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SOCSECORDISABILITY-TOTAL' Value='0'/><DATA_SET Name='LOAN AMOUNT' Value='43128.68'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OTHER-BORR1' Value='0'/><DATA_SET Name='IS PRINCIPAL WRITE DOWN' Value='N'/><DATA_SET Name='CURRENT MONTHLY PAYMENT' Value='507.93'/><DATA_SET Name='ZIP OF THE SUBJECT PROPERTY' Value='29031'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY TIPSORGRATUITIES-BORR2' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY CREDITCARD1' Value='0'/><DATA_SET Name='IO INDICATOR' Value='N'/><DATA_SET Name='UDF USE VALIDATION SCRIPTING' Value='N'/><DATA_SET Name='DELINQUENT COUNSELOR CODE' Value='GTF'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OVERTIME-BORR1' Value='0'/><DATA_SET Name='BONUS-ALL APP' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY ALIMONY-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY PENSIONORRETINCOME-BORR2' Value='0'/><DATA_SET Name='LOCKED HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='ORIGINAL LOAN STANDARD SECURITY' Value='N'/><DATA_SET Name='TRIAL PAYMENT POSTED DATE 3' Value=''/><DATA_SET Name='INCOMES-STATED MONTHLY CHILDSUPPORT-BORR1' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY PENSIONORRETINCOME-TOTAL' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY BASEEMPLINCOME-TOTAL' Value='0'/><DATA_SET Name='CONTRACTUAL PI PAYMENT' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BONUSES-TOTAL' Value='0'/><DATA_SET Name='LOCKED TRIAL PERIOD STARTED' Value=''/><DATA_SET Name='ORIGINATION PROPERTY VALUE' Value='50500'/><DATA_SET Name='TRIAL PAYMENT RECEIVED AMOUNT 1' Value=''/><DATA_SET Name='DENIAL REASON' Value=''/><DATA_SET Name='LOCKED EXPECTED TRIAL PERIOD PAYMENTS TOTAL' Value=''/><DATA_SET Name='TEXTAREA1' Value=''/><DATA_SET Name='CONTRACTUAL INTEREST RATE' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY BASEEMPLINCOME-TOTAL' Value='1'/><DATA_SET Name='ANCILLARY AMOUNT' Value='153.2'/><DATA_SET Name='LOCKED NEWPI' Value=''/><DATA_SET Name='UNEMPL WELFARE INCOME - ALL APP' Value='0'/><DATA_SET Name='PCO VALUE' Value='30670'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SELFEMPLOYMENT-BORR2' Value='0'/><DATA_SET Name='LIENTYPE' Value='1st'/><DATA_SET Name='DOC TIMING EXCEPTION REASON' Value=''/><DATA_SET Name='CURRENTLY ON ACTIVE MOD' Value='N'/><DATA_SET Name='INCOMES-STATED MONTHLY TIPSORGRATUITIES-BORR2' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 FAILED COUNT' Value='0'/><DATA_SET Name='PROPERTY OCCUPANCY STATUS' Value='Unknown'/><DATA_SET Name='ACCOUNT IN LITIGATION' Value='N'/><DATA_SET Name='PREVIOUS MOD CATEGORY1 FAILED TRIALS COUNT' Value='0'/><DATA_SET Name='MODS LAST 60 MONTHS COUNT' Value='1'/><DATA_SET Name='PENSION/RETIREMENT INCOME - ALL APP' Value='0'/><DATA_SET Name='POOL ID' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY TOTAL-BORR1' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY ALIMONY-BORR1' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY RENTALINCOTHERPROPS-TOTAL' Value='0'/><DATA_SET Name='EXPENSES-MONTHLY WATERSEWER' Value='0'/><DATA_SET Name='CURRENT LOAN STAGE' Value='25 Underwriting Review'/><DATA_SET Name='RENTAL INCOME - OTHER PROPERTIES' Value='0'/><DATA_SET Name='CURRENT PRINCIPAL PAYMENT' Value='507.93'/><DATA_SET Name='INCOMES-STATED MONTHLY TIPSORGRATUITIES-BORR1' Value='0'/><DATA_SET Name='PREVIOUS MOD CATEGORY2 ACTIVATED DATE' Value=''/><DATA_SET Name='LOCKED FIRST TRIAL PERIOD PAYMENT DATE' Value=''/><DATA_SET Name='INCOMES-VERIFIED MONTHLY OVERTIME-TOTAL' Value='0'/><DATA_SET Name='INCOMES-VERIFIED MONTHLY SOCSECORDISABILITY-BORR2' Value='0'/><DATA_SET Name='INCOMES-STATED MONTHLY OVERTIME-TOTAL' Value='0'/><DATA_SET Name='LOCKED MONTHLY GROSS INCOME' Value=''/><DATA_SET Name='LOCKED TYPE OF MODIFICATION' Value=''/><DATA_SET Name='SOCIAL SECURITY/DISABILITY INCOME - ALL APP' Value='0'/></PARAMS>
+<Decision GuidelineId="34" GuidelineName="FAP II Loan Modification Program Guideline" Rulecount="0" ExecutionTime="2/25/2013 2:39:51 PM" ExecutionResult="False">
+     <Rules>	<Rule Name="Debug-Switch" Id="73383" ConditionResult="False">
+		<DPM Name="debugMode" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Debug-Switch-NoNPV" Id="73384" ConditionResult="False">
+		<DPM Name="debugMode-NoNPV" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization PLK.1" Id="90636" ConditionResult="True">
+		<DPM Name="Additional Income Flag" Type="DPM">N</DPM>
+		<DPM Name="Best Fit Display" Type="DPM">All</DPM>
+		<DPM Name="Business For Self-Borrower" Type="DPM">N</DPM>
+		<DPM Name="Business For Self-CoBorrower" Type="DPM">N</DPM>
+		<DPM Name="Calc Materiality" Type="DPM">N</DPM>
+		<DPM Name="Can Change Stage" Type="DPM">Y</DPM>
+		<DPM Name="Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Days Since Last Restructure" Type="DPM">0</DPM>
+		<DPM Name="Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Display Grid" Type="DPM">Y</DPM>
+		<DPM Name="Decision Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Exclusion Reason" Type="DPM">None</DPM>
+		<DPM Name="Edit Reason" Type="DPM">None</DPM>
+		<DPM Name="Exclusion Stage" Type="DPM">N</DPM>
+		<DPM Name="Escrow Type" Type="DPM">NA</DPM>
+		<DPM Name="Foreclosure Date Days From Today" Type="DPM">-1</DPM>
+		<DPM Name="Foreclosure Date Days From Today-Anticipated" Type="DPM">-1</DPM>
+		<DPM Name="Full Reinstatement Amount" Type="DPM">0</DPM>
+		<DPM Name="HardDecline Reason" Type="DPM">None</DPM>
+		<DPM Name="Hard Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Low Income Threshold" Type="DPM">1000</DPM>
+		<DPM Name="New Doc Expiration Date" Type="DPM"></DPM>
+		<DPM Name="NPV Run Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">N</DPM>
+		<DPM Name="Selected Product Name" Type="DPM">FAP II Loan Modification</DPM>
+		<DPM Name="Show Payments Screen" Type="DPM">N</DPM>
+		<DPM Name="Todays Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Total Failed FAP II Trials" Type="DPM">0</DPM>
+		<DPM Name="Total Failed FAP II Trials And Mods" Type="DPM">0</DPM>
+		<DPM Name="Wage Earner-Borrower" Type="DPM">N</DPM>
+		<DPM Name="Wage Earner-CoBorrower" Type="DPM">N</DPM>
+		<DPM Name="PWD Available" Type="DPM">N</DPM>
+		<DPM Name="PWD Start Date" Type="DPM">8/27/2012 12:00:00 AM</DPM>
+		<DPM Name="Condition Stage" Type="DPM">N</DPM>
+		<DPM Name="Days In BPO Pending" Type="DPM">0</DPM>
+		<DPM Name="Appraisal Date" Type="DPM">10/3/2012 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="Initialization PLK.2" Id="90637" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-SystemInputs PLK.1" Id="92538" ConditionResult="True">
+		<DPM Name="Active Mod Term" Type="DPM">0</DPM>
+		<DPM Name="Agency Flag" Type="DPM">GTF</DPM>
+		<DPM Name="Ancillary Amount" Type="DPM">0</DPM>
+		<DPM Name="App Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+		<DPM Name="Bankruptcy Status" Type="DPM">None</DPM>
+		<DPM Name="CLTV" Type="DPM">0</DPM>
+		<DPM Name="Current Interest Rate" Type="DPM">12.39</DPM>
+		<DPM Name="Current Maturity Date" Type="DPM">6/30/2028 12:00:00 AM</DPM>
+		<DPM Name="Current Principal Balance" Type="DPM">43128.68</DPM>
+		<DPM Name="Current Monthly Payment" Type="DPM">507.93</DPM>
+		<DPM Name="Delinquent Insurance" Type="DPM">0</DPM>
+		<DPM Name="Delinquent Taxes" Type="DPM">0</DPM>
+		<DPM Name="Escrow Complete" Type="DPM">N</DPM>
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Date" Type="DPM"></DPM>
+		<DPM Name="Foreclosure Date-Anticipated" Type="DPM"></DPM>
+		<DPM Name="Hardship Reason" Type="DPM">Death of Spouse</DPM>
+		<DPM Name="Investor Code" Type="DPM">30000</DPM>
+		<DPM Name="IO Indicator" Type="DPM">N</DPM>
+		<DPM Name="Note Date" Type="DPM">5/21/1998 12:00:00 AM</DPM>
+		<DPM Name="LTV" Type="DPM">95</DPM>
+		<DPM Name="Num Units" Type="DPM">1</DPM>
+		<DPM Name="Number of Restructures in last 60 Months" Type="DPM">1</DPM>
+		<DPM Name="Occupancy Status" Type="DPM">Unknown</DPM>
+		<DPM Name="Pending Service Release Flag" Type="DPM">N</DPM>
+		<DPM Name="Previous FAP II Modifications" Type="DPM">0</DPM>
+		<DPM Name="Pure PI Payment" Type="DPM">0</DPM>
+		<DPM Name="Term" Type="DPM">360</DPM>
+		<DPM Name="Total Failed FAP II Modifications" Type="DPM">0</DPM>
+		<DPM Name="Total Failed FAP II Trials-Payment" Type="DPM">0</DPM>
+		<DPM Name="Total Failed FAP II Trials-NSF" Type="DPM">0</DPM>
+		<DPM Name="Total Failed FAP II Trials-No Mod Agreement" Type="DPM">0</DPM>
+		<DPM Name="Total Failed FAP II Trials-Other" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Initialization-SystemInputs PLK.2" Id="92539" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-SystemInputs PLK.3" Id="92540" ConditionResult="True">
+		<DPM Name="Ancillary Amount" Type="DPM">153.2</DPM>
+	</Rule>
+	<Rule Name="Initialization-SystemOutputs PLK.1" Id="92520" ConditionResult="True">
+		<DPM Name="Academic Expenses" Type="DPM">0</DPM>
+		<DPM Name="Account Passes Foreclosure Reinstatement Guideline" Type="DPM">N</DPM>
+		<DPM Name="Additional Assistance Requested" Type="DPM">N</DPM>
+		<DPM Name="Additional Income Flag" Type="DPM">N</DPM>
+		<DPM Name="Adverse Action Code" Type="DPM"></DPM>
+		<DPM Name="Agency During Mod Process" Type="DPM">N</DPM>
+		<DPM Name="Alimony Child Support Expenses" Type="DPM">0</DPM>
+		<DPM Name="All Documents Received" Type="DPM"></DPM>
+		<DPM Name="Arrears Can Be Capitalized" Type="DPM">Y</DPM>
+		<DPM Name="Auto Insurance Expenses" Type="DPM">0</DPM>
+		<DPM Name="BK During FAP II Process" Type="DPM">N</DPM>
+		<DPM Name="Business For Self-Borrower" Type="DPM">N</DPM>
+		<DPM Name="Business For Self-CoBorrower" Type="DPM">N</DPM>
+		<DPM Name="Capital Consumption Threshold" Type="DPM">999999999.99</DPM>
+		<DPM Name="Channel" Type="DPM"></DPM>
+		<DPM Name="Charitable Donations Expenses" Type="DPM">0</DPM>
+		<DPM Name="Child Care and Dependent Expenses" Type="DPM">0</DPM>
+		<DPM Name="Clothes Expenses" Type="DPM">0</DPM>
+		<DPM Name="Corporate Advances-Recoverable" Type="DPM">0</DPM>
+		<DPM Name="Credit Card Payments" Type="DPM">0</DPM>
+		<DPM Name="Current rate minus 30yr fixed national average" Type="DPM">0</DPM>
+		<DPM Name="Customer Failed FIM II Requirements" Type="DPM">N</DPM>
+		<DPM Name="Customer Paid Reinstatement Amount On Time" Type="DPM">N</DPM>
+		<DPM Name="Customer Qualifies For 60 Month" Type="DPM">N</DPM>
+		<DPM Name="Days Since Last Restructure" Type="DPM">99999</DPM>
+		<DPM Name="Decision DateTime" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Deferred Principal" Type="DPM">0</DPM>
+		<DPM Name="DI" Type="DPM">0</DPM>
+		<DPM Name="Discount Rate" Type="DPM">99.999994</DPM>
+		<DPM Name="Disposable Income-After Mod" Type="DPM">0</DPM>
+		<DPM Name="Disposable Income-At App" Type="DPM">0</DPM>
+		<DPM Name="Disposable Income Threshold" Type="DPM">0</DPM>
+		<DPM Name="DocRcvd-Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Doc Review Process Complete" Type="DPM">N</DPM>
+		<DPM Name="Doc Timing Exception" Type="DPM">N</DPM>
+		<DPM Name="Doc Timing Exception Review Result" Type="DPM">Denied</DPM>
+		<DPM Name="Document Exception Result" Type="DPM">Denied</DPM>
+		<DPM Name="DOD Bucket" Type="DPM">0</DPM>
+		<DPM Name="DOD Threshold" Type="DPM">0</DPM>
+		<DPM Name="Dollar Increase Allowed Per Dependent" Type="DPM">0</DPM>
+		<DPM Name="DTI" Type="DPM">0</DPM>
+		<DPM Name="DTI Current" Type="DPM">0</DPM>
+		<DPM Name="DTI-Backend" Type="DPM">0</DPM>
+		<DPM Name="DTI-Backend Before Mod" Type="DPM">0</DPM>
+		<DPM Name="DTI Threshold Reached" Type="DPM">N</DPM>
+		<DPM Name="Eligible For Reage Or Restructure-At App" Type="DPM">Y</DPM>
+		<DPM Name="Escrow Monthly Amount" Type="DPM">0</DPM>
+		<DPM Name="Escrow Required" Type="DPM">N</DPM>
+		<DPM Name="Essential Utility Expenses" Type="DPM">0</DPM>
+		<DPM Name="Exception Decision" Type="DPM"></DPM>
+		<DPM Name="Exception Processing Flag" Type="DPM">N</DPM>
+		<DPM Name="Expected Reset Shock" Type="DPM">0</DPM>
+		<DPM Name="Expected Trial Payments Total" Type="DPM">0</DPM>
+		<DPM Name="Expected Trial Period Payments Total" Type="DPM">0</DPM>
+		<DPM Name="FAP II Counter Adjustment Flag" Type="DPM">N</DPM>
+		<DPM Name="FAP II Counter Before Adjustment" Type="DPM">0</DPM>
+		<DPM Name="FAP II Counter After Adjustment" Type="DPM">0</DPM>
+		<DPM Name="FAP II Decision" Type="DPM">P</DPM>
+		<DPM Name="FIM II Eligible Criteria-1" Type="DPM">0</DPM>
+		<DPM Name="FIM II Eligible Criteria-2" Type="DPM">0</DPM>
+		<DPM Name="First Change Date" Type="DPM"></DPM>
+		<DPM Name="Flood Insurance Pmt" Type="DPM">0</DPM>
+		<DPM Name="Flood Insurance Expense" Type="DPM">0</DPM>
+		<DPM Name="Food Expenses" Type="DPM">0</DPM>
+		<DPM Name="Foreclosure Decline Days Threshold" Type="DPM">30</DPM>
+		<DPM Name="Foreclosure NPV Value" Type="DPM">999999999.99</DPM>
+		<DPM Name="Full Reinstatement Amount" Type="DPM">0</DPM>
+		<DPM Name="Full Reinstatement Due Date" Type="DPM"></DPM>
+		<DPM Name="Has Documentation Exception" Type="DPM">N</DPM>
+		<DPM Name="Has Material Change" Type="DPM"></DPM>
+		<DPM Name="Has Permanent Hardship" Type="DPM">N</DPM>
+		<DPM Name="Hazard Insurance Expense" Type="DPM">0</DPM>
+		<DPM Name="HOA Fees Current" Type="DPM"></DPM>
+		<DPM Name="HOA Expense" Type="DPM">0</DPM>
+		<DPM Name="Insurance Payment" Type="DPM">0</DPM>
+		<DPM Name="Installment Loan Payments" Type="DPM">0</DPM>
+		<DPM Name="Insurance Arrears Amount" Type="DPM">0</DPM>
+		<DPM Name="Insurance Arrears Amount" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Cap ST" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Floor ST" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Cap LT" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Floor LT" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Cap Perm" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Floor Perm" Type="DPM">0</DPM>
+		<DPM Name="Interest Rate Step-up Percentage" Type="DPM">9.999</DPM>
+		<DPM Name="Intrinsic Value Threshold" Type="DPM">999999999.99</DPM>
+		<DPM Name="IRA-401k Expenses" Type="DPM">0</DPM>
+		<DPM Name="LGD Version" Type="DPM">1</DPM>
+		<DPM Name="Litigation Flag" Type="DPM">N</DPM>
+		<DPM Name="Low Income Flag" Type="DPM">N</DPM>
+		<DPM Name="Low Income Threshold" Type="DPM">0</DPM>
+		<DPM Name="Max FAP II Mods Allowed" Type="DPM">2</DPM>
+		<DPM Name="Max FAP II Mod Fails Allowed" Type="DPM">2</DPM>
+		<DPM Name="Max FAP II Trial Period Fails Allowed" Type="DPM">2</DPM>
+		<DPM Name="Material Change Rate" Type="DPM">999.99</DPM>
+		<DPM Name="Maturity Date After Modification" Type="DPM"></DPM>
+		<DPM Name="Medical Expenses" Type="DPM">0</DPM>
+		<DPM Name="Medical Insurance Expenses" Type="DPM">0</DPM>
+		<DPM Name="Mod Agreement Expiration Date" Type="DPM"></DPM>
+		<DPM Name="Modification Expiration Date" Type="DPM"></DPM>
+		<DPM Name="Modification Maturity Date" Type="DPM"></DPM>
+		<DPM Name="Modification Term" Type="DPM">0</DPM>
+		<DPM Name="Months On Active Mod" Type="DPM">999</DPM>
+		<DPM Name="Months Till Eligible For Reage" Type="DPM">99999</DPM>
+		<DPM Name="Months Since Last Reage" Type="DPM">999</DPM>
+		<DPM Name="Months Since Last Mod" Type="DPM">999</DPM>
+		<DPM Name="Monthly Gross Income-Borrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income-CoBorrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income-Total" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-Borrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-CoBorrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-ThirdParty Household" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income-Verbal-Borrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income-Verbal-CoBorrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income-Verbal-Total" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-Verbal-Borrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-Verbal-CoBorrower" Type="DPM">0</DPM>
+		<DPM Name="Monthly Net Income-Verbal-Total" Type="DPM">0</DPM>
+		<DPM Name="New Term" Type="DPM">0</DPM>
+		<DPM Name="NPV Date" Type="DPM"></DPM>
+		<DPM Name="NPV Decision" Type="DPM"></DPM>
+		<DPM Name="NPV Delta" Type="DPM">999999999.99</DPM>
+		<DPM Name="NPV Delta-Cash" Type="DPM">999999999.99</DPM>
+		<DPM Name="NPV Insurance" Type="DPM">0</DPM>
+		<DPM Name="NPV 6 Month Delta" Type="DPM">999999999.99</DPM>
+		<DPM Name="NPV 24 Month Delta" Type="DPM">999999999.99</DPM>
+		<DPM Name="NPV PI" Type="DPM">0</DPM>
+		<DPM Name="NPV Status" Type="DPM">E</DPM>
+		<DPM Name="NPV Tax" Type="DPM">0</DPM>
+		<DPM Name="NPV Threshold" Type="DPM">0</DPM>
+		<DPM Name="NPV Version" Type="DPM">1</DPM>
+		<DPM Name="NPV Value" Type="DPM">999999999.99</DPM>
+		<DPM Name="Number Of FAP II Mod Failures" Type="DPM">0</DPM>
+		<DPM Name="Number Of Step-up" Type="DPM">0</DPM>
+		<DPM Name="Optional Insurance Payment" Type="DPM">0</DPM>
+		<DPM Name="Other Discretionary Expenses" Type="DPM">0</DPM>
+		<DPM Name="Other Mortgage Payments" Type="DPM">0</DPM>
+		<DPM Name="Open Lines Of Credit" Type="DPM">0</DPM>
+		<DPM Name="Opt Out Of New Mod" Type="DPM">N</DPM>
+		<DPM Name="Other Utility Expenses" Type="DPM">0</DPM>
+		<DPM Name="Payment Relief Amount-XX DTI" Type="DPM">0</DPM>
+		<DPM Name="Payment Relief Rate" Type="DPM">999.99</DPM>
+		<DPM Name="Payment Relief Threshold" Type="DPM">0</DPM>
+		<DPM Name="PD Version" Type="DPM">1</DPM>
+		<DPM Name="Pending Service Release During Mod Process" Type="DPM">N</DPM>
+		<DPM Name="PI" Type="DPM">0</DPM>
+		<DPM Name="PITI" Type="DPM">507.93</DPM>
+		<DPM Name="PITI After Mod" Type="DPM">0</DPM>
+		<DPM Name="PI After Mod" Type="DPM">0</DPM>
+		<DPM Name="PMMS Interest Rate" Type="DPM">99.999994</DPM>
+		<DPM Name="PMMS Interest Rate-Current" Type="DPM">99.999994</DPM>
+		<DPM Name="PMMS Interest Rate Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Preliminary Exception Rate" Type="DPM">0</DPM>
+		<DPM Name="Preliminary Exception Mod Term" Type="DPM">0</DPM>
+		<DPM Name="Principal Balance" Type="DPM">43128.68</DPM>
+		<DPM Name="Property Maintainence Expenses" Type="DPM">0</DPM>
+		<DPM Name="Property Taxes" Type="DPM">0</DPM>
+		<DPM Name="Property Type" Type="DPM">0</DPM>
+		<DPM Name="Property Valuation-Method" Type="DPM">99</DPM>
+		<DPM Name="Probability Of Default" Type="DPM">999.99</DPM>
+		<DPM Name="Probability Of Default-No Mod" Type="DPM">999.99</DPM>
+		<DPM Name="Rate After Mod Expiration" Type="DPM">99.999994</DPM>
+		<DPM Name="Rate Of Change Of Refi Mtg Vol-Past Yr" Type="DPM">99.999994</DPM>
+		<DPM Name="Rate Of Change Of Total Mtg Vol-Past Yr" Type="DPM">99.999994</DPM>
+		<DPM Name="Realized Reset Shock" Type="DPM">0</DPM>
+		<DPM Name="Received Modification Agreement Threshold" Type="DPM">15</DPM>
+		<DPM Name="Reconsideration Requested" Type="DPM">N</DPM>
+		<DPM Name="Reconsideration Decision" Type="DPM">CANCEL</DPM>
+		<DPM Name="Reinstatement Perc" Type="DPM">40</DPM>
+		<DPM Name="Remaining Term" Type="DPM">0</DPM>
+		<DPM Name="RT Exception Decision Date" Type="DPM"></DPM>
+		<DPM Name="RT Exception Rate" Type="DPM">0</DPM>
+		<DPM Name="RT Exception Term" Type="DPM">0</DPM>
+		<DPM Name="RT Exception Flag" Type="DPM">N</DPM>
+		<DPM Name="Special Handling During Application" Type="DPM">N</DPM>
+		<DPM Name="Special Handling During Mod Process" Type="DPM">N</DPM>
+		<DPM Name="Status" Type="DPM">FALSE</DPM>
+		<DPM Name="Student Loan Expenses" Type="DPM">0</DPM>
+		<DPM Name="Tax Payment" Type="DPM">0</DPM>
+		<DPM Name="Tax Payment After Modification" Type="DPM">0</DPM>
+		<DPM Name="Target DTI" Type="DPM">9999999.99</DPM>
+		<DPM Name="Target Material Change Rate" Type="DPM">25</DPM>
+		<DPM Name="Third Party Occupancy" Type="DPM">N</DPM>
+		<DPM Name="TDI" Type="DPM">9999999.99</DPM>
+		<DPM Name="TDI-Before Mod" Type="DPM">9999999.99</DPM>
+		<DPM Name="TDR Flag" Type="DPM">N</DPM>
+		<DPM Name="Total Capitalized Amount-Estimated" Type="DPM">0</DPM>
+		<DPM Name="Total Capitalized Amount-Final" Type="DPM">0</DPM>
+		<DPM Name="Total Forbearance Amount" Type="DPM">0</DPM>
+		<DPM Name="Transportation Expenses" Type="DPM">0</DPM>
+		<DPM Name="Treatment Type" Type="DPM">0</DPM>
+		<DPM Name="Trial Payment Posted Date 1" Type="DPM"></DPM>
+		<DPM Name="Trial Payment Posted Date 2" Type="DPM"></DPM>
+		<DPM Name="Trial Payment Posted Date 3" Type="DPM"></DPM>
+		<DPM Name="Trial Payment Received Amount 1" Type="DPM"></DPM>
+		<DPM Name="Trial Payment Received Amount 2" Type="DPM"></DPM>
+		<DPM Name="Trial Payment Received Amount 3" Type="DPM"></DPM>
+		<DPM Name="Trial Period Succeeded Flag" Type="DPM"></DPM>
+		<DPM Name="Type Of Modification" Type="DPM"></DPM>
+		<DPM Name="Unsecured Debt Expenses" Type="DPM">0</DPM>
+		<DPM Name="Wage Earner-Borrower" Type="DPM">N</DPM>
+		<DPM Name="Wage Earner-CoBorrower" Type="DPM">N</DPM>
+		<DPM Name="XX Perc DTI-PI Payment" Type="DPM">0</DPM>
+		<DPM Name="XX Perc DTI-Rate" Type="DPM">0</DPM>
+		<DPM Name="XX Perc DTI-Term Extension" Type="DPM">0</DPM>
+		<DPM Name="XX Perc DTI-Principal Forbear" Type="DPM">0</DPM>
+		<DPM Name="XX Perc DTI-Percentage" Type="DPM">0</DPM>
+		<DPM Name="Death Cert" Type="DPM">N</DPM>
+		<DPM Name="PWD Eligible" Type="DPM">N</DPM>
+		<DPM Name="Imminent Default" Type="DPM">N</DPM>
+		<DPM Name="CIT 73 Flag" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.1" Id="90731" ConditionResult="True">
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+		<DPM Name="Doc Timing Exception" Type="DPM">N</DPM>
+		<DPM Name="Doc Due Date Exception Flag" Type="DPM">N</DPM>
+		<DPM Name="Has Documentation Exception" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.2" Id="90732" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.3" Id="90733" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.4" Id="90734" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Stage" Type="DPM">25</DPM>
+		<DPM Name="stageNum" Type="DPM">25</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.1" Id="90735" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Status" Type="DPM">N</DPM>
+		<DPM Name="FFIEC" Type="DPM">N</DPM>
+		<DPM Name="Has Permanent Hardship" Type="DPM">N</DPM>
+		<DPM Name="Death Flag" Type="DPM">N</DPM>
+		<DPM Name="Trial Period Started" Type="DPM">N</DPM>
+		<DPM Name="Application Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+		<DPM Name="Agency Flag" Type="DPM">N</DPM>
+		<DPM Name="Can Validate Input Fields" Type="DPM">Y</DPM>
+		<DPM Name="Litigation Flag" Type="DPM">N</DPM>
+		<DPM Name="Income Calc Type" Type="DPM">Verified</DPM>
+		<DPM Name="DocRcvd-Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Mediation Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Redemption Flag" Type="DPM">N</DPM>
+		<DPM Name="Stipulation Flag" Type="DPM">N</DPM>
+		<DPM Name="REO Flag" Type="DPM">N</DPM>
+		<DPM Name="Stop Code" Type="DPM">0</DPM>
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+		<DPM Name="Escrow Balance" Type="DPM">0</DPM>
+		<DPM Name="Pending Escrow Change" Type="DPM">N</DPM>
+		<DPM Name="Has Previous 6 Payment Mod" Type="DPM">N</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">N</DPM>
+		<DPM Name="PWD Available" Type="DPM">N</DPM>
+		<DPM Name="Has DQ Taxes" Type="DPM">N</DPM>
+		<DPM Name="CIT 690 Flag" Type="DPM">N</DPM>
+		<DPM Name="DocRcvd-Resent Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Is Securitized" Type="DPM">N</DPM>
+		<DPM Name="IsDSILoan" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.2" Id="90736" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.3" Id="90737" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.4" Id="90738" ConditionResult="True">
+		<DPM Name="Has Permanent Hardship" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.5" Id="90739" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.6" Id="90740" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.7" Id="90741" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.8" Id="90742" ConditionResult="True">
+		<DPM Name="Application Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.9" Id="90743" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.10" Id="90744" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.11" Id="90745" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.12" Id="90746" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">3</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.13" Id="90747" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.14" Id="90748" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.15" Id="90749" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.16" Id="90750" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.17" Id="90751" ConditionResult="True">
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.18" Id="90752" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.19" Id="90753" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.20" Id="90754" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.21" Id="90755" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.22" Id="90756" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.23" Id="90757" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.24" Id="90758" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.25" Id="90759" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.26" Id="90760" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.27" Id="90761" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.28" Id="90762" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.29" Id="90763" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.30" Id="90764" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.31" Id="90765" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.32" Id="90766" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.33" Id="90767" ConditionResult="True">
+		<DPM Name="TDR Flag Actual" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.34" Id="90768" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.35" Id="90769" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.36" Id="90770" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.37" Id="90771" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.38" Id="90772" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.39" Id="90773" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.40" Id="90774" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.41" Id="90775" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.42" Id="90776" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.43" Id="90777" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.44" Id="90778" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.45" Id="90779" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.46" Id="90780" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.47" Id="90781" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.48" Id="90782" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.49" Id="90783" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.50" Id="90784" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.51" Id="90785" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.52" Id="90786" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.53" Id="90787" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.54" Id="90788" ConditionResult="True">
+		<DPM Name="Permanent Eligible Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.55" Id="90789" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.56" Id="90790" ConditionResult="True">
+		<DPM Name="PWD Available" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.57" Id="90791" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.58" Id="90792" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.59" Id="90793" ConditionResult="True">
+		<DPM Name="Property Valuation Type" Type="DPM">E</DPM>
+		<DPM Name="Property Valuation Method" Type="DPM">B</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.60" Id="90794" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.61" Id="90795" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.62" Id="90796" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.63" Id="90797" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.64" Id="90798" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.65" Id="90799" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.66" Id="90800" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.67" Id="92624" ConditionResult="False">
+	</Rule>
+	<Rule Name="ParseOverrideCodes-Init" Id="80381" ConditionResult="True">
+		<DPM Name="tempString" Type="DPM"></DPM>
+		<DPM Name="AAC Override" Type="DPM"></DPM>
+		<DPM Name="Override Code 01" Type="DPM">N</DPM>
+		<DPM Name="Override Code 02" Type="DPM">N</DPM>
+		<DPM Name="Override Code 03" Type="DPM">N</DPM>
+		<DPM Name="Override Code 04" Type="DPM">N</DPM>
+		<DPM Name="Override Code 05" Type="DPM">N</DPM>
+		<DPM Name="Override Code 06" Type="DPM">N</DPM>
+		<DPM Name="Override Code 07" Type="DPM">N</DPM>
+		<DPM Name="Override Code 08" Type="DPM">N</DPM>
+		<DPM Name="Override Code 09" Type="DPM">N</DPM>
+		<DPM Name="Override Code 10" Type="DPM">N</DPM>
+		<DPM Name="Override Code 11" Type="DPM">N</DPM>
+		<DPM Name="Override Code 12" Type="DPM">N</DPM>
+		<DPM Name="Override Code 13" Type="DPM">N</DPM>
+		<DPM Name="Override Code 14" Type="DPM">N</DPM>
+		<DPM Name="Override Code 15" Type="DPM">N</DPM>
+		<DPM Name="Override Code 16" Type="DPM">N</DPM>
+		<DPM Name="Override Code 17" Type="DPM">N</DPM>
+		<DPM Name="Override Code 18" Type="DPM">N</DPM>
+		<DPM Name="Override Code 19" Type="DPM">N</DPM>
+		<DPM Name="Override Code 20" Type="DPM">N</DPM>
+		<DPM Name="Override Code 21" Type="DPM">N</DPM>
+		<DPM Name="Override Code 22" Type="DPM">N</DPM>
+		<DPM Name="Override Code 23" Type="DPM">N</DPM>
+		<DPM Name="Override Code 24" Type="DPM">N</DPM>
+		<DPM Name="Override Code 25" Type="DPM">N</DPM>
+		<DPM Name="Override Code 26" Type="DPM">N</DPM>
+		<DPM Name="Override Code 27" Type="DPM">N</DPM>
+		<DPM Name="Override Code 28" Type="DPM">N</DPM>
+		<DPM Name="Override Code 29" Type="DPM">N</DPM>
+		<DPM Name="Override Code 30" Type="DPM">N</DPM>
+		<DPM Name="Override Code 31" Type="DPM">N</DPM>
+		<DPM Name="Override Code 32" Type="DPM">N</DPM>
+		<DPM Name="Override Code 33" Type="DPM">N</DPM>
+		<DPM Name="Override Code 34" Type="DPM">N</DPM>
+		<DPM Name="Override Code 35" Type="DPM">N</DPM>
+		<DPM Name="Override Code 36" Type="DPM">N</DPM>
+		<DPM Name="Override Code 37" Type="DPM">N</DPM>
+		<DPM Name="Override Code 38" Type="DPM">N</DPM>
+		<DPM Name="Override Code 39" Type="DPM">N</DPM>
+		<DPM Name="Override Code 40" Type="DPM">N</DPM>
+		<DPM Name="Override Code 41" Type="DPM">N</DPM>
+		<DPM Name="Override Code 42" Type="DPM">N</DPM>
+		<DPM Name="Override Code 43" Type="DPM">N</DPM>
+		<DPM Name="Override Code 44" Type="DPM">N</DPM>
+		<DPM Name="Override Code 45" Type="DPM">N</DPM>
+		<DPM Name="Override Code 46" Type="DPM">N</DPM>
+		<DPM Name="Override Code 47" Type="DPM">N</DPM>
+		<DPM Name="Override Code 48" Type="DPM">N</DPM>
+		<DPM Name="Override Code 49" Type="DPM">N</DPM>
+		<DPM Name="Override Code 50" Type="DPM">N</DPM>
+		<DPM Name="Override Code 51" Type="DPM">N</DPM>
+		<DPM Name="Override Code 52" Type="DPM">N</DPM>
+		<DPM Name="Override Code 53" Type="DPM">N</DPM>
+		<DPM Name="Override Code 54" Type="DPM">N</DPM>
+		<DPM Name="Override Code 55" Type="DPM">N</DPM>
+		<DPM Name="Override Code 56" Type="DPM">N</DPM>
+		<DPM Name="Override Code 57" Type="DPM">N</DPM>
+		<DPM Name="Override Code 58" Type="DPM">N</DPM>
+		<DPM Name="Override Code 59" Type="DPM">N</DPM>
+		<DPM Name="Override Code 60" Type="DPM">N</DPM>
+		<DPM Name="Override Code 99" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Parse-Code-01" Id="80382" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-01" Id="80383" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-02" Id="80384" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-02" Id="80385" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-03" Id="80386" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-03" Id="80387" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-04" Id="80388" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-04" Id="80389" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-05" Id="80390" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-05" Id="80391" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-06" Id="80392" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-06" Id="80393" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-07" Id="80394" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-07" Id="80395" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-08" Id="80396" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-08" Id="80397" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-09" Id="80398" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-09" Id="80399" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-10" Id="80400" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-10" Id="80401" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-11" Id="80402" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-11" Id="80403" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-12" Id="80404" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-12" Id="80405" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-13" Id="80406" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-13" Id="80407" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-14" Id="80408" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-14" Id="80409" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-15" Id="80410" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-15" Id="80411" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-16" Id="80412" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-16" Id="80413" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-17" Id="80414" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-17" Id="80415" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-18" Id="80416" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-18" Id="80417" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-19" Id="80418" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-19" Id="80419" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-20" Id="80420" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-20" Id="80421" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-21" Id="80422" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-21" Id="80423" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-22" Id="80424" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-22" Id="80425" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-23" Id="80426" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-23" Id="80427" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-24" Id="80428" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-24" Id="80429" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-25" Id="80430" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-25" Id="80431" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-26" Id="80432" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-26" Id="80433" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-27" Id="80434" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-27" Id="80435" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-28" Id="80436" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-28" Id="80437" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-29" Id="80438" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-29" Id="80439" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-30" Id="80440" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-30" Id="80441" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-31" Id="80442" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-31" Id="80443" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-32" Id="80444" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-32" Id="80445" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-33" Id="80446" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-33" Id="80447" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-34" Id="80448" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-34" Id="80449" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-35" Id="80450" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-35" Id="80451" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-36" Id="80452" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-36" Id="80453" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-37" Id="80454" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-37" Id="80455" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-38" Id="80456" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-38" Id="80457" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-39" Id="80458" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-39" Id="80459" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-40" Id="80460" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-40" Id="80461" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-41" Id="80462" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-41" Id="80463" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-42" Id="80464" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-42" Id="80465" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-43" Id="80466" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-43" Id="80467" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-44" Id="80468" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-44" Id="80469" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-45" Id="80470" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-45" Id="80471" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-46" Id="80472" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-46" Id="80473" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-47" Id="80474" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-47" Id="80475" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-48" Id="80476" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-48" Id="80477" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-49" Id="80478" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-49" Id="80479" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-50" Id="80480" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-50" Id="80481" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-51" Id="80546" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-51" Id="80547" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-52" Id="80548" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-52" Id="80549" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-53" Id="80550" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-53" Id="80551" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-54" Id="80552" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-54" Id="80553" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-55" Id="80554" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-55" Id="80555" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-56" Id="80556" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-56" Id="80557" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-57" Id="80558" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-57" Id="80559" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-58" Id="80560" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-58" Id="80561" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-59" Id="80562" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-59" Id="80563" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-60" Id="80564" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-60" Id="80565" ConditionResult="False">
+	</Rule>
+	<Rule Name="Parse-Code-99" Id="80482" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Code-99" Id="80483" ConditionResult="False">
+	</Rule>
+	<Rule Name="ParseOverrideCodes-ApprovalNotChecked" Id="80922" ConditionResult="True">
+		<DPM Name="Override Code 01" Type="DPM">N</DPM>
+		<DPM Name="Override Code 02" Type="DPM">N</DPM>
+		<DPM Name="Override Code 03" Type="DPM">N</DPM>
+		<DPM Name="Override Code 04" Type="DPM">N</DPM>
+		<DPM Name="Override Code 05" Type="DPM">N</DPM>
+		<DPM Name="Override Code 06" Type="DPM">N</DPM>
+		<DPM Name="Override Code 07" Type="DPM">N</DPM>
+		<DPM Name="Override Code 08" Type="DPM">N</DPM>
+		<DPM Name="Override Code 09" Type="DPM">N</DPM>
+		<DPM Name="Override Code 10" Type="DPM">N</DPM>
+		<DPM Name="Override Code 11" Type="DPM">N</DPM>
+		<DPM Name="Override Code 12" Type="DPM">N</DPM>
+		<DPM Name="Override Code 13" Type="DPM">N</DPM>
+		<DPM Name="Override Code 14" Type="DPM">N</DPM>
+		<DPM Name="Override Code 15" Type="DPM">N</DPM>
+		<DPM Name="Override Code 16" Type="DPM">N</DPM>
+		<DPM Name="Override Code 17" Type="DPM">N</DPM>
+		<DPM Name="Override Code 18" Type="DPM">N</DPM>
+		<DPM Name="Override Code 19" Type="DPM">N</DPM>
+		<DPM Name="Override Code 20" Type="DPM">N</DPM>
+		<DPM Name="Override Code 21" Type="DPM">N</DPM>
+		<DPM Name="Override Code 22" Type="DPM">N</DPM>
+		<DPM Name="Override Code 23" Type="DPM">N</DPM>
+		<DPM Name="Override Code 24" Type="DPM">N</DPM>
+		<DPM Name="Override Code 25" Type="DPM">N</DPM>
+		<DPM Name="Override Code 26" Type="DPM">N</DPM>
+		<DPM Name="Override Code 27" Type="DPM">N</DPM>
+		<DPM Name="Override Code 28" Type="DPM">N</DPM>
+		<DPM Name="Override Code 29" Type="DPM">N</DPM>
+		<DPM Name="Override Code 30" Type="DPM">N</DPM>
+		<DPM Name="Override Code 31" Type="DPM">N</DPM>
+		<DPM Name="Override Code 32" Type="DPM">N</DPM>
+		<DPM Name="Override Code 33" Type="DPM">N</DPM>
+		<DPM Name="Override Code 34" Type="DPM">N</DPM>
+		<DPM Name="Override Code 35" Type="DPM">N</DPM>
+		<DPM Name="Override Code 36" Type="DPM">N</DPM>
+		<DPM Name="Override Code 37" Type="DPM">N</DPM>
+		<DPM Name="Override Code 38" Type="DPM">N</DPM>
+		<DPM Name="Override Code 39" Type="DPM">N</DPM>
+		<DPM Name="Override Code 40" Type="DPM">N</DPM>
+		<DPM Name="Override Code 41" Type="DPM">N</DPM>
+		<DPM Name="Override Code 42" Type="DPM">N</DPM>
+		<DPM Name="Override Code 43" Type="DPM">N</DPM>
+		<DPM Name="Override Code 44" Type="DPM">N</DPM>
+		<DPM Name="Override Code 45" Type="DPM">N</DPM>
+		<DPM Name="Override Code 46" Type="DPM">N</DPM>
+		<DPM Name="Override Code 47" Type="DPM">N</DPM>
+		<DPM Name="Override Code 48" Type="DPM">N</DPM>
+		<DPM Name="Override Code 49" Type="DPM">N</DPM>
+		<DPM Name="Override Code 50" Type="DPM">N</DPM>
+		<DPM Name="Override Code 51" Type="DPM">N</DPM>
+		<DPM Name="Override Code 52" Type="DPM">N</DPM>
+		<DPM Name="Override Code 53" Type="DPM">N</DPM>
+		<DPM Name="Override Code 54" Type="DPM">N</DPM>
+		<DPM Name="Override Code 55" Type="DPM">N</DPM>
+		<DPM Name="Override Code 56" Type="DPM">N</DPM>
+		<DPM Name="Override Code 57" Type="DPM">N</DPM>
+		<DPM Name="Override Code 58" Type="DPM">N</DPM>
+		<DPM Name="Override Code 59" Type="DPM">N</DPM>
+		<DPM Name="Override Code 60" Type="DPM">N</DPM>
+		<DPM Name="Override Code 99" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-Exclusion" Id="73377" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDecline" Id="73378" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-Decline" Id="73379" ConditionResult="True">
+		<DPM Name="Decline Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-Withdrawn" Id="79860" ConditionResult="True">
+		<DPM Name="Withdrawn Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-ExclusionOverride" Id="73380" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDeclineOverride" Id="73381" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-DeclineOverride" Id="73382" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-WithdrawnOverride" Id="79861" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-ConditionStage" Id="87200" ConditionResult="True">
+		<DPM Name="Condition Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Target DTI Init PLK.1" Id="92314" ConditionResult="True">
+		<DPM Name="Target DTI-FAP" Type="DPM">38</DPM>
+		<DPM Name="Target DTI-PWD" Type="DPM">31</DPM>
+	</Rule>
+	<Rule Name="Target DTI Init PLK.2" Id="92315" ConditionResult="False">
+	</Rule>
+	<Rule Name="Target DTI Init PLK.3" Id="92316" ConditionResult="True">
+		<DPM Name="Target DTI" Type="DPM">38</DPM>
+	</Rule>
+	<Rule Name="Target DTI Init PLK.4" Id="92317" ConditionResult="False">
+	</Rule>
+	<Rule Name="Target DTI Init PLK.5" Id="92318" ConditionResult="False">
+	</Rule>
+	<Rule Name="Target DTI Init PLK.6" Id="92319" ConditionResult="False">
+	</Rule>
+	<Rule Name="Target DTI Init PLK.7" Id="92320" ConditionResult="False">
+	</Rule>
+	<Rule Name="Target DTI Init PLK.8" Id="92321" ConditionResult="False">
+	</Rule>
+	<Rule Name="FFIEC Inits PLK.1" Id="92461" ConditionResult="False">
+	</Rule>
+	<Rule Name="FFIEC Inits PLK.2" Id="92462" ConditionResult="True">
+		<DPM Name="FIM II Eligible Criteria-1" Type="DPM">150</DPM>
+		<DPM Name="FIM II Eligible Criteria-2" Type="DPM">5</DPM>
+	</Rule>
+	<Rule Name="SetPMMSRate PLK.1" Id="92542" ConditionResult="True">
+		<DPM Name="PMMS Rate" Type="DPM">3.56</DPM>
+	</Rule>
+	<Rule Name="Calc-PI" Id="80526" ConditionResult="True">
+		<DPM Name="PI" Type="DPM">507.93</DPM>
+		<DPM Name="PI Before Mod" Type="DPM">507.93</DPM>
+	</Rule>
+	<Rule Name="Calc-PI-Tmp" Id="80566" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-EssentialUtilityExpenses" Id="80533" ConditionResult="True">
+		<DPM Name="Essential Utility Expenses" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-CreditCardPayments" Id="80534" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-PureInterestRate" Id="80567" ConditionResult="False">
+		<DPM Name="Pure Interest Rate" Type="DPM">12.39</DPM>
+	</Rule>
+	<Rule Name="Set-PMMSInterestRate" Id="80805" ConditionResult="True">
+		<DPM Name="PMMS Interest Rate" Type="DPM">3.56</DPM>
+	</Rule>
+	<Rule Name="Adjust-PMMSRate-CurrentInterestRate" Id="80806" ConditionResult="False">
+	</Rule>
+	<Rule Name="Adjust-PMMSRate-PureInterestRate" Id="80807" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-MonthlyEscrowAmount" Id="80676" ConditionResult="True">
+		<DPM Name="Escrow Monthly Amount" Type="DPM">150</DPM>
+	</Rule>
+	<Rule Name="Calc-ForeclosureDateDays" Id="72322" ConditionResult="False">
+		<DPM Name="Foreclosure Date Days From Today" Type="DPM">-1</DPM>
+	</Rule>
+	<Rule Name="Calc-ForeclosureDateDays-Anticipated" Id="84044" ConditionResult="False">
+		<DPM Name="Foreclosure Date Days From Today-Anticipated" Type="DPM">-1</DPM>
+	</Rule>
+	<Rule Name="Set-FullReinstatementAmount" Id="84045" ConditionResult="True">
+		<DPM Name="Full Reinstatement Amount" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="CalcRemainingTerm" Id="73356" ConditionResult="True">
+		<DPM Name="tempDate" Type="DPM">6/30/2028 12:00:00 AM</DPM>
+		<DPM Name="Remaining Term" Type="DPM">184</DPM>
+		<DPM Name="Remaining Term" Type="DPM">184</DPM>
+		<DPM Name="Maturity Date" Type="DPM">6/30/2028 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthsOnBook" Id="79786" ConditionResult="True">
+		<DPM Name="tempDate" Type="DPM">5/21/1998 12:00:00 AM</DPM>
+		<DPM Name="Months on Book" Type="DPM">177</DPM>
+		<DPM Name="Months on Book" Type="DPM">177</DPM>
+	</Rule>
+	<Rule Name="Calc-DQAdvances-Escrow" Id="84048" ConditionResult="False">
+		<DPM Name="Escrow Amt DQ" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-DQAdvances" Id="80594" ConditionResult="True">
+		<DPM Name="Upcoming Tax Advances" Type="DPM">0</DPM>
+		<DPM Name="Corporate Advances-Recoverable" Type="DPM">1222.03</DPM>
+		<DPM Name="Capitalized Balance" Type="DPM">1222.03</DPM>
+	</Rule>
+	<Rule Name="Normalize-DQAdvances" Id="84049" ConditionResult="False">
+		<DPM Name="Total Capitalized Amount-Estimated" Type="DPM">1222.03</DPM>
+		<DPM Name="Total Capitalized Amount-Final" Type="DPM">1222.03</DPM>
+	</Rule>
+	<Rule Name="CalcCurrentUnpaidBalance" Id="73357" ConditionResult="True">
+		<DPM Name="Current Unpaid Balance" Type="DPM">44350.71</DPM>
+	</Rule>
+	<Rule Name="CalcCurrentUnpaidBalance-ArrearsNotCapitalized" Id="80002" ConditionResult="False">
+	</Rule>
+	<Rule Name="Misc Declines PLK.1" Id="92521" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.1" Id="92435" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.2" Id="92436" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.3" Id="92437" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.4" Id="92438" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.5" Id="92439" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.6" Id="92440" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.7" Id="92441" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.8" Id="92442" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.9" Id="92443" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.10" Id="92444" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.11" Id="92445" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.12" Id="92446" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.13" Id="92447" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.14" Id="92448" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.15" Id="92449" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusions PLK.16" Id="92450" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Declines PLK.1" Id="92508" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Declines PLK.2" Id="92509" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Declines PLK.3" Id="92510" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.1" Id="92522" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.2" Id="92523" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.3" Id="92524" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.4" Id="92525" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.5" Id="92526" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.6" Id="92527" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.7" Id="92528" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.8" Id="92529" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.9" Id="92530" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.10" Id="92531" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.11" Id="92532" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.12" Id="92533" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.13" Id="92534" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.14" Id="92535" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.15" Id="92536" ConditionResult="False">
+	</Rule>
+	<Rule Name="Exclusion-Withdrawals PLK.16" Id="92537" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-DaysSinceLastRestructure" Id="73338" ConditionResult="True">
+		<DPM Name="tempDate" Type="DPM">7/2/2012 12:00:00 AM</DPM>
+		<DPM Name="Days Since Last Restructure" Type="DPM">-238</DPM>
+		<DPM Name="Months Since Last Reage" Type="DPM">-8</DPM>
+		<DPM Name="Days Since Last Restructure" Type="DPM">-238</DPM>
+		<DPM Name="Months Since Last Reage" Type="DPM">-8</DPM>
+	</Rule>
+	<Rule Name="Calc-DaysSinceLastRestructure-InPast" Id="73339" ConditionResult="True">
+		<DPM Name="Days Since Last Restructure" Type="DPM">238</DPM>
+		<DPM Name="Months Since Last Reage" Type="DPM">8</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalModTrialsFailed" Id="73066" ConditionResult="True">
+		<DPM Name="Total Failed FAP II Trials" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalFailedTrialsAndMods" Id="73067" ConditionResult="True">
+		<DPM Name="Total Failed FAP II Trials And Mods" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-DaysSinceLastMod" Id="80535" ConditionResult="False">
+		<DPM Name="Temp Number" Type="DPM">99999</DPM>
+	</Rule>
+	<Rule Name="Calc-MostRecentRestructureOrMod" Id="80536" ConditionResult="True">
+		<DPM Name="Days Since Most Recent Restructure Or Mod" Type="DPM">238</DPM>
+	</Rule>
+	<Rule Name="HardDeclines PLK.1" Id="92352" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.2" Id="92353" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.3" Id="92354" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.4" Id="92355" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.5" Id="92356" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.6" Id="92357" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.7" Id="92358" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.8" Id="92359" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.9" Id="92360" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.10" Id="92361" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.11" Id="92362" ConditionResult="False">
+	</Rule>
+	<Rule Name="HardDeclines PLK.12" Id="92363" ConditionResult="False">
+	</Rule>
+	<Rule Name="Foreclosure Edits PLK.1" Id="92310" ConditionResult="False">
+	</Rule>
+	<Rule Name="Foreclosure Edits PLK.2" Id="92311" ConditionResult="False">
+	</Rule>
+	<Rule Name="Foreclosure Edits PLK.3" Id="92312" ConditionResult="False">
+	</Rule>
+	<Rule Name="Foreclosure Edits PLK.4" Id="92313" ConditionResult="False">
+	</Rule>
+	<Rule Name="SetCurrentlyOnActiveMod" Id="73340" ConditionResult="False">
+		<DPM Name="Additional Assistance Requested" Type="DPM">N</DPM>
+		<DPM Name="Currently On Active Mod" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="IsMaterialityCheckNeeded-PermanentHardship" Id="73341" ConditionResult="False">
+	</Rule>
+	<Rule Name="IsMaterialityCheckNeeded-CompletesInPast" Id="73342" ConditionResult="False">
+	</Rule>
+	<Rule Name="IsMaterialityCheckNeeded-MonthsSinceLastMod" Id="73343" ConditionResult="False">
+	</Rule>
+	<Rule Name="CalcEscrowMonthlyAmount-Init" Id="89161" ConditionResult="True">
+		<DPM Name="Escrow Monthly Amount" Type="DPM">150</DPM>
+	</Rule>
+	<Rule Name="Use-EscrowNonCap" Id="89162" ConditionResult="False">
+	</Rule>
+	<Rule Name="Use-EscrowNonCap-PWD" Id="89163" ConditionResult="True">
+		<DPM Name="Escrow Monthly Amount" Type="DPM">150</DPM>
+	</Rule>
+	<Rule Name="CalcAncillaryAmount-Init" Id="89164" ConditionResult="True">
+		<DPM Name="Ancillary Amount" Type="DPM">0</DPM>
+		<DPM Name="corpAdvances" Type="DPM">0</DPM>
+		<DPM Name="Projected Ancillary Payment" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Use-DTSAncillaryAmount" Id="89165" ConditionResult="True">
+		<DPM Name="Ancillary Amount" Type="DPM">153.2</DPM>
+	</Rule>
+	<Rule Name="Calc-CorpAdvancesAfterReinstatement" Id="89166" ConditionResult="False">
+	</Rule>
+	<Rule Name="Floor-CorpAdvances" Id="89167" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-ProjectedAncillaryWhenCorpAdvances" Id="89168" ConditionResult="False">
+	</Rule>
+	<Rule Name="Use-ProjectedAncillary" Id="89169" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-CurrentMonthlyExpenses" Id="73344" ConditionResult="True">
+		<DPM Name="HomeOwners Insurance" Type="DPM">1</DPM>
+		<DPM Name="HOA Expense" Type="DPM">0</DPM>
+		<DPM Name="Property Taxes" Type="DPM">1</DPM>
+		<DPM Name="Current Monthly Expenses" Type="DPM">3</DPM>
+		<DPM Name="Current Housing Expenses" Type="DPM">2</DPM>
+		<DPM Name="Current Monthly Liabilities" Type="DPM">1</DPM>
+		<DPM Name="Current Income Tax Expenses" Type="DPM">0</DPM>
+		<DPM Name="Current Before Tax Expenses" Type="DPM">0</DPM>
+		<DPM Name="Current Fixed Expenses" Type="DPM">3</DPM>
+		<DPM Name="Projected Ancillary Payment" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Setup-ProjectedAncillaryAmount" Id="85104" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-ProjectedAncillaryAmount" Id="85105" ConditionResult="False">
+		<DPM Name="Projected Ancillary Payment" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-CurrentHousingExpenses-Default" Id="85106" ConditionResult="True">
+		<DPM Name="Current Housing Expenses" Type="DPM">150</DPM>
+	</Rule>
+	<Rule Name="Calc-CurrentHousingExpenses-TX" Id="85107" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-CurrentHousingExpenses-FC" Id="85108" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-CurrentMonthlyExpenses-WithEscrow" Id="80677" ConditionResult="True">
+		<DPM Name="HomeOwners Insurance" Type="DPM">0</DPM>
+		<DPM Name="Current Monthly Liabilities" Type="DPM">-147</DPM>
+		<DPM Name="Current Fixed Expenses" Type="DPM">3</DPM>
+	</Rule>
+	<Rule Name="Calc-CurrentMonthlyExpenses-Msg" Id="73345" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Verified" Id="73346" ConditionResult="True">
+		<DPM Name="Monthly Verified Income" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Stated" Id="73347" ConditionResult="True">
+		<DPM Name="Monthly Stated Income" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-TotalMonthlyGrossIncome" Id="73348" ConditionResult="False">
+		<DPM Name="Total Monthly Gross Income" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Set-TotalMonthlyGrossIncome-Locked" Id="88165" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyNetIncome" Id="73349" ConditionResult="True">
+		<DPM Name="Total Monthly Net Income" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyDisposableIncome" Id="73350" ConditionResult="True">
+		<DPM Name="Total Monthly Disposable Income" Type="DPM">-509.93</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeCalcType-Stated" Id="73351" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeCalcType-Verified" Id="73352" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Verified-Borr1" Id="74274" ConditionResult="True">
+		<DPM Name="Monthly Verified Income-Borr 1" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Stated-Borr1" Id="74275" ConditionResult="True">
+		<DPM Name="Monthly Stated Income-Borr 1" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-TotalMonthlyGrossIncome-Borr1" Id="74276" ConditionResult="False">
+		<DPM Name="Total Monthly Gross Income-Borr 1" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyNetIncome-Borr1" Id="74277" ConditionResult="True">
+		<DPM Name="Total Monthly Net Income-Borr 1" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyDisposableIncome-Borr1" Id="74278" ConditionResult="True">
+		<DPM Name="Total Monthly Disposable Income-Borr1" Type="DPM">-254.465</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeType-Stated-Borr1" Id="85109" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeType-Verified-Borr1" Id="85110" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Verified-Borr2" Id="74281" ConditionResult="True">
+		<DPM Name="Monthly Verified Income-Borr 2" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Stated-Borr2" Id="74282" ConditionResult="True">
+		<DPM Name="Monthly Stated Income-Borr 2" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-TotalMonthlyGrossIncome-Borr2-Stated" Id="74283" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-TotalMonthlyGrossIncome-Borr2-Verified" Id="74284" ConditionResult="True">
+		<DPM Name="Total Monthly Gross Income-Borr 2" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyNetIncome-Borr2" Id="74285" ConditionResult="True">
+		<DPM Name="Total Monthly Net Income-Borr 2" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-TotalMonthlyDisposableIncome-Borr2" Id="74286" ConditionResult="True">
+		<DPM Name="Total Monthly Disposable Income-Borr2" Type="DPM">-255.465</DPM>
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeType-Stated-Borr2" Id="85111" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-MonthlyIncome-Msg-IncomeType-Verified-Borr2" Id="85112" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-ZeroIncome-TotalMonthlyGross" Id="80044" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-ZeroIncome-TotalMonthlyGrossIncome-Borr1" Id="80045" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-ZeroIncome-TotalMonthlyGrossIncome-Borr2" Id="80046" ConditionResult="True">
+		<DPM Name="Total Monthly Gross Income-Borr 2" Type="DPM">0.01</DPM>
+	</Rule>
+	<Rule Name="Calc-PaystubIncomeTotals" Id="80521" ConditionResult="False">
+		<DPM Name="Paystub Income-Borr1" Type="DPM">1</DPM>
+		<DPM Name="Paystub Income-Borr2" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-CurrentlyOnMod" Id="80589" ConditionResult="False">
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-DTI-Lien1-Legacy-NonPermOrTx" Id="89170" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-DTI-Lien1-Legacy-Perm" Id="89171" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-DTI-Lien1-PWD" Id="89172" ConditionResult="True">
+		<DPM Name="DTI" Type="DPM">81113</DPM>
+		<DPM Name="DTI-Backend" Type="DPM">51093</DPM>
+	</Rule>
+	<Rule Name="Calc-DTI-Lien2" Id="89173" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-DefaultDTI-ZeroIncome" Id="80524" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-CurrentDTI" Id="79751" ConditionResult="True">
+		<DPM Name="DTI Current" Type="DPM">81113</DPM>
+		<DPM Name="DTI-Backend Before Mod" Type="DPM">51093</DPM>
+	</Rule>
+	<Rule Name="Calc-CurrentDTI-Msg" Id="79752" ConditionResult="False">
+	</Rule>
+	<Rule Name="Reset-CurrentPI" Id="80590" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-DTIThresholdReached" Id="80671" ConditionResult="True">
+		<DPM Name="DTI Threshold Reached" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Incomes Validation PLK.1" Id="90236" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.2" Id="90237" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.3" Id="90238" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.4" Id="90239" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.5" Id="90240" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.6" Id="90241" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.7" Id="90242" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.8" Id="90243" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.9" Id="90244" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.10" Id="90245" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.11" Id="90246" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.12" Id="90247" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.13" Id="90248" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.14" Id="90249" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.15" Id="90250" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.16" Id="90251" ConditionResult="False">
+	</Rule>
+	<Rule Name="Incomes Validation PLK.17" Id="90252" ConditionResult="False">
+	</Rule>
+	<Rule Name="Expenses Validation PLK.1" Id="90170" ConditionResult="False">
+	</Rule>
+	<Rule Name="Expenses Validation PLK.2" Id="90171" ConditionResult="False">
+	</Rule>
+	<Rule Name="Expenses Validation PLK.3" Id="90172" ConditionResult="False">
+	</Rule>
+	<Rule Name="Expenses Validation PLK.4" Id="90173" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-OriginalNetIncome" Id="73353" ConditionResult="True">
+		<DPM Name="Previous Mod Disposable Income" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-OriginalTotalIncome" Id="80591" ConditionResult="True">
+		<DPM Name="Previous Mod Total Income" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-OriginalNetIncome-NotZero" Id="73354" ConditionResult="True">
+		<DPM Name="Previous Mod Disposable Income" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-OriginalTotalIncome-NotZero" Id="80592" ConditionResult="True">
+		<DPM Name="Previous Mod Total Income" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Calc-MaterialChangeRate" Id="73355" ConditionResult="True">
+		<DPM Name="Target Material Change Rate" Type="DPM">0.25</DPM>
+		<DPM Name="Target Material Change Rate Tmp" Type="DPM">0.75</DPM>
+		<DPM Name="Material Change Rate Actual" Type="DPM">1</DPM>
+		<DPM Name="Material Change Rate" Type="DPM">0</DPM>
+		<DPM Name="Material Change Rate" Type="DPM">0</DPM>
+		<DPM Name="Target Material Change Rate" Type="DPM">25</DPM>
+	</Rule>
+	<Rule Name="Calc-LimitMaterialChangeRate" Id="80593" ConditionResult="False">
+	</Rule>
+	<Rule Name="MaterialChangeRate-SetToDefault" Id="79840" ConditionResult="True">
+		<DPM Name="Material Change Rate" Type="DPM">999.99</DPM>
+	</Rule>
+	<Rule Name="Calcd Declines PLK.1" Id="92433" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calcd Declines PLK.2" Id="92434" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.1" Id="92322" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.2" Id="92323" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.3" Id="92324" ConditionResult="True">
+		<Message Type="CONDITIONS" RuleId="92324" RulesetId="527" Id="237" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Letter Stating Financial Situation (Co-Borrower)  . ]]></Message>		<DPM Name="Additional Income Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Conditions2 PLK.4" Id="92325" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.5" Id="92326" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.6" Id="92327" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.7" Id="92328" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.8" Id="92329" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.9" Id="92330" ConditionResult="True">
+		<Message Type="CONDITIONS" RuleId="92330" RulesetId="527" Id="230" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Two (2) sequential pay stubs (dated within last 60 calendar days of the application date)  . ]]></Message>		<DPM Name="Wage Earner-Borrower" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Conditions2 PLK.10" Id="92331" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.11" Id="92332" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.12" Id="92333" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.13" Id="92334" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.14" Id="92335" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.15" Id="92336" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.16" Id="92337" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.17" Id="92338" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.18" Id="92339" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.19" Id="92340" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.20" Id="92341" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.21" Id="92342" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.22" Id="92343" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.23" Id="92344" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.24" Id="92345" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.25" Id="92346" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.26" Id="92347" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.27" Id="92348" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.28" Id="92349" ConditionResult="False">
+	</Rule>
+	<Rule Name="Conditions2 PLK.29" Id="92350" ConditionResult="True">
+		<Message Type="CONDITIONS" RuleId="92350" RulesetId="527" Id="249" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Death Certificate  . ]]></Message>		<DPM Name="Death Cert" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Conditions2 PLK.30" Id="92351" ConditionResult="True">
+		<Message Type="CONDITIONS" RuleId="92351" RulesetId="527" Id="250" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Other Documents (Use this button to upload any required documents that are not specifically listed above.) Alimony, child support, or separate maintenance income need NOT be revealed if you do NOT wish to have it considered as a basis for repaying this obligation.  . ]]></Message>	</Rule>
+	<Rule Name="Set-DisposableIncome-BeforeMod" Id="80376" ConditionResult="True">
+		<DPM Name="TDI-Before Mod" Type="DPM">-509.93</DPM>
+		<DPM Name="Disposable Income-At App" Type="DPM">-509.93</DPM>
+	</Rule>
+	<Rule Name="SetDocumentExpirationDate-FromMserv" Id="73359" ConditionResult="False">
+	</Rule>
+	<Rule Name="CalcDocumentExpirationDate" Id="73360" ConditionResult="True">
+		<DPM Name="Document Due Date" Type="DPM">3/12/2013 12:00:00 AM</DPM>
+		<DPM Name="Document Expiration Date" Type="DPM">3/22/2013 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="CalcForeclosureExpirationDate" Id="73361" ConditionResult="False">
+	</Rule>
+	<Rule Name="SetDocDueDate-FromMS" Id="80810" ConditionResult="False">
+	</Rule>
+	<Rule Name="OverrideDocDueDate" Id="73366" ConditionResult="False">
+	</Rule>
+	<Rule Name="SetDocDueDate-FromMS" Id="80810" ConditionResult="False">
+	</Rule>
+	<Rule Name="Document Declines PLK.1" Id="92373" ConditionResult="False">
+	</Rule>
+	<Rule Name="Document Declines PLK.2" Id="92374" ConditionResult="False">
+	</Rule>
+	<Rule Name="Document Declines PLK.3" Id="92375" ConditionResult="False">
+	</Rule>
+	<Rule Name="Document Declines PLK.4" Id="92376" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.1" Id="88088" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.2" Id="88089" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.3" Id="88090" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.4" Id="88091" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.5" Id="88092" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Setup PLK.6" Id="88093" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVOutputs PLK.1" Id="88087" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.1" Id="88063" ConditionResult="True">
+		<DPM Name="Status" Type="DPM"></DPM>
+		<DPM Name="VersionID" Type="DPM">0</DPM>
+		<DPM Name="Case Number" Type="DPM">205</DPM>
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Portfolio" Type="DPM">HMS</DPM>
+		<DPM Name="ARM Flag" Type="DPM">0</DPM>
+		<DPM Name="Zipcode" Type="DPM">29031</DPM>
+		<DPM Name="State" Type="DPM">SC</DPM>
+		<DPM Name="Origination Date" Type="DPM">5/21/1998 12:00:00 AM</DPM>
+		<DPM Name="Origination Property Value" Type="DPM">50500</DPM>
+		<DPM Name="Current Interest Rate" Type="DPM">12.39</DPM>
+		<DPM Name="Principal Balance" Type="DPM">43128.68</DPM>
+		<DPM Name="Delinquency Status" Type="DPM">3</DPM>
+		<DPM Name="Remaining Term" Type="DPM">184</DPM>
+		<DPM Name="Current Unpaid Balance" Type="DPM">44350.71</DPM>
+		<DPM Name="FICO" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income" Type="DPM">1</DPM>
+		<DPM Name="Property Taxes" Type="DPM">1</DPM>
+		<DPM Name="Home Owners Insurance Pmt" Type="DPM">1</DPM>
+		<DPM Name="HOA Expense" Type="DPM">0</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">Y</DPM>
+		<DPM Name="Todays Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Account Number" Type="DPM">0084225749</DPM>
+		<DPM Name="Application Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+		<DPM Name="EscrowCapAmt" Type="DPM">150</DPM>
+		<DPM Name="EscrowNoCapAmt" Type="DPM">150</DPM>
+		<DPM Name="BPO Value" Type="DPM">63900</DPM>
+		<DPM Name="PCO Amount" Type="DPM">30670</DPM>
+		<DPM Name="Servicing Advances" Type="DPM">136.22</DPM>
+		<DPM Name="Deferred Interest" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.2" Id="88064" ConditionResult="True">
+		<DPM Name="Status" Type="DPM"></DPM>
+		<DPM Name="VersionID" Type="DPM">0</DPM>
+		<DPM Name="Case Number" Type="DPM">205</DPM>
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Portfolio" Type="DPM">HMS</DPM>
+		<DPM Name="ARM Flag" Type="DPM">0</DPM>
+		<DPM Name="Zipcode" Type="DPM">29031</DPM>
+		<DPM Name="State" Type="DPM">SC</DPM>
+		<DPM Name="Origination Date" Type="DPM">5/21/1998 12:00:00 AM</DPM>
+		<DPM Name="Origination Property Value" Type="DPM">50500</DPM>
+		<DPM Name="Current Interest Rate" Type="DPM">12.39</DPM>
+		<DPM Name="Principal Balance" Type="DPM">43128.68</DPM>
+		<DPM Name="Delinquency Status" Type="DPM">3</DPM>
+		<DPM Name="Remaining Term" Type="DPM">184</DPM>
+		<DPM Name="Current Unpaid Balance" Type="DPM">44350.71</DPM>
+		<DPM Name="FICO" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income" Type="DPM">1</DPM>
+		<DPM Name="Property Taxes" Type="DPM">1</DPM>
+		<DPM Name="Home Owners Insurance Pmt" Type="DPM">1</DPM>
+		<DPM Name="HOA Expense" Type="DPM">0</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">Y</DPM>
+		<DPM Name="Todays Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Account Number" Type="DPM">0084225749</DPM>
+		<DPM Name="Application Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.3" Id="88065" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.4" Id="88066" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.5" Id="88067" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.6" Id="88068" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.7" Id="88069" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.8" Id="88070" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-NPVInputs PLK.9" Id="88071" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.1" Id="88072" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.2" Id="88073" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.3" Id="88074" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.4" Id="88075" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.5" Id="88076" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">60DaysDelinquent</DPM>
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.6" Id="88077" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.7" Id="88078" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.8" Id="88079" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.9" Id="88080" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.10" Id="88081" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.11" Id="88082" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">3</DPM>
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.12" Id="88083" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.13" Id="88084" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.14" Id="88085" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Apply Locked Values PLK.15" Id="88086" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.1" Id="88023" ConditionResult="True">
+		<DPM Name="NPV Inputs Valid" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.2" Id="88024" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.3" Id="88025" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.4" Id="88026" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.5" Id="88027" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.6" Id="88028" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.7" Id="88029" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.8" Id="88030" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.9" Id="88031" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.10" Id="88032" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.11" Id="88033" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.12" Id="88034" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.13" Id="88035" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.14" Id="88036" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.15" Id="88037" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.16" Id="88038" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.17" Id="88039" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.18" Id="88040" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.19" Id="88041" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.20" Id="88042" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.21" Id="88043" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.22" Id="88044" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.23" Id="88045" ConditionResult="False">
+	</Rule>
+	<Rule Name="NPV Inputs Validation PLK.24" Id="88046" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-IsNPVStage" Id="80079" ConditionResult="False">
+		<DPM Name="Is NPV Stage" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set-IsEligibilityStage" Id="87205" ConditionResult="True">
+		<DPM Name="Is Eligibility Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-NPVRunType-PWDEligible" Id="87206" ConditionResult="True">
+		<DPM Name="NPVRunType" Type="DPM">PWDEligible</DPM>
+	</Rule>
+	<Rule Name="Set-NPVRunType-Initial" Id="87207" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-NPVRunType-Final" Id="87208" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Locks" Id="80811" ConditionResult="True">
+		<DPM Name="ModificationTerm" Type="DPM"></DPM>
+		<DPM Name="NewPI" Type="DPM"></DPM>
+		<DPM Name="NewTerm" Type="DPM"></DPM>
+		<DPM Name="ForbearanceAmount" Type="DPM"></DPM>
+		<DPM Name="NewRate" Type="DPM"></DPM>
+		<DPM Name="Type Of Modification" Type="DPM"></DPM>
+		<DPM Name="VersionID" Type="DPM"></DPM>
+		<DPM Name="NPV Run Date" Type="DPM"></DPM>
+		<DPM Name="First Trial Period Payment Date" Type="DPM"></DPM>
+		<DPM Name="2nd Trial Period Payment Date" Type="DPM"></DPM>
+		<DPM Name="3rd Trial Period Payment Date" Type="DPM"></DPM>
+		<DPM Name="Expected Trial Period Payments Total" Type="DPM"></DPM>
+		<DPM Name="Length of Trial Period" Type="DPM"></DPM>
+		<DPM Name="Qual Payment Due Date Final" Type="DPM"></DPM>
+		<DPM Name="Trial Period Started" Type="DPM"></DPM>
+	</Rule>
+	<Rule Name="Set-Lock-NewBalance" Id="92541" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-Lock-PMMSInterestRate" Id="80812" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-RunNPVFlag" Id="80080" ConditionResult="True">
+		<DPM Name="RunNPVFlag" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-DefaultVersionID" Id="80113" ConditionResult="True">
+		<DPM Name="VersionID" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-NPVRunDate" Id="80114" ConditionResult="True">
+		<DPM Name="NPV Run Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="Calc-DODStatus" Id="80082" ConditionResult="True">
+		<DPM Name="DQ Status" Type="DPM">89</DPM>
+	</Rule>
+	<Rule Name="Set-DQStatusToFloor" Id="80112" ConditionResult="False">
+	</Rule>
+	<Rule Name="Temp-Set-DecisionDate" Id="80083" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-ForbearanceBeforeMod" Id="85113" ConditionResult="False">
+		<DPM Name="Forbearance Amount Before Mod" Type="DPM">0</DPM>
+		<DPM Name="NPV_DeferredPrincipal" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV-AdjustCurrentIR" Id="75479" ConditionResult="True">
+		<DPM Name="Current Interest Rate" Type="DPM">0.1239</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV-AdjustPMMSRate" Id="80084" ConditionResult="True">
+		<DPM Name="PMMS Rate" Type="DPM">0.0356</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV-AdjustPureRate" Id="80680" ConditionResult="True">
+		<DPM Name="Pure Interest Rate" Type="DPM">0.1239</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV-StoreDecimalRates" Id="85018" ConditionResult="True">
+		<DPM Name="Decimal Pure Interest Rate" Type="DPM">0.1239</DPM>
+		<DPM Name="Decimal Current Interest Rate" Type="DPM">0.1239</DPM>
+	</Rule>
+	<Rule Name="Set-ProductType" Id="80527" ConditionResult="False">
+		<DPM Name="Product" Type="DPM">RE</DPM>
+	</Rule>
+	<Rule Name="Set-DQFunds" Id="87209" ConditionResult="True">
+		<DPM Name="Corporate Advances For Taxes" Type="DPM">0</DPM>
+		<DPM Name="Corporate Advances For Insurance" Type="DPM">1222.03</DPM>
+		<DPM Name="DQ Taxes And Ins" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set-NPV-PWDEligible" Id="87213" ConditionResult="False">
+		<DPM Name="PWDEligible" Type="DPM">1</DPM>
+		<DPM Name="CodeVersionId" Type="DPM">2</DPM>
+	</Rule>
+	<Rule Name="Set-NPV-LockedPWD_Eligible-Y" Id="87214" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-NPV-LockedPWD_Eligible-N" Id="87215" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-NPV-PWDEligible-PreviousTypeOfMod" Id="88166" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-SetNpvTemps" Id="88501" ConditionResult="True">
+		<DPM Name="NPV_CorpAdvancesTaxes" Type="DPM">0</DPM>
+		<DPM Name="NPV_CorpAdvancesIns" Type="DPM">1222.03</DPM>
+		<DPM Name="NPV_DeferredInterest" Type="DPM">5923.91</DPM>
+		<DPM Name="NPV_EscrowAmountDQ" Type="DPM">0</DPM>
+		<DPM Name="NPV_DQTaxesAndIns" Type="DPM">0</DPM>
+		<DPM Name="NPV_ServicingAdvances" Type="DPM">136.22</DPM>
+		<DPM Name="NPV_FullReinstatementAmount" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV-SetNPVTemps-FC-Taxes" Id="89174" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-SetNPVTemps-FC-Taxes2" Id="89175" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-SetNPVTemps-FC-Ins" Id="89176" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-SetNPVTemps-FC-Ins-Floor" Id="89177" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-SetNpvTemps-TX" Id="88502" ConditionResult="False">
+	</Rule>
+	<Rule Name="Calc-NPV-DumpInputValues" Id="75902" ConditionResult="True">
+		<DPM Name="Temp Number" Type="DPM">54</DPM>
+		<DPM Name="VersionID" Type="DPM">0</DPM>
+		<DPM Name="Case Number" Type="DPM">205</DPM>
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Portfolio" Type="DPM">HMS</DPM>
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+		<DPM Name="ARM Flag" Type="DPM">0</DPM>
+		<DPM Name="Zipcode" Type="DPM">29031</DPM>
+		<DPM Name="State" Type="DPM">SC</DPM>
+		<DPM Name="Origination Date" Type="DPM">5/21/1998 12:00:00 AM</DPM>
+		<DPM Name="Origination Property Value" Type="DPM">50500</DPM>
+		<DPM Name="Current Interest Rate" Type="DPM">0.1239</DPM>
+		<DPM Name="PI" Type="DPM">507.93</DPM>
+		<DPM Name="Principal Balance" Type="DPM">43128.68</DPM>
+		<DPM Name="DQ Status" Type="DPM">89</DPM>
+		<DPM Name="Remaining Term" Type="DPM">184</DPM>
+		<DPM Name="Months on Book" Type="DPM">177</DPM>
+		<DPM Name="Capitalized Balance" Type="DPM">1222.03</DPM>
+		<DPM Name="FICO" Type="DPM">0</DPM>
+		<DPM Name="Monthly Gross Income" Type="DPM">1</DPM>
+		<DPM Name="Escrow Monthly Amount" Type="DPM">150</DPM>
+		<DPM Name="HomeOwners Insurance" Type="DPM">0</DPM>
+		<DPM Name="HOA Expense" Type="DPM">0</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">Y</DPM>
+		<DPM Name="TDR Flag Actual" Type="DPM">0</DPM>
+		<DPM Name="Decision Date" Type="DPM">2/25/2013 12:00:00 AM</DPM>
+		<DPM Name="Account Number" Type="DPM">0084225749</DPM>
+		<DPM Name="App Date" Type="DPM">2/25/2013 1:23:44 PM</DPM>
+		<DPM Name="Product" Type="DPM">RE</DPM>
+		<DPM Name="PMMS Rate" Type="DPM">0.0356</DPM>
+		<DPM Name="RunNPVFlag" Type="DPM">0</DPM>
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+		<DPM Name="Pure PI Payment" Type="DPM">0</DPM>
+		<DPM Name="Pure Interest Rate" Type="DPM">0.1239</DPM>
+		<DPM Name="EscrowCapAmt" Type="DPM">150</DPM>
+		<DPM Name="EscrowNoCapAmt" Type="DPM">150</DPM>
+		<DPM Name="Ancillary Amount" Type="DPM">153.2</DPM>
+		<DPM Name="Forbearance Amount Before Mod" Type="DPM">0</DPM>
+		<DPM Name="NPV_DeferredInterest" Type="DPM">5923.91</DPM>
+		<DPM Name="NPV_DeferredPrincipal" Type="DPM">0</DPM>
+		<DPM Name="NPV_ServicingAdvances" Type="DPM">136.22</DPM>
+		<DPM Name="NPV_CorpAdvancesTaxes" Type="DPM">0</DPM>
+		<DPM Name="NPV_CorpAdvancesIns" Type="DPM">1222.03</DPM>
+		<DPM Name="NPV_EscrowAmountDQ" Type="DPM">0</DPM>
+		<DPM Name="BPO Value" Type="DPM">63900</DPM>
+		<DPM Name="PCO Amount" Type="DPM">30670</DPM>
+		<DPM Name="TDR Type" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Status" Type="DPM">N</DPM>
+		<DPM Name="NPV_DQTaxesAndIns" Type="DPM">0</DPM>
+		<DPM Name="PWDEligible" Type="DPM">1</DPM>
+		<DPM Name="CodeVersionId" Type="DPM">2</DPM>
+		<DPM Name="NPVRunType" Type="DPM">PWDEligible</DPM>
+		<DPM Name="PWD Start Date" Type="DPM">8/27/2012 12:00:00 AM</DPM>
+	</Rule>
+	<Rule Name="Calc-NPV" Id="73159" ConditionResult="True">
+		<DPM Name="Zipcode" Type="DPM">29031</DPM>
+		<DPM Name="Temp Number" Type="DPM">54</DPM>
+		<DPM Name="Temp PI" Type="DPM">0</DPM>
+	</Rule>
+</Rules>
+<Error>
+          <Description>Error during execution of Ruleset: CalcNPV--Error during execution of Rule: Calc-NPV--NPVModel01():: The following parameter cannot be null:- (NewBalance)</Description>
+          <Guideline>FAP II Loan Modification Program Guideline</Guideline>
+          <Rule>Calc-NPV</Rule>
+          <Ruleset>CalcNPV</Ruleset>
+     </Error></Decision>
+</PRODUCT_DATA>
