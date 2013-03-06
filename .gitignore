@@ -7,3 +7,7 @@
 
 # Dir to ignore
 pkg/
+test/data/output/
+test/data/output-webdecision/
+test/data/pdconfig.yml
+tmp/

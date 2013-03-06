@@ -1,0 +1,8 @@
+break c:/Users/Jeff/ams/tools/ruby/parsedecision/lib/parsedecision/parser.rb:245
+break c:/Users/Jeff/ams/tools/ruby/parsedecision/lib/parsedecision/parser.rb:248 if tmp==12
+break c:/opt/bin/Ruby192/lib/ruby/gems/1.9.1/gems/parsedecision-0.0.2/lib/parsedecision/plugin.rb:177
+set autoeval on
+set basename off
+set debuggertesting off
+set autolist on
+set autoirb off

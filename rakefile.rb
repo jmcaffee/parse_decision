@@ -187,6 +187,7 @@ task :test => [:init] do
     return
   end
   $stderr.puts 'Running tests...'
+  TESTDIR = "test"
   begin
     require 'test/unit'
   rescue LoadError

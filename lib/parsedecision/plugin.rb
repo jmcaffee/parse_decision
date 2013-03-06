@@ -152,11 +152,15 @@ module Plugin
       @searchStrPpms    = "<PARAMS><_DATA_SET"
       @searchStrGdl     = "<Guideline "
       @searchStrGdlEnd  = "<Decision GuidelineId"
+      @searchRulesEnd   = "</Decision>"
       @ppmData      = ""
       @ruleData     = []
-      
+
       @openTag      = "<@TAG@_DATA>\n"
       @closeTag     = "</@TAG@_DATA>\n"
+      @actualCloseTag = ""
+      @lineCount    = 0
+      @chunkSize    = 1000
     end
 
     def execute(context, ln)
@@ -182,27 +186,46 @@ module Plugin
           gdlName = context.createValidName(gdlName)
         end
 
-        outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@GDL@"=>gdlName})
-          
-        puts "Creating Gdl Rules file: #{outfile}" if context.verbose
+        @outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@GDL@"=>gdlName})
         
-        File.open(context.outputPath(outfile), "w") do |f|
+        # Store the closing tag for later.
+        @actualCloseTag = applyTemplate(@closeTag, "@TAG@", gdlName)
+
+        puts "Creating Gdl Rules file: #{@outfile}" if context.verbose
+
+        File.open(context.outputPath(@outfile), "w") do |f|
           write_to_file(f, applyTemplate(@openTag, "@TAG@", gdlName))
           write_to_file(f,@ppmData)
+        end
+        return true
+      elsif((context.state == :preDecisionGdl) && ln.include?(@searchRulesEnd))
+        @ruleData << ln
+
+        File.open(context.outputPath(@outfile), "a") do |f|
           write_to_file(f,@ruleData)
-          write_to_file(f, applyTemplate(@closeTag, "@TAG@", gdlName))
+          write_to_file(f, @actualCloseTag)
         end
         context.state = :app
         return true
       elsif(context.state == :preDecisionGdl)
         @ruleData << ln
+        @lineCount += 1
+
+        if(@lineCount > @chunkSize)
+          puts "Writing rule data chunk." if context.verbose
+          File.open(context.outputPath(@outfile), "a") do |f|
+            write_to_file(f,@ruleData)
+          end
+          @lineCount = 0
+          @ruleData.clear
+        end
         return true
       end
       return false
     end
   end # class PreDecisionGuideline
 
-  
+
   ## #######################################################################
   # Product XPath plugin
   class ProductXpath < Plugin
@@ -218,13 +241,13 @@ module Plugin
         context.state = :productXpath
         return true
       end
-        
+
       if((context.state == :productXpath) && ln.include?(@searchStr2))
         context.state = :app
         context[:productXpath] = ln
         return true
       end
-      
+
       if(context.state == :productXpath)
         # Probably a blank line. Claim it so we don't waste anyone else's time.
         return true
@@ -234,15 +257,15 @@ module Plugin
     end
   end # class ProductXpath
 
-  
+
 
   ## #######################################################################
   # Product info plugin
   class Product < Plugin
     attr_reader :data
-    
+
     def initialize()
-        $LOG.debug "Product::initialize"
+      $LOG.debug "Product::initialize"
       @fnameTemplate  = "@INDEX@-@PROD@-PRODUCT.xml"
       @searchStr1   = "<PRODUCTS><PRODUCT"
       @searchStr2   = "<PARAMS><_DATA_SET"
@@ -288,10 +311,10 @@ module Plugin
         @data.clear
         return true
       end
-      
+
       if((context.state == :productXml) && ln.include?(@searchStr2))
         context.state = :productPpms
-        
+
         # XML Tidy doesn't like underscores at the beginning attribute names, take care of it here.
         ln.gsub!(/_DATA_SET/, "DATA_SET")
         ln.gsub!(/_Name/, "Name")
@@ -300,33 +323,33 @@ module Plugin
         @data << ln
         return true
       end
-      
+
       if((context.state == :productPpms) && (ln.include?(@ruleStartStr) || ln.include?(@gdlStartStr)))
         context.state = :productRules
-        
+
         @data << ln
         return true
       end
-      
+
       if((context.state == :productRules) && !ln.include?(@stopStr))
         @data << ln
         @lineCount += 1
-        
+
         if(@lineCount > @chunkSize)
           puts "Writing rule data chunk." if context.verbose
           File.open(context.outputPath(@outfile), "a") do |f|
-            write_to_file(f,data)
+            write_to_file(f,@data)
           end
           @lineCount = 0
           @data.clear
         end
         return true
       end
-      
+
       if((context.state == :productRules) && ln.include?(@stopStr))
         @data << ln
         @lineCount += 1
-        
+
         puts "Closing product file." if context.verbose
         File.open(context.outputPath(@outfile), "a") do |f|
           write_to_file(f,@data)
@@ -335,22 +358,22 @@ module Plugin
         @lineCount = 0
         @data.clear
         context.state = :app
-        
+
         return true
       end
-      
+
       return false
     end
-    
-    
+
+
   end # class Product
 
-  
+
   ## #######################################################################
   # Product info plugin - specific to webdecisions
   class WebProduct < Plugin
     attr_reader :data
-    
+
     def initialize()
         $LOG.debug "WebProduct::initialize"
       @fnameTemplate  = "@INDEX@-@PROD@-PRODUCT.xml"
@@ -358,10 +381,10 @@ module Plugin
       @ruleStartStr   = "<Rules>"
       @gdlStartStr  = "<Decision GuidelineId"
       @stopStr    = "</Decision>"
-      
+
       @openProgramNameDpm = '>'
       @closeProgramNameDpm = '</DPM>'
-      
+
 
       @data       = []
       @outfile    = ""
@@ -380,8 +403,8 @@ module Plugin
     def productIndexStr()
       return "%02d" % @productIndex
     end
-    
-    
+
+
     def execute(context, ln)
         #$LOG.debug "WebProduct::execute"
       if((context.state == :app) && ln.include?(@ruleStartStr))
@@ -390,12 +413,12 @@ module Plugin
         @outfile = ""
         context["programNameFound"] = false
         context["productName"]    = ""
-        
+
         if(!@appIndex.eql?(context.indexStr))
           @productIndex = 1
           @appIndex = context.indexStr
         end
-        
+
         product = "Product" + productIndexStr()
         @productIndex += 1
         @product = context.createValidName(product)
@@ -413,23 +436,23 @@ module Plugin
         @data.clear
         return true
       end
-      
+
       if((context.state == :gdlRules))
         context.state = :productRules
-        
+
         @data << ln
         return true
       end
-      
+
       if((context.state == :productRules) && !ln.include?(@stopStr))
         if(ln.include?("----"))       # Skip comment lines (they are not valid XML).
           commentLine = ln.slice(0,4)
           return true if(commentLine.include?("----"))
         end
-        
+
         @data << ln
         @lineCount += 1
-        
+
         if(!context["programNameFound"])
           if(ln.include?('Name="Program Name"'))
             productName = getSubString(ln, @openProgramNameDpm, @closeProgramNameDpm)
@@ -439,7 +462,7 @@ module Plugin
 
           end # if ln.include?
         end # if !context["programNameFound"]
-        
+
         if(@lineCount > @chunkSize)
           puts "Writing rule data chunk." if context.verbose
           File.open(context.outputPath(@outfile), "a") do |f|
@@ -450,11 +473,11 @@ module Plugin
         end
         return true
       end
-      
+
       if((context.state == :productRules) && ln.include?(@stopStr))
         @data << ln
         @lineCount += 1
-        
+
         puts "Closing product file." if context.verbose
         File.open(context.outputPath(@outfile), "a") do |f|
           write_to_file(f,@data)
@@ -468,45 +491,45 @@ module Plugin
         if(context["programNameFound"])
           pname = context.createValidName(context["productName"])
           newFileName = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>pname})
-          
+
           renameFile(context, @outfile, newFileName)
         end # if context["programNameFound"]
-        
+
         context["programNameFound"] = false
-        
+
         return true
       end
-      
+
       return false
     end
-    
-    
+
+
     def getSubString(haystack, startDelim, stopDelim)   
         #$LOG.debug "WebProduct::getSubString( #{haystack}, #{startDelim}, #{stopDelim} )"
         #puts "WebProduct::getSubString()" # #{haystack}, #{startDelim}, #{stopDelim} )"
         #puts "    haystack: #{haystack}"
         #puts "  startDelim: #{startDelim}"
         #puts "   stopDelim: #{stopDelim}"
-        
+
       start   = haystack.index(startDelim)
         #puts "       start: " + (start.nil? ? "nil" : "#{start}")
       return if start.nil?
-      
+
       start += startDelim.size
       stop  = haystack.rindex(stopDelim)
-      
+
       res   = haystack[start,(stop - start)]
     end # getSubString
-    
-    
+
+
     def renameFile(context, srcFileName, destFileName)    
       puts "Renaming #{srcFileName} => #{destFileName}" if context.verbose
       FileUtils.mv(context.outputPath(srcFileName), context.outputPath(destFileName))
     end # renameFile
-    
-    
+
+
   end # class WebProduct
-  
+
 end # module Plugin
 
 end # module ParseDecision
