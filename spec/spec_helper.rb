@@ -16,6 +16,7 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
+require 'rspec/given'
 require_relative '../lib/parsedecision'
 require 'pathname'
 
@@ -26,4 +27,14 @@ def file_to_array(filepath)
   end
   dump
 end
+
+  def create_context( _state=nil, _index=0 )
+    ctx = ParseDecision::PDContext.new
+    ctx.outdir = 'tmp/spec'
+    ctx.state = _state
+    _index.times { ctx.nextIndex() }
+    ctx.verbose = true
+    ctx
+  end
+
 

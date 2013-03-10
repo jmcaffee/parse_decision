@@ -83,6 +83,13 @@ module ParseDecision
     end
 
 
+    # Set source file and dir path
+    def src_file=(file)
+      fp = Pathname.new(file)
+      @srcdir = fp.dirname.to_s
+      @file = fp.basename.to_s
+    end
+
     # Set the source dir path.
     def srcdir=(dir)
       @srcdir = File.rubypath(dir) unless nil == dir
@@ -109,12 +116,10 @@ module ParseDecision
 
 
     def state=(nextState)
-      if((availableStates).include?(nextState))
-        @state = nextState
-        puts "STATE: #{nextState.to_s}" if $DEBUG
-      else
-        puts "ERROR: Unknown state change requested to unknown state: #{nextState.to_s}"
-      end
+      raise "Invalid target state: #{nextState.to_s}" unless availableStates.include? nextState
+
+      @state = nextState
+      puts "STATE: #{nextState.to_s}" if $DEBUG
     end
 
     def nextIndex()

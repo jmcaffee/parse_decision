@@ -3,7 +3,7 @@ require 'spec_helper'
 describe ParseDecision::Parser do
 
     let(:parser) { ParseDecision::Parser.new }
-    let(:outdir) { 'tmp/spec' }
+    let(:outdir) { 'tmp/spec/parser' }
     let(:wfsrc_log) { 'spec/data/wf.decision.txt' }
 
     before :each do
@@ -19,9 +19,9 @@ describe ParseDecision::Parser do
     expect { parser.parseFile(wfsrc_log) }.to raise_error("outdir missing")
   end
 
-    let(:wfrules_output)  { 'tmp/spec/01-WF-DataClearing-Pre-Rules.xml' }
-    let(:wfapp_output)    { 'tmp/spec/01-APP.xml' }
-    let(:wflog_output)    { 'tmp/spec/wf.decision.txt' }
+    let(:wfrules_output)  { outdir+'/01-WF-DataClearing-Pre-Rules.xml' }
+    let(:wfapp_output)    { outdir+'/01-APP.xml' }
+    let(:wflog_output)    { outdir+'/wf.decision.txt' }
 
     let(:wfrules_file)    { Pathname.new wfrules_output }
     let(:wfapp_file)      { Pathname.new wfapp_output }
@@ -65,9 +65,9 @@ describe ParseDecision::Parser do
 
     let(:src_log)       { 'spec/data/prod.decision.txt' }
 
-    let(:log_output)    { 'tmp/spec/prod.decision.txt' }
-    let(:app_output)    { 'tmp/spec/02-APP.xml' }
-    let(:rules_output)  { 'tmp/spec/02-FAPIILoanModification-PRODUCT.xml' }
+    let(:log_output)    { outdir+'/prod.decision.txt' }
+    let(:app_output)    { outdir+'/02-APP.xml' }
+    let(:rules_output)  { outdir+'/02-FAPIILoanModification-PRODUCT.xml' }
 
       # Reference files
       let(:app_reference)     { 'spec/data/reference/product/02-APP.xml' }
@@ -98,9 +98,9 @@ describe ParseDecision::Parser do
 
     let(:src_log)       { 'spec/data/prod.decision.txt' }
 
-    let(:log_output)    { 'tmp/spec/prod.decision.txt' }
-    let(:app_output)    { 'tmp/spec/01-APP.xml' }
-    let(:rules_output)  { 'tmp/spec/01-Validation-Rules.xml' }
+    let(:log_output)    { outdir+'/prod.decision.txt' }
+    let(:app_output)    { outdir+'/01-APP.xml' }
+    let(:rules_output)  { outdir+'/01-Validation-Rules.xml' }
 
       # Reference files
       let(:app_reference)     { 'spec/data/reference/product/01-APP.xml' }

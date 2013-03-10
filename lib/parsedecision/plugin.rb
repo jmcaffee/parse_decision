@@ -1,7 +1,7 @@
 ##############################################################################
 # File:: plugin.rb
 # Purpose:: Plugin objects for ParseDecision utility
-# 
+#
 # Author::    Jeff McAffee 04/17/2010
 # Copyright:: Copyright (c) 2010, kTech Systems LLC. All rights reserved.
 # Website::   http://ktechsystems.com
@@ -45,11 +45,11 @@ module Plugin
       $LOG.debug "Plugin::initialize"
     end
 
-    def applyTemplate(template, pattern, replacement)
+    def apply_template(template, pattern, replacement)
       output = template.gsub(pattern, replacement)
     end
 
-    def applyTemplates(template, repPatterns)
+    def apply_templates(template, repPatterns)
       output = template
       repPatterns.each do |p,r|
         output = output.gsub(p, r)
@@ -91,7 +91,7 @@ module Plugin
       if(ln.include?(@searchStr))
         context.nextIndex
         context.state = :app
-        outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.indexStr)
+        outfile = apply_template(@fnameTemplate, "@INDEX@", context.indexStr)
         puts "" if context.verbose
         puts "= = = = = = = = = = = = = = = = = = = = = = = = = = = =" if context.verbose
         puts "" if context.verbose
@@ -118,12 +118,13 @@ module Plugin
 
     def execute(context, ln)
      #$LOG.debug "PpmXpath::execute"
+     #require 'pry'; binding.pry
       if((context.state == :app) && ln.include?(@searchStr1))
         context.state = :appPpmXpath
         return true
       elsif((context.state == :appPpmXpath) && ln.include?(@searchStr2))
         context.state = :app
-        outfile = applyTemplate(@fnameTemplate, "@INDEX@", context.indexStr)
+        outfile = apply_template(@fnameTemplate, "@INDEX@", context.indexStr)
         puts "Creating App XML XPath file: #{outfile}" if context.verbose
         File.open(context.outputPath(outfile), "w") do |f|
           write_to_file(f,ln)
@@ -145,6 +146,7 @@ module Plugin
   class PreDecisionGuideline < Plugin
 
     attr_reader :ppmData
+    attr_reader :outfile
 
     def initialize()
       $LOG.debug "PreDecisionGuideline::initialize"
@@ -161,6 +163,7 @@ module Plugin
       @actualCloseTag = ""
       @lineCount    = 0
       @chunkSize    = 1000
+      @outfile      = "PreDecision"
     end
 
     def execute(context, ln)
@@ -179,22 +182,26 @@ module Plugin
         return true
       elsif((context.state == :preDecisionGdl) && ln.include?(@searchStrGdlEnd))
         @ruleData << ln
+
+        # Default guideline name
         gdlName = "PreDecision"
-        match = ln.match /\sGuidelineName="([^"]+)/
-        if(match && match.length > 1)
-          gdlName = match[1]
+
+        # String#match acts weird so using RegEx/MatchData here.
+        m = /\sGuidelineName="([^"]+)/.match(ln)
+        if m[1].length > 1
+          gdlName = m[1]
           gdlName = context.createValidName(gdlName)
         end
 
-        @outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@GDL@"=>gdlName})
-        
+        @outfile = apply_templates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@GDL@"=>gdlName})
+
         # Store the closing tag for later.
-        @actualCloseTag = applyTemplate(@closeTag, "@TAG@", gdlName)
+        @actualCloseTag = apply_template(@closeTag, "@TAG@", gdlName)
 
         puts "Creating Gdl Rules file: #{@outfile}" if context.verbose
 
         File.open(context.outputPath(@outfile), "w") do |f|
-          write_to_file(f, applyTemplate(@openTag, "@TAG@", gdlName))
+          write_to_file(f, apply_template(@openTag, "@TAG@", gdlName))
           write_to_file(f,@ppmData)
         end
         return true
@@ -266,6 +273,7 @@ module Plugin
 
     def initialize()
       $LOG.debug "Product::initialize"
+      puts "! Product::initialize"
       @fnameTemplate  = "@INDEX@-@PROD@-PRODUCT.xml"
       @searchStr1   = "<PRODUCTS><PRODUCT"
       @searchStr2   = "<PARAMS><_DATA_SET"
@@ -275,7 +283,6 @@ module Plugin
       @stopStr    = "</Decision>"
 
       @data       = []
-      @outfile    = ""
       @openTag    = "<@TAG@_DATA>\n"
       @closeTag   = "</@TAG@_DATA>\n"
       @openTag    = "<PRODUCT_DATA>\n"
@@ -284,14 +291,20 @@ module Plugin
       @chunkSize    = 1000
       @product    = ""
 
+      set_outfile( "" )
+    end
+
+    def set_outfile( outfile )
+      @outfile = outfile
     end
 
     def execute(context, ln)
         #$LOG.debug "Product::execute"
+
       if((context.state == :app) && ln.include?(@searchStr1))
         context.state = :productXml
         @data.clear
-        @outfile = ""
+        set_outfile( "" )
 
         match = ln.match /\sName="([^"]+)/
         product = "UnkProduct"
@@ -299,11 +312,11 @@ module Plugin
           product = match[1]
         end
         @product = context.createValidName(product)
-        @outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
+        set_outfile( apply_templates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product}) )
         puts "Creating product file: #{@outfile}" if context.verbose
         @data << ln
         File.open(context.outputPath(@outfile), "w") do |f|
-          write_to_file(f,@openTag)         # applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+          write_to_file(f,@openTag)         # apply_template(@openTag, "@TAG@", context.createValidName(@product))
           #debugger
           write_to_file(f,context[:productXpath] ) if ! context[:productXpath].nil?
           write_to_file(f,@data)
@@ -350,10 +363,10 @@ module Plugin
         @data << ln
         @lineCount += 1
 
-        puts "Closing product file." if context.verbose
+        puts "Closing product file #{@outfile}." if context.verbose
         File.open(context.outputPath(@outfile), "a") do |f|
           write_to_file(f,@data)
-          write_to_file(f,@closeTag)      # applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+          write_to_file(f,@closeTag)      # apply_template(@closeTag, "@TAG@", context.createValidName(@product))
         end
         @lineCount = 0
         @data.clear
@@ -422,14 +435,14 @@ module Plugin
         product = "Product" + productIndexStr()
         @productIndex += 1
         @product = context.createValidName(product)
-        @outfile = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
+        @outfile = apply_templates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>@product})
         puts "" if context.verbose
         puts "- + - + - + -" if context.verbose
         puts "" if context.verbose
         puts "Creating product file: #{@outfile}" if context.verbose
         @data << ln
         File.open(context.outputPath(@outfile), "w") do |f|
-          write_to_file(f,@openTag)     # applyTemplate(@openTag, "@TAG@", context.createValidName(@product))
+          write_to_file(f,@openTag)     # apply_template(@openTag, "@TAG@", context.createValidName(@product))
           write_to_file(f,context[:productXpath]) if ! context[:productXpath].nil?
           write_to_file(f,@data)
         end
@@ -481,7 +494,7 @@ module Plugin
         puts "Closing product file." if context.verbose
         File.open(context.outputPath(@outfile), "a") do |f|
           write_to_file(f,@data)
-          write_to_file(f,@closeTag)    # applyTemplate(@closeTag, "@TAG@", context.createValidName(@product))
+          write_to_file(f,@closeTag)    # apply_template(@closeTag, "@TAG@", context.createValidName(@product))
         end
         @lineCount = 0
         @data.clear
@@ -490,7 +503,7 @@ module Plugin
 
         if(context["programNameFound"])
           pname = context.createValidName(context["productName"])
-          newFileName = applyTemplates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>pname})
+          newFileName = apply_templates(@fnameTemplate, {"@INDEX@"=>context.indexStr, "@PROD@"=>pname})
 
           renameFile(context, @outfile, newFileName)
         end # if context["programNameFound"]
@@ -504,7 +517,7 @@ module Plugin
     end
 
 
-    def getSubString(haystack, startDelim, stopDelim)   
+    def getSubString(haystack, startDelim, stopDelim)
         #$LOG.debug "WebProduct::getSubString( #{haystack}, #{startDelim}, #{stopDelim} )"
         #puts "WebProduct::getSubString()" # #{haystack}, #{startDelim}, #{stopDelim} )"
         #puts "    haystack: #{haystack}"
@@ -522,7 +535,7 @@ module Plugin
     end # getSubString
 
 
-    def renameFile(context, srcFileName, destFileName)    
+    def renameFile(context, srcFileName, destFileName)
       puts "Renaming #{srcFileName} => #{destFileName}" if context.verbose
       FileUtils.mv(context.outputPath(srcFileName), context.outputPath(destFileName))
     end # renameFile
