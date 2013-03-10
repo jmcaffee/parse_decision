@@ -26,10 +26,28 @@ module Plugin
     def execute(context, ln)
      #$LOG.debug "PpmXpath::execute"
      #require 'pry'; binding.pry
-      if((context.state == :app) && ln.include?(@searchStr1))
+     case context.state
+     when :app
+       return is_ppm_xpath context, ln
+
+     when :appPpmXpath
+       return store_xpath_content context, ln
+
+     else
+       return false
+     end # case
+    end
+
+    def is_ppm_xpath(context,ln)
+      if ln.include?(@searchStr1)
         context.state = :appPpmXpath
         return true
-      elsif((context.state == :appPpmXpath) && ln.include?(@searchStr2))
+      end
+      return false
+    end
+
+    def store_xpath_content(context, ln)
+      if ln.include?(@searchStr2)
         context.state = :app
         outfile = apply_template(@fnameTemplate, "@INDEX@", context.indexStr)
         puts "Creating App XML XPath file: #{outfile}" if context.verbose
@@ -37,13 +55,12 @@ module Plugin
           write_to_file(f,ln)
         end
         return true
-      elsif(context.state == :appPpmXpath)
-        # Is probably an empty line.
-        # Return true since we're in the xpath state and there is no need for
-        # any other plugin to handle this line.
-        return true
       end
-      return false
+
+      # This is probably an empty line.
+      # Return true since we're in the xpath state and there is no need for
+      # any other plugin to handle this line.
+      return true
     end
   end # class PpmXpath
 
