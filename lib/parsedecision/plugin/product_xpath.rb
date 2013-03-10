@@ -31,6 +31,8 @@ module Plugin
 
       if((context.state == :productXpath) && ln.include?(@searchStr2))
         context.state = :app
+        # We just store the product xpath in the context so it can
+        # be incorporated into the product rules file later.
         context[:productXpath] = ln
         return true
       end
