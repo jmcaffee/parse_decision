@@ -66,16 +66,40 @@ module Plugin
       if ln.include?(@searchStrGdl)
         context.state = :preDecisionGdl
         @ruleData.clear
-        @ruleData << "<!-- #{ln} -->"   # The leading element tag is not valid XML (no quotes around attrib params).
+        open_discard_element
+        @ruleData << ln
         return true
       end
 
       return false
     end
 
+    def open_discard_element
+      # The log can contain a lot of junk here. This prevents it from being a valid
+      # XML doc. To account for this, we'll create a DISCARD element for easy folding
+      # and put everything into an HTML comment block.
+
+      # We need to track when discarding is on, so we only turn it off once.
+      @discarding = true
+
+      @ruleData << "<DISCARD_BY_PARSER>\n"
+      @ruleData << "<!-- "   # The leading element tag is not valid XML (no quotes around attrib params).
+    end
+
+    def close_discard_element
+      # Only output the closing element if discarding is actually on.
+      # This could get called multiple times after discarding has been turned off.
+      if !@discarding.nil? && @discarding
+        @discarding = false
+        @ruleData << "-->\n"   # The leading element tag is not valid XML (no quotes around attrib params).
+        @ruleData << "</DISCARD_BY_PARSER>\n"
+      end
+    end
+
     def process_rule_data(context, ln)
       # Create the rules data file if the Guideline end tag is found
       if ln.include?(@searchStrGdlEnd)
+        close_discard_element
         setup_rules_file context, ln
         return true
       end

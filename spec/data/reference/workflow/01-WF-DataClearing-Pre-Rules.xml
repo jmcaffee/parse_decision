@@ -1,7 +1,10 @@
 <WF-DataClearing-Pre_DATA>
 <PARAMS><DATA_SET Name='CURRENT LOAN STAGE' Value='99 Decline Application'/><DATA_SET Name='STATE OF THE SUBJECT PROPERTY' Value='CA'/><DATA_SET Name='TODAYS DATE' Value='3/4/2013 12:00:00 AM'/><DATA_SET Name='FORWARD DATE' Value='3/4/2013 12:00:00 AM'/></PARAMS>
+<DISCARD_BY_PARSER>
 <!-- <Guideline Id=47 Name=WF-DataClearing-Pre Version=1218/>
- -->
+
+-->
+</DISCARD_BY_PARSER>
 <Decision GuidelineId="47" GuidelineName="WF-DataClearing-Pre" Rulecount="0" ExecutionTime="3/4/2013 7:29:01 PM" ExecutionResult="True">
      <Rules>	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
 		<DPM Name="Current Stage" Type="DPM">99 Decline Application</DPM>

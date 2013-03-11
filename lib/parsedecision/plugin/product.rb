@@ -20,7 +20,6 @@ module Plugin
 
     def initialize()
       $LOG.debug "Product::initialize"
-      puts "! Product::initialize"
       @fnameTemplate  = "@INDEX@-@PROD@-PRODUCT.xml"
       @searchStr1   = "<PRODUCTS><PRODUCT"
       @searchStr2   = "<PARAMS><_DATA_SET"
