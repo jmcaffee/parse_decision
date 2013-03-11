@@ -11,10 +11,6 @@ describe ParseDecision::Parser do
       out.rmtree if out.exist? && out.directory?
     end
 
-  it "returns a version" do
-    parser.version.should eq "0.0.3"
-  end
-
   it "raises an error if an output dir is not set" do
     expect { parser.parseFile(wfsrc_log) }.to raise_error("outdir missing")
   end
