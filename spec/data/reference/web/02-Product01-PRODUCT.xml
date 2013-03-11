@@ -1,0 +1,15 @@
+<PRODUCT_DATA>
+<Rules> <Rule Name="ShowSummaryScreen" Id="357" ConditionResult="True">
+  <DPM Name="Show Summary Screen Type" Type="DPM">Detailed</DPM>
+ </Rule>
+</Rules>
+
+
+
+
+<Decision GuidelineId="8" GuidelineName="Loan Post Processing Guideline" Rulecount="0" ExecutionTime="4/22/2010 5:55:20 PM" ExecutionResult="True">
+     <DerivedParameters>
+          <DPM Name="Show Summary Screen Type" Type="DSM" Order="0" ProductType="6">Detailed</DPM>
+     </DerivedParameters>
+</Decision>
+</PRODUCT_DATA>

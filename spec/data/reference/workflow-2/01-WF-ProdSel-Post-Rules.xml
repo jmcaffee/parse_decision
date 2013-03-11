@@ -1,0 +1,699 @@
+<WF-ProdSel-Post_DATA>
+<PARAMS><DATA_SET Name='ORIGINAL LOAN STANDARD SECURITY' Value='Y'/><DATA_SET Name='LOCKED MODIFICATIONTERM' Value='60'/><DATA_SET Name='CORPORATE ADVANCES NON TAX NON INSURANCE' Value='0'/><DATA_SET Name='SAVED-WITHDRAWN DECISION' Value=''/><DATA_SET Name='UPCOMING TAX ADVANCES' Value='0'/><DATA_SET Name='DOCUMENT EXCEPTION REASON' Value=''/><DATA_SET Name='HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='INTERNAL STATUS CODE' Value='1LMCode-NotActive'/><DATA_SET Name='SAVED-HARD DECLINE DECISION' Value=''/><DATA_SET Name='MODIFICATION AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='PROPERTY OCCUPANCY STATUS' Value='BorrowerOccupied'/><DATA_SET Name='DQ FEES' Value='1916'/><DATA_SET Name='MATURITY DATE' Value='12/31/2036 12:00:00 AM'/><DATA_SET Name='APPROVAL' Value='Y'/><DATA_SET Name='PRODUCT BEFORE MODIFICATION' Value='FixedRate'/><DATA_SET Name='FIRST NAME BORR2' Value=''/><DATA_SET Name='CURRENTLY ON ACTIVE MOD' Value='N'/><DATA_SET Name='OTHER CURRENT MONTHLY PAYMENT' Value=''/><DATA_SET Name='CONDITION COUNT-TOTAL OPEN' Value='1'/><DATA_SET Name='SAVED-DECLINE DECISION' Value=''/><DATA_SET Name='BORROWER AGREES ESCROW SETUP' Value='N'/><DATA_SET Name='BANKRUPTCY CHAPTER' Value=''/><DATA_SET Name='ALL DOCUMENTS RECEIVED' Value='Complete'/><DATA_SET Name='HAZARD INSURANCE DUE DATE' Value=''/><DATA_SET Name='LOCKED HAS ESCROW ACCOUNT' Value='N'/><DATA_SET Name='SAVED-BPO NEEDED' Value='N'/><DATA_SET Name='FFIEC' Value='N'/><DATA_SET Name='ACCOUNT IN LITIGATION' Value='N'/><DATA_SET Name='DOD LOCK DATE' Value='3/6/2013 1:58:19 PM'/><DATA_SET Name='CURRENT LOAN STAGE' Value='25 Underwriting Review'/><DATA_SET Name='ESCROW BALANCE' Value='0'/><DATA_SET Name='TODAYS DATE' Value='3/6/2013 12:00:00 AM'/><DATA_SET Name='CONDITION STATUS-OTHER DOCS' Value='Open'/><DATA_SET Name='UDF USE VALIDATION SCRIPTING' Value='N'/><DATA_SET Name='DOC TIMING EXCEPTION REASON' Value=''/><DATA_SET Name='DOCUMENT EXPIRATION DATE' Value=''/><DATA_SET Name='SAVED-DAYS SINCE LAST APPRAISAL' Value='5'/><DATA_SET Name='STATE OF THE SUBJECT PROPERTY' Value='IL'/><DATA_SET Name='TEXTAREA1' Value='test'/><DATA_SET Name='MOD AGREEMENT VALIDATED' Value=''/><DATA_SET Name='FORECLOSURE STATUS' Value='None'/><DATA_SET Name='DELINQUENT COUNSELOR CODE' Value='app'/><DATA_SET Name='SAVED-CIT 944 FLAG' Value=''/><DATA_SET Name='UDF DEBUGCHECK3' Value='Y'/><DATA_SET Name='PREVIOUS MOD CATEGORY2 ACTIVATED DATE' Value=''/><DATA_SET Name='TROUBLED DEBT RESERVES FLAG' Value='N'/><DATA_SET Name='PROPERTY CONDITION' Value='Excellent'/><DATA_SET Name='BANKRUPTCY LITIGATION' Value='N'/><DATA_SET Name='COMPLETED DOCS' Value='Y'/><DATA_SET Name='RESENT MOD AGREEMENT RECEIVED DATE' Value=''/><DATA_SET Name='LIEN NUMBER' Value='1'/><DATA_SET Name='CURRENT MONTHLY PAYMENT' Value='903.53'/><DATA_SET Name='CORPORATE ADVANCES FOR DQ TAXES' Value='0'/><DATA_SET Name='SAVED-CAN CHANGE STAGE' Value='Y'/><DATA_SET Name='PRIMARY BORROWER CURRENT EMPLOYMENT TYPE' Value='WageEarner'/><DATA_SET Name='FORECLOSURE SALE SCHEDULED DATE' Value=''/><DATA_SET Name='PROJECTED FORECLOSURE SALE DATE' Value=''/><DATA_SET Name='SAVED-TRIAL PERIOD COMPLETED' Value='N'/><DATA_SET Name='DELINQUENCY STATUS' Value='MoreThan180DaysDelinquent'/><DATA_SET Name='NOTE DATE' Value='12/6/2006 12:00:00 AM'/><DATA_SET Name='PROPERTY TAXES DUE DATE' Value=''/><DATA_SET Name='STATUS CODE 2' Value='N'/><DATA_SET Name='ACCOUNT NAME' Value='HSBC'/><DATA_SET Name='BANKRUPTCY STATUS' Value='None'/><DATA_SET Name='LIENTYPE' Value='1st'/><DATA_SET Name='SAVED-EXCLUSION DECISION' Value=''/><DATA_SET Name='LOAN AMOUNT' Value='145539.16'/><DATA_SET Name='DOCS RECEIVED DATE' Value='3/6/2013 12:00:00 AM'/><DATA_SET Name='DENIAL REASON' Value=''/><DATA_SET Name='PROPERTY VALUATION TYPE' Value='Limitedappraisal'/><DATA_SET Name='REASON FOR DEFAULT' Value='Curtailmentofincome'/><DATA_SET Name='NO OR LOW INCOME' Value='N'/><DATA_SET Name='POOL ID' Value='6331'/><DATA_SET Name='CO BORROWER CURRENT EMPLOYMENT TYPE' Value=''/><DATA_SET Name='INTEREST METHOD TYPE' Value='000'/><DATA_SET Name='PROPERTY TYPE' Value='SingleFamily'/><DATA_SET Name='AGENCY TYPE' Value='app'/></PARAMS>
+<DISCARD_BY_PARSER>
+<!-- <Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+-->
+</DISCARD_BY_PARSER>
+<Decision GuidelineId="37" GuidelineName="WF-ProdSel-Post" Rulecount="0" ExecutionTime="3/6/2013 2:37:17 PM" ExecutionResult="True">
+     <Rules>	<Rule Name="CanChangeStage-Abort Execution Rule" Id="79749" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Initialization PLK.1" Id="92231" ConditionResult="True">
+		<DPM Name="Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Exclusion Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Hard Decline Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Decline Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Withdrawn Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Best Fit Display" Type="DPM">All</DPM>
+		<DPM Name="Display Grid" Type="DPM">Y</DPM>
+		<DPM Name="Todays Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="Decision Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="Exclusion Stage" Type="DPM">N</DPM>
+		<DPM Name="Hard Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Withdrawn Stage" Type="DPM">N</DPM>
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Withdrawn" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+		<DPM Name="BPO Needed" Type="DPM">N</DPM>
+		<DPM Name="CIT 944 Flag" Type="DPM"></DPM>
+		<DPM Name="Days Since Last Appraisal" Type="DPM">5</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.1" Id="90731" ConditionResult="True">
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+		<DPM Name="Doc Timing Exception" Type="DPM">N</DPM>
+		<DPM Name="Doc Due Date Exception Flag" Type="DPM">N</DPM>
+		<DPM Name="Has Documentation Exception" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.2" Id="90732" ConditionResult="True">
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.3" Id="90733" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.4" Id="90734" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Stage" Type="DPM">25</DPM>
+		<DPM Name="stageNum" Type="DPM">25</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.1" Id="90735" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Status" Type="DPM">N</DPM>
+		<DPM Name="FFIEC" Type="DPM">N</DPM>
+		<DPM Name="Has Permanent Hardship" Type="DPM">N</DPM>
+		<DPM Name="Death Flag" Type="DPM">N</DPM>
+		<DPM Name="Trial Period Started" Type="DPM">N</DPM>
+		<DPM Name="Application Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+		<DPM Name="Agency Flag" Type="DPM">N</DPM>
+		<DPM Name="Can Validate Input Fields" Type="DPM">Y</DPM>
+		<DPM Name="Litigation Flag" Type="DPM">N</DPM>
+		<DPM Name="Income Calc Type" Type="DPM">Verified</DPM>
+		<DPM Name="DocRcvd-Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Mediation Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Redemption Flag" Type="DPM">N</DPM>
+		<DPM Name="Stipulation Flag" Type="DPM">N</DPM>
+		<DPM Name="REO Flag" Type="DPM">N</DPM>
+		<DPM Name="Stop Code" Type="DPM">0</DPM>
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+		<DPM Name="Escrow Balance" Type="DPM">0</DPM>
+		<DPM Name="Pending Escrow Change" Type="DPM">N</DPM>
+		<DPM Name="Has Previous 6 Payment Mod" Type="DPM">N</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">N</DPM>
+		<DPM Name="PWD Available" Type="DPM">N</DPM>
+		<DPM Name="Has DQ Taxes" Type="DPM">N</DPM>
+		<DPM Name="CIT 690 Flag" Type="DPM">N</DPM>
+		<DPM Name="DocRcvd-Resent Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Is Securitized" Type="DPM">N</DPM>
+		<DPM Name="IsDSILoan" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.2" Id="90736" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.3" Id="90737" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.4" Id="90738" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.5" Id="90739" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.6" Id="90740" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.7" Id="90741" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.8" Id="90742" ConditionResult="True">
+		<DPM Name="Application Date" Type="DPM">3/6/2013 1:58:19 PM</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.9" Id="90743" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.10" Id="90744" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.11" Id="90745" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.12" Id="90746" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.13" Id="90747" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.14" Id="90748" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.15" Id="90749" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.16" Id="90750" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">7</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.17" Id="90751" ConditionResult="True">
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.18" Id="90752" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.19" Id="90753" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.20" Id="90754" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.21" Id="90755" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.22" Id="90756" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.23" Id="90757" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.24" Id="90758" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.25" Id="90759" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.26" Id="90760" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.27" Id="90761" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.28" Id="90762" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.29" Id="90763" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.30" Id="90764" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.31" Id="90765" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.32" Id="90766" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.33" Id="90767" ConditionResult="True">
+		<DPM Name="TDR Flag Actual" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.34" Id="90768" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.35" Id="90769" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.36" Id="90770" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.37" Id="90771" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.38" Id="90772" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.39" Id="90773" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.40" Id="90774" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.41" Id="90775" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.42" Id="90776" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.43" Id="90777" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.44" Id="90778" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.45" Id="90779" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.46" Id="90780" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.47" Id="90781" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.48" Id="90782" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.49" Id="90783" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.50" Id="90784" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.51" Id="90785" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.52" Id="90786" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.53" Id="90787" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.54" Id="90788" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.55" Id="90789" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.56" Id="90790" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.57" Id="90791" ConditionResult="True">
+		<DPM Name="Property Valuation Type" Type="DPM">E</DPM>
+		<DPM Name="Property Valuation Method" Type="DPM">A</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.58" Id="90792" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.59" Id="90793" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.60" Id="90794" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.61" Id="90795" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.62" Id="90796" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.63" Id="90797" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.64" Id="90798" ConditionResult="True">
+		<DPM Name="Has DQ Taxes" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.65" Id="90799" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.66" Id="90800" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.67" Id="92624" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-Exclusion" Id="73377" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDecline" Id="73378" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-Decline" Id="73379" ConditionResult="True">
+		<DPM Name="Decline Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-Withdrawn" Id="79860" ConditionResult="True">
+		<DPM Name="Withdrawn Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-ExclusionOverride" Id="73380" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDeclineOverride" Id="73381" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-DeclineOverride" Id="73382" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-WithdrawnOverride" Id="79861" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-ConditionStage" Id="87200" ConditionResult="True">
+		<DPM Name="Condition Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclusion-Decline Init PLK.1" Id="92227" ConditionResult="True">
+		<DPM Name="Exclusion Decision" Type="DPM"></DPM>
+		<DPM Name="Decline Decision" Type="DPM"></DPM>
+		<DPM Name="Withdrawn Decision" Type="DPM"></DPM>
+		<DPM Name="Hard Decline Decision" Type="DPM"></DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.1" Id="92233" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.2" Id="92234" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.3" Id="92235" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.4" Id="92236" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.5" Id="92237" ConditionResult="True">
+		<DPM Name="Loan Is Declining" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-FromCustEligibility PLK.1" Id="92232" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.1" Id="92239" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.2" Id="92240" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.3" Id="92241" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.4" Id="92242" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.5" Id="92243" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.6" Id="92244" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.7" Id="92245" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.8" Id="92246" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.9" Id="92247" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.10" Id="92248" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.11" Id="92249" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.12" Id="92250" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.13" Id="92251" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">30</DPM>
+		<DPM Name="tempString" Type="DPM">Only Other Docs Condition is OPEN. Stage 25 =&gt; 30</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.1" Id="92228" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.2" Id="92229" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.3" Id="92230" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.1" Id="92217" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.2" Id="92218" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.3" Id="92219" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.4" Id="92220" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.5" Id="92221" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.6" Id="92222" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.7" Id="92223" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.8" Id="92224" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.9" Id="92225" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.1" Id="92283" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.2" Id="92284" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.3" Id="92285" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.4" Id="92286" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.1" Id="92287" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.2" Id="92288" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.3" Id="92289" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.4" Id="92290" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.5" Id="92291" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.6" Id="92292" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.7" Id="92293" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.8" Id="92294" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.9" Id="92295" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">30 Trial Period Decision</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.1" Id="92255" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.2" Id="92256" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.3" Id="92257" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.4" Id="92258" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.5" Id="92259" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.6" Id="92260" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.7" Id="92261" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.8" Id="92262" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.9" Id="92263" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.10" Id="92264" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.11" Id="92265" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.12" Id="92266" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.13" Id="92267" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.14" Id="92268" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.15" Id="92269" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.16" Id="92270" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.17" Id="92271" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.18" Id="92272" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.19" Id="92273" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.20" Id="92274" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.21" Id="92275" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.22" Id="92276" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.23" Id="92277" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.24" Id="92278" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.25" Id="92279" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.26" Id="92280" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.27" Id="92281" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.28" Id="92282" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation-PreventStageChange PLK.1" Id="92238" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Debug-PreventStageChange PLK.1" Id="92226" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">DOES_NOT_EXIST</DPM>
+		<DPM Name="tempString" Type="DPM">DBG: Stage Change Prevented.</DPM>
+	</Rule>
+</Rules>
+<Decision GuidelineId="37" GuidelineName="WF-ProdSel-Post" Rulecount="0" ExecutionTime="3/6/2013 2:37:17 PM" ExecutionResult="True">
+     <DerivedParameters>
+          <DPM Id="1352" Name="Currently On Mod" Type="DSM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1389" Name="Has Previous 6 Payment Mod" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="726" Name="Display Grid" Type="DSM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1445" Name="CIT 690 Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="747" Name="_wfaction_stageto" Type="DSM" Order="0" ProductType="6">DOES_NOT_EXIST</DPM>
+          <DPM Id="727" Name="Decision" Type="DSM" Order="0" ProductType="6">Pass</DPM>
+          <DPM Id="1008" Name="Has Documentation Exception" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="725" Name="Agency Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1436" Name="PWD Available" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1434" Name="Days Since Last Appraisal" Type="DSM" Order="0" ProductType="4">5</DPM>
+          <DPM Id="1169" Name="Hard Decline Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="1443" Name="DocRcvd-Resent Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1416" Name="Property Valuation Method" Type="DSM" Order="0" ProductType="6">A</DPM>
+          <DPM Id="704" Name="Foreclosure Status" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1251" Name="Withdrawn Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="807" Name="Application Date" Type="DSM" Order="0" ProductType="2">3/6/2013 1:58:19 PM</DPM>
+          <DPM Id="746" Name="Best Fit Display" Type="DSM" Order="0" ProductType="6">All</DPM>
+          <DPM Id="1403" Name="BPO Needed" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1405" Name="CIT 944 Flag" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="838" Name="Trial Period Started" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1076" Name="FFIEC" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="789" Name="Delinquency Status" Type="DSM" Order="0" ProductType="6">7</DPM>
+          <DPM Id="1168" Name="Decline Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="797" Name="First Lien Indicator" Type="DSM" Order="0" ProductType="4">1</DPM>
+          <DPM Id="1171" Name="Exclusion Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="1112" Name="Litigation Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1212" Name="TDR Flag Actual" Type="DSM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1065" Name="Has Permanent Hardship" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1419" Name="Property Valuation Type" Type="DSM" Order="0" ProductType="6">E</DPM>
+          <DPM Id="1071" Name="Current Stage" Type="DSM" Order="0" ProductType="6">25 Underwriting Review</DPM>
+          <DPM Id="894" Name="Doc Timing Exception" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="983" Name="DocRcvd-Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1254" Name="Foreclosure Redemption Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1035" Name="Override Exclusions" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="915" Name="Doc Due Date Exception Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1460" Name="Death Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1124" Name="Permanent Eligible Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1170" Name="Loan Is Declining" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1351" Name="Stop Code" Type="DPM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1142" Name="Docs Received Flag" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1250" Name="Mediation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1225" Name="stageNum" Type="DPM" Order="0" ProductType="4">25</DPM>
+          <DPM Id="846" Name="Exclusion Stage" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1408" Name="Condition Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="749" Name="tempString" Type="DPM" Order="0" ProductType="6">DBG: Stage Change Prevented.</DPM>
+          <DPM Id="1193" Name="Can Validate Input Fields" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1381" Name="Escrow Balance" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1359" Name="REO Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1194" Name="Stage" Type="DPM" Order="0" ProductType="6">25</DPM>
+          <DPM Id="1483" Name="IsDSILoan" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1444" Name="Has DQ Taxes" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1383" Name="Pending Escrow Change" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1252" Name="Withdrawn Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1075" Name="Override Declines" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1006" Name="Decline Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="881" Name="Override Hard Declines" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="995" Name="Income Calc Type" Type="DPM" Order="0" ProductType="6">Verified</DPM>
+          <DPM Id="1247" Name="Stipulation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="695" Name="Escrowed" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="860" Name="Hard Decline Stage" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="697" Name="Todays Date" Type="DPM" Order="0" ProductType="2">3/6/2013</DPM>
+          <DPM Id="1448" Name="Is Securitized" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="714" Name="Decision Date" Type="DPM" Order="0" ProductType="2">3/6/2013</DPM>
+          <DPM Id="1253" Name="Override Withdrawn" Type="DPM" Order="0" ProductType="6">N</DPM>
+     </DerivedParameters>
+</Decision></Decision>
+</WF-ProdSel-Post_DATA>

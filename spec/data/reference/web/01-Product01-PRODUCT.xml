@@ -1,0 +1,1088 @@
+<PRODUCT_DATA>
+<Rules> <Rule Name="IMPC Initialization PLK.1" Id="9863" ConditionResult="True">
+  <DPM Name="Lien Number" Type="DPM">1</DPM>
+  <DPM Name="Future Income" Type="DPM"></DPM>
+  <DPM Name="Hardship Severity" Type="DPM"></DPM>
+  <DPM Name="Hardship Term" Type="DPM"></DPM>
+  <DPM Name="Gross Target DTI1" Type="DPM">0</DPM>
+  <DPM Name="Gross Target DTI2" Type="DPM">0</DPM>
+  <DPM Name="Backend Target DTI" Type="DPM">0</DPM>
+  <DPM Name="Decision" Type="DPM">Pass</DPM>
+  <DPM Name="Rate Matrix Group" Type="DPM">0</DPM>
+  <DPM Name="Min LTV" Type="DPM">0</DPM>
+  <DPM Name="Max LTV" Type="DPM">0</DPM>
+  <DPM Name="Min CLTV" Type="DPM">0</DPM>
+  <DPM Name="Max CLTV" Type="DPM">0</DPM>
+  <DPM Name="Min UPB" Type="DPM">0</DPM>
+  <DPM Name="Max UPB" Type="DPM">0</DPM>
+  <DPM Name="Full UW Trigger" Type="DPM">No</DPM>
+  <DPM Name="Motivation" Type="DPM"></DPM>
+  <DPM Name="Months Delinquent" Type="DPM">0</DPM>
+  <DPM Name="Current Occupancy" Type="DPM">PrimaryResidence</DPM>
+  <DPM Name="Debt Source Property" Type="DPM">Primary</DPM>
+  <DPM Name="Income Type" Type="DPM">Borr Income</DPM>
+  <DPM Name="Test Backend" Type="DPM">No</DPM>
+  <DPM Name="Min Rate-RateTerm" Type="DPM">0</DPM>
+  <DPM Name="Min Rate-Forbear" Type="DPM">0</DPM>
+  <DPM Name="Min Rate-Forgive" Type="DPM">0</DPM>
+  <DPM Name="Min Rate-SAM" Type="DPM">0</DPM>
+  <DPM Name="Rate Increment" Type="DPM">0.125</DPM>
+  <DPM Name="Mod Term1" Type="DPM">0</DPM>
+  <DPM Name="Mod Term2" Type="DPM">0</DPM>
+  <DPM Name="Term Rate Threshold" Type="DPM">0</DPM>
+  <DPM Name="Forbearance Max Principle" Type="DPM">0</DPM>
+  <DPM Name="Forbearance Max Interest" Type="DPM">0</DPM>
+  <DPM Name="Forgive Max Principle" Type="DPM">0</DPM>
+  <DPM Name="Forgive Max Interest" Type="DPM">0</DPM>
+  <DPM Name="Borrower Deposit Reqd" Type="DPM">0</DPM>
+  <DPM Name="Borrower Contribution" Type="DPM">0</DPM>
+  <DPM Name="Property Type" Type="DPM">DPUDS</DPM>
+  <DPM Name="No of Units" Type="DPM">0</DPM>
+  <DPM Name="Current UPB" Type="DPM">377150.83</DPM>
+  <DPM Name="Mortgage Owner" Type="DPM">Private</DPM>
+  <DPM Name="LTV" Type="DPM">80</DPM>
+  <DPM Name="CLTV" Type="DPM">0</DPM>
+  <DPM Name="Housing Region" Type="DPM">Stable</DPM>
+  <DPM Name="overrideStepRateTerm" Type="DPM">N</DPM>
+  <DPM Name="Best Fit Display" Type="DPM">All</DPM>
+  <DPM Name="Display Grid" Type="DPM">Y</DPM>
+  <DPM Name="Todays Date" Type="DPM">4/22/2010 12:00:00 AM</DPM>
+  <DPM Name="Decision Date" Type="DPM">4/22/2010 12:00:00 AM</DPM>
+ </Rule>
+ <Rule Name="HPI-Initialization PLK.1" Id="3903" ConditionResult="True">
+  <DPM Name="Discount Rate Actual" Type="DPM">4.5</DPM>
+  <DPM Name="MSA Title" Type="DPM">Truckee-Grass Valley  CA</DPM>
+  <DPM Name="Todays Date" Type="DPM">4/22/2010 12:00:00 AM</DPM>
+  <DPM Name="Todays Day" Type="DPM">22</DPM>
+  <DPM Name="Current Month" Type="DPM">4</DPM>
+  <DPM Name="Current Year" Type="DPM">2010</DPM>
+  <DPM Name="State of the Subject Property" Type="DPM">CA</DPM>
+  <DPM Name="Global Parameter" Type="DPM">1</DPM>
+ </Rule>
+ <Rule Name="Impac ForeclosureREO-Assumptions PLK.1" Id="3455" ConditionResult="True">
+  <DPM Name="Foreclosure Hold Time" Type="DPM">10.636666667</DPM>
+  <DPM Name="REO Hold Time" Type="DPM">6.5166666667</DPM>
+  <DPM Name="REO Foreclosure Expense Percentage" Type="DPM">0.0208</DPM>
+ </Rule>
+ <Rule Name="Impac-REO Foreclosure HPI Future Date No Mod" Id="3456" ConditionResult="True">
+  <DPM Name="REO Hold Time" Type="DPM">7</DPM>
+  <DPM Name="Foreclosure Hold Time No Mod" Type="DPM">11</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">18</DPM>
+  <DPM Name="Foreclosure Hold Time No Mod" Type="DPM">18</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">18</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">6</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">6</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">18</DPM>
+  <DPM Name="REO Foreclosure Time" Type="DPM">24</DPM>
+  <DPM Name="Future Date" Type="DPM">4/22/2012 12:00:00 AM</DPM>
+  <DPM Name="Future Month" Type="DPM">4</DPM>
+  <DPM Name="Temp Number" Type="DPM">2</DPM>
+  <DPM Name="Temp String" Type="DPM">22/2012 12:00:00 AM</DPM>
+  <DPM Name="Temp Number" Type="DPM">3</DPM>
+  <DPM Name="Future Year" Type="DPM">2012 12:00:00 AM</DPM>
+  <DPM Name="Future Year" Type="DPM">2012</DPM>
+ </Rule>
+ <Rule Name="Impac Set Current Quarter No Mod PLK.1" Id="3457" ConditionResult="False">
+ </Rule>
+ <Rule Name="Impac Set Current Quarter No Mod PLK.2" Id="3458" ConditionResult="True">
+  <DPM Name="Current Quarter" Type="DPM">Q2</DPM>
+  <DPM Name="Current Quarter No." Type="DPM">2</DPM>
+ </Rule>
+ <Rule Name="Impac Set Future Quarter No Mod PLK.1" Id="3461" ConditionResult="False">
+ </Rule>
+ <Rule Name="Impac Set Future Quarter No Mod PLK.2" Id="3462" ConditionResult="True">
+  <DPM Name="Future Quarter" Type="DPM">Q2</DPM>
+ </Rule>
+ <Rule Name="Impac-Year Quarter Concatenation No Mod" Id="3465" ConditionResult="True">
+  <DPM Name="YearCurrentQuarter" Type="DPM">2010Q2</DPM>
+  <DPM Name="YearQuarterNo" Type="DPM">2010Q2</DPM>
+  <DPM Name="Current HPI" Type="DPM"></DPM>
+  <DPM Name="YearFutureQuarter" Type="DPM">2012Q2</DPM>
+  <DPM Name="YearQuarterNo" Type="DPM">2012Q2</DPM>
+  <DPM Name="Future HPI" Type="DPM"></DPM>
+ </Rule>
+ <Rule Name="Impac-Current HPI if Null No Mod PLK.1" Id="3466" ConditionResult="True">
+  <DPM Name="Division Name" Type="DPM">Pacific</DPM>
+  <DPM Name="MSA Title" Type="DPM">Pacific</DPM>
+  <DPM Name="YearQuarterNo" Type="DPM">2010Q2</DPM>
+  <DPM Name="Current HPI" Type="DPM">98.09</DPM>
+ </Rule>
+ <Rule Name="Impac-Future HPI if Null No Mod PLK.1" Id="3468" ConditionResult="True">
+  <DPM Name="Division Name" Type="DPM">Pacific</DPM>
+  <DPM Name="MSA Title" Type="DPM">Pacific</DPM>
+  <DPM Name="YearQuarterNo" Type="DPM">2012Q2</DPM>
+  <DPM Name="Future HPI" Type="DPM">100.55</DPM>
+ </Rule>
+ <Rule Name="Impac-Housing Region PLK.1" Id="3470" ConditionResult="True">
+  <DPM Name="Housing Region" Type="DPM">Stable</DPM>
+ </Rule>
+ <Rule Name="IMPC DelinquencyStatus PLK.1" Id="9844" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC DelinquencyStatus PLK.2" Id="9845" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC DelinquencyStatus PLK.3" Id="9846" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC DelinquencyStatus PLK.4" Id="9847" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC DelinquencyStatus PLK.5" Id="9848" ConditionResult="True">
+  <DPM Name="Months Delinquent" Type="DPM">3</DPM>
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.1" Id="9897" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.2" Id="9898" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.3" Id="9899" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.4" Id="9900" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.5" Id="9901" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMotivation PLK.6" Id="9902" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetPropertyValuation PLK.1" Id="9840" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetPropertyValuation PLK.2" Id="9841" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetPropertyValuation PLK.3" Id="9842" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetPropertyValuation PLK.4" Id="9843" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetOccupancy PLK.1" Id="9822" ConditionResult="True">
+  <DPM Name="Current Occupancy" Type="DPM">Owner</DPM>
+  <DPM Name="Debt Source Property" Type="DPM">Primary</DPM>
+  <DPM Name="Income Type" Type="DPM">Borr Income</DPM>
+ </Rule>
+ <Rule Name="IMPC SetProductCode PLK.1" Id="9831" ConditionResult="True">
+  <DPM Name="Product Code" Type="DPM">2</DPM>
+ </Rule>
+ <Rule Name="Assumption-Init" Id="10068" ConditionResult="True">
+  <DPM Name="Todays Date" Type="DPM">4/22/2010 12:00:00 AM</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">NA</DPM>
+ </Rule>
+ <Rule Name="Assumption-HardshipSeverity" Id="8168" ConditionResult="True">
+  <DPM Name="Hardship Severity" Type="DPM">Moderate</DPM>
+ </Rule>
+ <Rule Name="Assumption-HardshipSeverity-Msg" Id="8169" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Hardship Severity: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Hardship Severity: Moderate</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate</DPM>
+ </Rule>
+ <Rule Name="Assumption-HardshipTerm" Id="8170" ConditionResult="True">
+  <DPM Name="Hardship Term" Type="DPM">ShortTerm</DPM>
+ </Rule>
+ <Rule Name="Assumption-HardshipTerm-Msg" Id="8171" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Hardship Term: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Hardship Term: ShortTerm</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm</DPM>
+ </Rule>
+ <Rule Name="Assumption-FutureIncome" Id="8172" ConditionResult="True">
+  <DPM Name="Future Income" Type="DPM">Improve</DPM>
+ </Rule>
+ <Rule Name="Assumption-FutureIncome-Msg" Id="8173" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Future Income: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Future Income: Improve</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve</DPM>
+ </Rule>
+ <Rule Name="Assumption-BorrowerIntent" Id="8174" ConditionResult="True">
+  <DPM Name="Motivation" Type="DPM">Wish To Stay</DPM>
+ </Rule>
+ <Rule Name="Assumption-BorrowerIntent-Msg" Id="8175" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Borrower Intent: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Borrower Intent: Wish To Stay</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay</DPM>
+ </Rule>
+ <Rule Name="Assumption-PropertyValueType" Id="8176" ConditionResult="True">
+  <DPM Name="Valuation Type" Type="DPM">AVM</DPM>
+ </Rule>
+ <Rule Name="Assumption-PropertyValueType-Msg" Id="8177" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Property Valuation Type: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Property Valuation Type: AVM</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay--  Property Valuation Type: AVM</DPM>
+ </Rule>
+ <Rule Name="Assumption-PropertyValue" Id="8178" ConditionResult="False">
+  <DPM Name="propertyValue" Type="DPM">490000</DPM>
+ </Rule>
+ <Rule Name="Assumption-PropertyValue-Msg" Id="8179" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-Occupancy" Id="8180" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-Occupancy-Msg" Id="8181" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-MonthsInDefault" Id="8182" ConditionResult="True">
+  <DPM Name="Months in Default" Type="DPM">4</DPM>
+ </Rule>
+ <Rule Name="Assumption-MonthsInDefault-Msg" Id="8183" ConditionResult="True">
+  <DPM Name="tempMsg" Type="DPM">--  Months In Default: </DPM>
+  <DPM Name="tempMsg" Type="DPM">--  Months In Default: 4</DPM>
+  <DPM Name="assumptionMsg" Type="DPM">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay--  Property Valuation Type: AVM--  Months In Default: 4</DPM>
+ </Rule>
+ <Rule Name="Assumption-IR" Id="8184" ConditionResult="False">
+  <DPM Name="interest" Type="DPM">4.375</DPM>
+ </Rule>
+ <Rule Name="Assumption-IR-Msg" Id="8185" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-LoanAmount" Id="8186" ConditionResult="False">
+  <DPM Name="loanAmount" Type="DPM">377150.83</DPM>
+  <DPM Name="Current UPB" Type="DPM">377150.83</DPM>
+ </Rule>
+ <Rule Name="Assumption-LoanAmount-Msg" Id="8187" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-CurrentMonthlyPayment" Id="8188" ConditionResult="False">
+  <DPM Name="Current Payment" Type="DPM">2147.32</DPM>
+ </Rule>
+ <Rule Name="Assumption-CurrentMonthlyPayment-Msg" Id="8189" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-MaturityDate-Test" Id="8190" ConditionResult="True">
+  <DPM Name="tmpTerm" Type="DPM">300</DPM>
+  <DPM Name="Maturity Date" Type="DPM">4/22/2035 12:00:00 AM</DPM>
+ </Rule>
+ <Rule Name="Assumption-MaturityDate" Id="8191" ConditionResult="False">
+  <DPM Name="Maturity Date" Type="DPM">3/1/2033 12:00:00 AM</DPM>
+ </Rule>
+ <Rule Name="Assumption-MaturityDate-Msg" Id="8192" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-LienNumber" Id="8193" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-LienNumber-Msg" Id="8194" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-MonthsDq" Id="8195" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-MonthsDq-Msg" Id="8196" ConditionResult="False">
+ </Rule>
+ <Rule Name="Assumption-Display-Msg" Id="10069" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10069" RulesetId="72" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ ASSUMPTIONS --  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay--  Property Valuation Type: AVM--  Months In Default: 4. ]]></Message> </Rule>
+ <Rule Name="Calc-LTV-CLTV" Id="3254" ConditionResult="True">
+  <DPM Name="LTV" Type="DPM">76.9695571428571</DPM>
+  <DPM Name="CLTV" Type="DPM">97.3777204081633</DPM>
+ </Rule>
+ <Rule Name="Calc-LTV-CLTV-Msg" Id="10072" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10072" RulesetId="80" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated LTV/CLTV: 76.97% / 97.38%. ]]></Message> </Rule>
+ <Rule Name="IMPC DetermineTargetDTIs PLK.1" Id="10024" ConditionResult="True">
+  <DPM Name="Gross Target DTI1-OO" Type="DPM">40</DPM>
+  <DPM Name="Gross Target DTI1-NOO" Type="DPM">110</DPM>
+  <DPM Name="Gross Target DTI1-2ND" Type="DPM">45</DPM>
+  <DPM Name="Gross Target DTI2-OO" Type="DPM">30</DPM>
+  <DPM Name="Gross Target DTI2-NOO" Type="DPM">110</DPM>
+  <DPM Name="Gross Target DTI2-2ND" Type="DPM">35</DPM>
+  <DPM Name="Backend Target DTI-OO" Type="DPM">75</DPM>
+  <DPM Name="Backend Target DTI-NOO" Type="DPM">75</DPM>
+  <DPM Name="Backend Target DTI-2ND" Type="DPM">80</DPM>
+ </Rule>
+ <Rule Name="IMPC SetTargetDTIs PLK.1" Id="9860" ConditionResult="True">
+  <DPM Name="Gross Target DTI1" Type="DPM">40</DPM>
+  <DPM Name="Gross Target DTI2" Type="DPM">30</DPM>
+  <DPM Name="Backend Target DTI" Type="DPM">75</DPM>
+ </Rule>
+ <Rule Name="IMPC SetRateMatrixGroup PLK.1" Id="9876" ConditionResult="True">
+  <DPM Name="Full UW Trigger" Type="DPM">No</DPM>
+  <DPM Name="Rate Matrix Group" Type="DPM">1</DPM>
+  <DPM Name="Min LTV" Type="DPM">0</DPM>
+  <DPM Name="Max LTV" Type="DPM">80</DPM>
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.1" Id="9912" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.2" Id="9913" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.3" Id="9914" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.4" Id="9915" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.5" Id="9916" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.6" Id="9917" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.7" Id="9918" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.8" Id="9919" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.9" Id="9920" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.10" Id="9921" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.11" Id="9922" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.12" Id="9923" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.13" Id="9924" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.14" Id="9925" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.15" Id="9926" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.16" Id="9927" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.17" Id="9928" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.18" Id="9929" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.19" Id="9930" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.20" Id="9931" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.21" Id="9932" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.22" Id="9933" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.23" Id="9934" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.24" Id="9935" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.25" Id="9936" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.26" Id="9937" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.27" Id="9938" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.28" Id="9939" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.29" Id="9940" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.30" Id="9941" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetRatesAndTerms PLK.31" Id="9942" ConditionResult="True">
+  <DPM Name="Available Products" Type="DPM">1|2|6|7|8|9|10</DPM>
+  <DPM Name="Test Backend" Type="DPM">No</DPM>
+  <DPM Name="Min Rate-RateTerm" Type="DPM">4</DPM>
+  <DPM Name="Min Rate-Forbear" Type="DPM">5</DPM>
+  <DPM Name="Min Rate-Forgive" Type="DPM">5</DPM>
+  <DPM Name="Min Rate-SAM" Type="DPM">5</DPM>
+  <DPM Name="Rate Increment" Type="DPM">0.125</DPM>
+  <DPM Name="Mod Term1" Type="DPM">60</DPM>
+  <DPM Name="Mod Term2" Type="DPM">24</DPM>
+  <DPM Name="Term Rate Threshold" Type="DPM">3</DPM>
+  <DPM Name="Forbearance Max Principle" Type="DPM">0</DPM>
+  <DPM Name="Forbearance Max Interest" Type="DPM">0</DPM>
+  <DPM Name="Forgive Max Principle" Type="DPM">0</DPM>
+  <DPM Name="Forgive Max Interest" Type="DPM">0</DPM>
+  <DPM Name="Borrower Deposit Reqd" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.1" Id="9851" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.2" Id="9852" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.3" Id="9853" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.4" Id="9854" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.5" Id="9855" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.6" Id="9856" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.7" Id="9857" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts-Reason PLK.8" Id="9858" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC NoAvailableProducts PLK.1" Id="9859" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetMinRate PLK.1" Id="9827" ConditionResult="True">
+  <DPM Name="Min Rate" Type="DPM">4</DPM>
+ </Rule>
+ <Rule Name="CalcRemainingTerm" Id="1" ConditionResult="True">
+  <DPM Name="Remaining Term" Type="DPM">274</DPM>
+ </Rule>
+ <Rule Name="PreventNegativeRemainingTerm" Id="8198" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcRemainingTerm-Msg" Id="10073" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10073" RulesetId="1" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated remaining term: 274. ]]></Message> </Rule>
+ <Rule Name="OverrideRemainingTerm" Id="7692" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcUnpaidBalance" Id="2" ConditionResult="True">
+  <DPM Name="Current UPB" Type="DPM">377150.83</DPM>
+ </Rule>
+ <Rule Name="CalcDqInterest" Id="3" ConditionResult="True">
+  <DPM Name="DQ Interest" Type="DPM">5500.11627083333</DPM>
+ </Rule>
+ <Rule Name="CalcDqInterest-Msg" Id="10074" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10074" RulesetId="1" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated delinquent interest: $5500.12 (on UPB of $377150.83). ]]></Message> </Rule>
+ <Rule Name="OverrideDqInterest" Id="4" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcCaptializedUPB" Id="7693" ConditionResult="True">
+  <DPM Name="Capitalized UPB" Type="DPM">382650.95</DPM>
+ </Rule>
+ <Rule Name="CalcCaptializedUPB-Msg" Id="10075" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10075" RulesetId="1" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated capitalized UPB: $382650.95. ]]></Message> </Rule>
+ <Rule Name="Calc-MonthlyIncome" Id="1590" ConditionResult="True">
+  <DPM Name="Monthly Income" Type="DPM">0</DPM>
+  <DPM Name="Monthly Income" Type="DPM">2000</DPM>
+  <DPM Name="Monthly Income" Type="DPM">2000</DPM>
+  <DPM Name="Monthly Income" Type="DPM">2000</DPM>
+  <DPM Name="Monthly Income" Type="DPM">2000</DPM>
+ </Rule>
+ <Rule Name="Calc-MonthlyIncome-NOO" Id="8893" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-MonthlyIncome-2ndHome" Id="8894" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-MonthlyIncome-Owner" Id="8895" ConditionResult="True">
+  <DPM Name="Monthly Income" Type="DPM">2000</DPM>
+ </Rule>
+ <Rule Name="Calc-MonthlyIncome-Msg" Id="10079" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10079" RulesetId="22" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated total income (based on current occupancy type): $2000. ]]></Message> </Rule>
+ <Rule Name="Calc-PresentMonthlyExpenses" Id="1592" ConditionResult="True">
+  <DPM Name="Present Monthly Expenses" Type="DPM">150</DPM>
+ </Rule>
+ <Rule Name="Calc-MonthlyExpenses" Id="1591" ConditionResult="True">
+  <DPM Name="Housing Expenses" Type="DPM">125</DPM>
+  <DPM Name="Monthly Liabilities" Type="DPM">25</DPM>
+ </Rule>
+ <Rule Name="Calc-MonthlyExpenses-Msg" Id="10080" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10080" RulesetId="22" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Calculated Expenses:  --Housing Expenses: $125  --Monthly Liabilities: $25  --Total Expenses: $150. ]]></Message> </Rule>
+ <Rule Name="Setup-GrossTarget1DTI" Id="527" ConditionResult="True">
+  <DPM Name="Target DTI" Type="DPM">40</DPM>
+  <DPM Name="Target Payment" Type="DPM">0</DPM>
+  <DPM Name="rateTermSucceededFlag" Type="DPM">Y</DPM>
+ </Rule>
+ <Rule Name="CalcTargetPmt-FromTargetDTI" Id="528" ConditionResult="True">
+  <DPM Name="Target Payment" Type="DPM">800</DPM>
+  <DPM Name="Target Payment" Type="DPM">675</DPM>
+ </Rule>
+ <Rule Name="GrossTarget1Payment-PreventNegativePayment" Id="3904" ConditionResult="False">
+ </Rule>
+ <Rule Name="Store-GrossTarget1Payment" Id="529" ConditionResult="True">
+  <DPM Name="Gross Target 1 Payment" Type="DPM">675</DPM>
+  <DPM Name="affordablePayment" Type="DPM">675</DPM>
+ </Rule>
+ <Rule Name="Store-GrossTarget1Payment-Msg" Id="10081" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10081" RulesetId="16" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Gross Target 1 payment: $675 (@ 40% DTI). ]]></Message> </Rule>
+ <Rule Name="CalcProposedRateTerm" Id="9" ConditionResult="True">
+  <DPM Name="Goal Payment" Type="DPM">675</DPM>
+  <DPM Name="Current UPB" Type="DPM">382650.95</DPM>
+  <DPM Name="Current Interest Rate" Type="DPM">4.375</DPM>
+  <DPM Name="Floor Rate" Type="DPM">4</DPM>
+  <DPM Name="Max Term Extension" Type="DPM">274</DPM>
+  <DPM Name="Floor Term" Type="DPM">274</DPM>
+  <DPM Name="Status" Type="DPM">False</DPM>
+  <DPM Name="Floor Rate" Type="DPM">0.00333333333333333</DPM>
+  <DPM Name="Monthly PI at Floor Rate" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Floor Rate" Type="DPM">4</DPM>
+  <DPM Name="Monthly Payment at Floor Rate" Type="DPM">2257.21575547987</DPM>
+ </Rule>
+ <Rule Name="Target1GoalPaymentNotMet" Id="1581" ConditionResult="True">
+  <DPM Name="target1FailedPayment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="target1FailedFloorRate" Type="DPM">4</DPM>
+  <DPM Name="target1FailedTargetPayment" Type="DPM">675</DPM>
+  <DPM Name="Proposed Interest Rate-DPM" Type="DPM">4</DPM>
+  <DPM Name="Proposed Payment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Proposed Term" Type="DPM">274</DPM>
+  <DPM Name="Proposed UPB" Type="DPM">382650.95</DPM>
+  <DPM Name="rateTermSucceededFlag" Type="DPM">N</DPM>
+ </Rule>
+ <Rule Name="Target1GoalPaymentNotMet-Msgs" Id="1583" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="1583" RulesetId="16" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Gross Target 1 rate reduction failed. Target payment: $675 (@ 40% DTI). -- Using payment based on Min Rate. Payment based on rate of 4% is $2132.22.. ]]></Message> </Rule>
+ <Rule Name="Store-GrossTarget1RatePmt" Id="530" ConditionResult="True">
+  <DPM Name="Gross Target 1 Rate" Type="DPM">4</DPM>
+  <DPM Name="Gross Target 1 Payment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Gross Target 1 Term" Type="DPM">274</DPM>
+ </Rule>
+ <Rule Name="CalcBackendDTIwithProposedPmt" Id="180" ConditionResult="True">
+  <DPM Name="Backend DTI" Type="DPM">114.110787773994</DPM>
+ </Rule>
+ <Rule Name="CheckBackendDTIagainstTargetDTI" Id="181" ConditionResult="False">
+ </Rule>
+ <Rule Name="Setup-BackendTargetDTI" Id="531" ConditionResult="True">
+  <DPM Name="Backend DTI" Type="DPM">75</DPM>
+  <DPM Name="Target Payment" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="CalcTargetPmt-FromBeDTI" Id="532" ConditionResult="True">
+  <DPM Name="Target Payment" Type="DPM">1500</DPM>
+  <DPM Name="Target Payment" Type="DPM">1350</DPM>
+ </Rule>
+ <Rule Name="Store-BackendTargetPayment" Id="533" ConditionResult="True">
+  <DPM Name="Backend Pmt" Type="DPM">1350</DPM>
+ </Rule>
+ <Rule Name="CalcProposedRateTerm" Id="9" ConditionResult="True">
+  <DPM Name="Goal Payment" Type="DPM">1350</DPM>
+  <DPM Name="Current UPB" Type="DPM">382650.95</DPM>
+  <DPM Name="Current Interest Rate" Type="DPM">4.375</DPM>
+  <DPM Name="Floor Rate" Type="DPM">4</DPM>
+  <DPM Name="Max Term Extension" Type="DPM">274</DPM>
+  <DPM Name="Floor Term" Type="DPM">274</DPM>
+  <DPM Name="Status" Type="DPM">False</DPM>
+  <DPM Name="Floor Rate" Type="DPM">0.00333333333333333</DPM>
+  <DPM Name="Monthly PI at Floor Rate" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Floor Rate" Type="DPM">4</DPM>
+  <DPM Name="Monthly Payment at Floor Rate" Type="DPM">2257.21575547987</DPM>
+ </Rule>
+ <Rule Name="TargetBeGoalPaymentNotMet" Id="1584" ConditionResult="True">
+  <DPM Name="targetBeFailedPayment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="targetBeFailedFloorRate" Type="DPM">4</DPM>
+  <DPM Name="targetBeFailedTargetPayment" Type="DPM">1350</DPM>
+  <DPM Name="Proposed Interest Rate-DPM" Type="DPM">4</DPM>
+  <DPM Name="Proposed Payment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Proposed Term" Type="DPM">274</DPM>
+  <DPM Name="Proposed UPB" Type="DPM">382650.95</DPM>
+ </Rule>
+ <Rule Name="TargetBeGoalPaymentNotMet-Msgs" Id="1585" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="1585" RulesetId="17" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Backend Target rate reduction failed. Target payment: $1350 (@ 75% DTI).. ]]></Message> </Rule>
+ <Rule Name="TargetBeGoalPaymentMet" Id="1593" ConditionResult="False">
+ </Rule>
+ <Rule Name="Store-BackendRateTerm" Id="534" ConditionResult="True">
+  <DPM Name="Backend Rate" Type="DPM">4</DPM>
+  <DPM Name="Backend Term" Type="DPM">274</DPM>
+  <DPM Name="Backend Pmt" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Setup-GrossTarget2DTI" Id="535" ConditionResult="True">
+  <DPM Name="Target DTI" Type="DPM">30</DPM>
+  <DPM Name="Target Payment" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="CalcTargetPmt-FromTargetDTI" Id="528" ConditionResult="True">
+  <DPM Name="Target Payment" Type="DPM">600</DPM>
+  <DPM Name="Target Payment" Type="DPM">475</DPM>
+ </Rule>
+ <Rule Name="Store-GrossTarget2Payment" Id="536" ConditionResult="True">
+  <DPM Name="Gross Target 2 Payment" Type="DPM">475</DPM>
+ </Rule>
+ <Rule Name="GrossTarget2Payment-Msgs" Id="10082" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10082" RulesetId="18" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Gross Target 2 payment: $475 (@ 30% DTI). ]]></Message> </Rule>
+ <Rule Name="Set-ProposedRatePmt-Target1" Id="537" ConditionResult="True">
+  <DPM Name="Proposed Interest Rate-DPM" Type="DPM">4</DPM>
+  <DPM Name="Proposed Payment" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Set-ProposedRatePmt-BeTarget" Id="538" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ProposedRatePmt-Target2" Id="539" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-TermBasedOnTermRateThreshold" Id="540" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="540" RulesetId="81" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ Term Rate threshold exceeded. Proposed Term is 60 months.. ]]></Message>  <DPM Name="Proposed Term" Type="DPM">60</DPM>
+ </Rule>
+ <Rule Name="Set-ModRateTerm-ProposedUPB" Id="10083" ConditionResult="True">
+  <DPM Name="Proposed UPB" Type="DPM">382650.95</DPM>
+ </Rule>
+ <Rule Name="Set-ModRateTerm-ProposedValuesTmp" Id="4843" ConditionResult="True">
+  <DPM Name="modRateTermTermTmp" Type="DPM">60</DPM>
+  <DPM Name="modRateTermUPBTmp" Type="DPM">382650.95</DPM>
+  <DPM Name="modRateTermRateTmp" Type="DPM">4</DPM>
+  <DPM Name="modRateTermPaymentTmp" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Override-StepRate" Id="3676" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepTerm" Id="3677" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepPayment" Id="3678" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModRateTerm-ProposedValues" Id="3679" ConditionResult="True">
+  <DPM Name="modRateTermTerm" Type="DPM">60</DPM>
+  <DPM Name="modRateTermUPB" Type="DPM">382650.95</DPM>
+  <DPM Name="modRateTermRate" Type="DPM">4</DPM>
+  <DPM Name="modRateTermPayment" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Set-ModRateTerm-OutputMatrixResults" Id="4844" ConditionResult="False">
+ </Rule>
+ <Rule Name="SetForbearOverrideAmount" Id="1594" ConditionResult="False">
+  <DPM Name="forbearOverrideAmount" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="SetForbearFlag" Id="1595" ConditionResult="False">
+  <DPM Name="forbearFlag" Type="DPM">N</DPM>
+  <DPM Name="forbearDecision" Type="DPM">Fail</DPM>
+ </Rule>
+ <Rule Name="SetForbearFlag-Fail-Reason" Id="9816" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcMaxForbearPrinciple" Id="1586" ConditionResult="False">
+  <DPM Name="Max Forbearance Principle" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="CalcForbearAmount" Id="1588" ConditionResult="False">
+ </Rule>
+ <Rule Name="OverrideForbearPrincipleAmount" Id="1589" ConditionResult="False">
+ </Rule>
+ <Rule Name="SubtractForbearPrincipleAmountFromUPB" Id="1582" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcProposedRateTerm-ModForbear" Id="3065" ConditionResult="False">
+ </Rule>
+ <Rule Name="ForbearGoalPaymentNotMet" Id="3064" ConditionResult="False">
+ </Rule>
+ <Rule Name="CheckForbearSucceeded" Id="1598" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModForbear-ProposedValuesTmp" Id="4845" ConditionResult="True">
+  <DPM Name="modForbearTermTmp" Type="DPM">60</DPM>
+  <DPM Name="modForbearUPBTmp" Type="DPM">382650.95</DPM>
+  <DPM Name="modForbearRateTmp" Type="DPM">4</DPM>
+  <DPM Name="modForbearPaymentTmp" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Override-StepRate" Id="3676" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepTerm" Id="3677" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepPayment" Id="3678" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModForbear-ProposedValues" Id="3680" ConditionResult="True">
+  <DPM Name="modForbearTerm" Type="DPM">60</DPM>
+  <DPM Name="modForbearUPB" Type="DPM">382650.95</DPM>
+  <DPM Name="modForbearRate" Type="DPM">4</DPM>
+  <DPM Name="modForbearPayment" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Set-ModForbear-OutputMatrixResults" Id="4846" ConditionResult="False">
+ </Rule>
+ <Rule Name="SetForgiveOverrideAmount" Id="1797" ConditionResult="False">
+  <DPM Name="forgiveOverrideAmount" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="SetForgiveFlag" Id="1798" ConditionResult="False">
+  <DPM Name="forgiveFlag" Type="DPM">N</DPM>
+  <DPM Name="forgiveDecision" Type="DPM">Fail</DPM>
+ </Rule>
+ <Rule Name="SetForgiveFlag-Fail-Reason" Id="9815" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcMaxForgivePrinciple" Id="1799" ConditionResult="False">
+  <DPM Name="Max Forgive Principle" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="CalcForgiveAmount" Id="1800" ConditionResult="False">
+ </Rule>
+ <Rule Name="OverrideForgivePrincipleAmount" Id="1801" ConditionResult="False">
+ </Rule>
+ <Rule Name="SubtractForgivePrincipleAmountFromUPB" Id="1802" ConditionResult="False">
+ </Rule>
+ <Rule Name="SubtractDqInterestAmountFromUPB" Id="3681" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcProposedRateTerm-ModForgive" Id="3066" ConditionResult="False">
+ </Rule>
+ <Rule Name="ForgiveGoalPaymentNotMet" Id="3067" ConditionResult="False">
+ </Rule>
+ <Rule Name="CheckForgiveSucceeded" Id="1805" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModForgive-ProposedValuesTmp" Id="4847" ConditionResult="True">
+  <DPM Name="modForgiveTermTmp" Type="DPM">60</DPM>
+  <DPM Name="modForgiveUPBTmp" Type="DPM">382650.95</DPM>
+  <DPM Name="modForgiveRateTmp" Type="DPM">4</DPM>
+  <DPM Name="modForgivePaymentTmp" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Override-StepRate" Id="3676" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepTerm" Id="3677" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepPayment" Id="3678" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModForgive-ProposedValues" Id="3682" ConditionResult="True">
+  <DPM Name="modForgiveTerm" Type="DPM">60</DPM>
+  <DPM Name="modForgiveUPB" Type="DPM">382650.95</DPM>
+  <DPM Name="modForgiveRate" Type="DPM">4</DPM>
+  <DPM Name="modForgivePayment" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Set-ModForgive-OutputMatrixResults" Id="4848" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-LTV-CLTV" Id="3254" ConditionResult="True">
+  <DPM Name="LTV" Type="DPM">76.9695571428571</DPM>
+  <DPM Name="CLTV" Type="DPM">97.3777204081633</DPM>
+ </Rule>
+ <Rule Name="SetSAMFlag" Id="3255" ConditionResult="False">
+  <DPM Name="samFlag" Type="DPM">N</DPM>
+  <DPM Name="samDecision" Type="DPM">Fail</DPM>
+ </Rule>
+ <Rule Name="SetSAMFlag-LT125LTV" Id="3256" ConditionResult="False">
+ </Rule>
+ <Rule Name="SetSAMFlag-Calc125LTV" Id="3257" ConditionResult="False">
+ </Rule>
+ <Rule Name="SetSAMFlag-CalcDeferredBalance" Id="3258" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-DTI" Id="3259" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-PassFail-DTI" Id="3260" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-PassFail-LTV" Id="3261" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-PassFail-CLTV" Id="3262" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-TriggerUWReview" Id="3263" ConditionResult="False">
+ </Rule>
+ <Rule Name="Calc-ModSAM-DeferredBalanceMsg" Id="3264" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModSAM-ProposedValuesTmp" Id="4849" ConditionResult="True">
+  <DPM Name="modSAMTermTmp" Type="DPM">60</DPM>
+  <DPM Name="modSAMUPBTmp" Type="DPM">382650.95</DPM>
+  <DPM Name="modSAMRateTmp" Type="DPM">4</DPM>
+  <DPM Name="modSAMPaymentTmp" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Override-StepRate" Id="3676" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepTerm" Id="3677" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepPayment" Id="3678" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModSAM-ProposedValues" Id="3683" ConditionResult="True">
+  <DPM Name="modSAMTerm" Type="DPM">60</DPM>
+  <DPM Name="modSAMUPB" Type="DPM">382650.95</DPM>
+  <DPM Name="modSAMRate" Type="DPM">4</DPM>
+  <DPM Name="modSAMPayment" Type="DPM">2132.21575547987</DPM>
+ </Rule>
+ <Rule Name="Set-ModSAM-OutputMatrixResults" Id="4850" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC SetProductRank PLK.1" Id="9903" ConditionResult="True">
+  <DPM Name="Rank" Type="DPM">1</DPM>
+ </Rule>
+ <Rule Name="NPV-RemoveForbearAmountTemp" Id="3669" ConditionResult="True">
+  <DPM Name="tempForbearAmount" Type="DPM"></DPM>
+  <DPM Name="Forbearance Amount" Type="DPM">0</DPM>
+ </Rule>
+ <Rule Name="NPV-Calc" Id="3670" ConditionResult="True">
+  <DPM Name="Payment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Discount Rate" Type="DPM">0.00375</DPM>
+  <DPM Name="Term" Type="DPM">60</DPM>
+  <DPM Name="Calc1" Type="DPM">1.25179582052417</DPM>
+  <DPM Name="Calc2" Type="DPM">536.883015685614</DPM>
+  <DPM Name="Calc3" Type="DPM">0.00469423432696563</DPM>
+  <DPM Name="NPV Temp" Type="DPM">114370.731900096</DPM>
+  <DPM Name="Payment" Type="DPM">0</DPM>
+  <DPM Name="Term" Type="DPM">60</DPM>
+  <DPM Name="Payment Date" Type="DPM">4/22/2015 12:00:00 AM</DPM>
+  <DPM Name="Term" Type="DPM">1826</DPM>
+  <DPM Name="Discount Rate" Type="DPM">0.00375</DPM>
+  <DPM Name="Calc4" Type="DPM">0</DPM>
+  <DPM Name="NPV" Type="DPM">114370.731900096</DPM>
+  <DPM Name="NPV Mod Rate Term" Type="DPM">114370.731900096</DPM>
+ </Rule>
+ <Rule Name="NPV-ReplaceForbearAmountTemp" Id="3671" ConditionResult="True">
+  <DPM Name="Forbearance Amount" Type="DPM"></DPM>
+ </Rule>
+ <Rule Name="NPV-Store-ModRateTerm" Id="3672" ConditionResult="True">
+  <DPM Name="NPV Mod Rate Term" Type="DPM">114370.731900096</DPM>
+ </Rule>
+ <Rule Name="NPV-Store-ModForbear" Id="3673" ConditionResult="False">
+ </Rule>
+ <Rule Name="NPV-Store-ModForgive" Id="3674" ConditionResult="False">
+ </Rule>
+ <Rule Name="NPV-Store-ModSAM" Id="3675" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModRateTerm-ProposedPmtRateTerm" Id="1789" ConditionResult="True">
+  <DPM Name="Proposed Interest Rate-DPM" Type="DPM">4</DPM>
+  <DPM Name="Proposed Payment" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Proposed Term" Type="DPM">60</DPM>
+  <DPM Name="Current Unpaid Balance" Type="DPM">382650.95</DPM>
+ </Rule>
+ <Rule Name="Set-ModForbear-ProposedPmtRateTerm" Id="1790" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModForgive-ProposedPmtRateTerm" Id="1791" ConditionResult="False">
+ </Rule>
+ <Rule Name="Set-ModSAM-ProposedPmtRateTerm" Id="1792" ConditionResult="False">
+ </Rule>
+ <Rule Name="CalcCashFlowTerms" Id="1785" ConditionResult="True">
+  <DPM Name="Modified Cash Flow Term 1" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Modified Cash Flow Term 12" Type="DPM">25586.5890657585</DPM>
+  <DPM Name="Modified Cash Flow Term 24" Type="DPM">51173.1781315169</DPM>
+ </Rule>
+ <Rule Name="SetDisplayValues" Id="1786" ConditionResult="True">
+  <DPM Name="Best Fit Display" Type="DPM">All</DPM>
+  <DPM Name="Display Grid" Type="DPM">Y</DPM>
+ </Rule>
+ <Rule Name="ProposedDTI-Calc" Id="10085" ConditionResult="True">
+  <DPM Name="proposedFrontDTI" Type="DPM">112.860787773994</DPM>
+  <DPM Name="proposedBackDTI" Type="DPM">114.110787773994</DPM>
+ </Rule>
+ <Rule Name="ProposedDTI-Msg" Id="10084" ConditionResult="True">
+  <Message Type="FINDINGS" RuleId="10084" RulesetId="25" Id="0" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[ FrontEnd/BackEnd DTI (based on proposed payment): 112.86/114.11%.. ]]></Message> </Rule>
+ <Rule Name="Set-ReportingValues" Id="9811" ConditionResult="True">
+  <DPM Name="Interest Rate After Modification" Type="DPM">4</DPM>
+  <DPM Name="Principal And Interest Payment After Modification" Type="DPM">2132.21575547987</DPM>
+  <DPM Name="Amortization Term After Modification" Type="DPM">60</DPM>
+  <DPM Name="Unpaid Principal Balance After Modification" Type="DPM">382650.95</DPM>
+ </Rule>
+ <Rule Name="Override-StepRate-Msgs-Rate" Id="3684" ConditionResult="False">
+ </Rule>
+ <Rule Name="Override-StepRate-Msgs-Term" Id="3685" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults" Id="187" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-ForbearPass" Id="1600" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-ForbearPass-AmtDueAtMaturity" Id="2533" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-ForbearFail" Id="1601" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-ForgivePass" Id="2534" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-ForgiveFail" Id="2535" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-SAMPass" Id="3268" ConditionResult="False">
+ </Rule>
+ <Rule Name="ShowResults-SAMFail" Id="3269" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.1" Id="10003" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.2" Id="10004" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.3" Id="10005" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.4" Id="10006" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.5" Id="10007" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.6" Id="10008" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.7" Id="10009" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.8" Id="10010" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.9" Id="10011" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.10" Id="10012" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.11" Id="10013" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.12" Id="10014" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.13" Id="10015" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.14" Id="10016" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.15" Id="10017" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.16" Id="10018" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.17" Id="10019" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.18" Id="10020" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.19" Id="10021" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.20" Id="10022" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Exception PLK.21" Id="10023" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Loan Mod Conditions PLK.1" Id="9850" ConditionResult="True">
+  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="2" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Hardship Letter Document  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="3" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Financial Worksheet Document  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="4" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Income Documentation  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="5" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Credit Card Statements Documentation  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="7" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Property Valuation Documentation (eppraisal, Cyberhomes, Mortgage.com, AVM, BPO, comps)  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="8" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Asset Documentation  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="9" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Calculate Borrower Fees  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="10" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Full UW, Upload Additional Documentation from Borrower  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="11" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Obtain Servicer/Investor Approval  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="12" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Obtain Committee Approval  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="13" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Portfolio Manager / Loan Officer contact Borrower to Notify of Approval  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="14" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Portfolio Manager / Loan Officer generate Approval Letter  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="15" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Notify Portfolio Manager / Loan Officer of UW Suspension  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="16" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Notify Portfolio Manager / Loan Officer of UW Denial  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="17" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Batch data file submitted to Servicing Surveillance Group Daily, containing detailed mod data for Servicer Mod Process and Document creation  . ]]></Message>  <Message Type="CONDITIONS" RuleId="9850" RulesetId="30" Id="18" PriorTo="" Category="" Visibility="" Critical=""><![CDATA[  Upload Executed Docs received from Servicer  . ]]></Message> </Rule>
+ <Rule Name="LoanMod-Exception-NoIncome-NOO" Id="10076" ConditionResult="False">
+ </Rule>
+ <Rule Name="LoanMod-Exception-NoIncome-2ndHome" Id="10077" ConditionResult="False">
+ </Rule>
+ <Rule Name="LoanMod-Exception-NoIncome-Owner" Id="10078" ConditionResult="False">
+ </Rule>
+ <Rule Name="LoanMod-Exception-NoIncome" Id="4602" ConditionResult="False">
+ </Rule>
+ <Rule Name="IMPC Mod Reports PLK.1" Id="9821" ConditionResult="False">
+ </Rule>
+</Rules>
+
+
+
+
+<Decision GuidelineId="2" Rulecount="0" ExecutionTime="4/22/2010 5:55:20 PM" ExecutionResult="True">
+     <Messages>
+          <Message Type="Findings" RuleId="10069" RulesetId="72"><![CDATA[ASSUMPTIONS --  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay--  Property Valuation Type: AVM--  Months In Default: 4]]></Message>
+          <Message Type="Findings" RuleId="10072" RulesetId="80"><![CDATA[Calculated LTV/CLTV: 76.97% / 97.38%]]></Message>
+          <Message Type="Findings" RuleId="10073" RulesetId="1"><![CDATA[Calculated remaining term: 274]]></Message>
+          <Message Type="Findings" RuleId="10074" RulesetId="1"><![CDATA[Calculated delinquent interest: $5500.12 (on UPB of $377150.83)]]></Message>
+          <Message Type="Findings" RuleId="10075" RulesetId="1"><![CDATA[Calculated capitalized UPB: $382650.95]]></Message>
+          <Message Type="Findings" RuleId="10079" RulesetId="22"><![CDATA[Calculated total income (based on current occupancy type): $2000]]></Message>
+          <Message Type="Findings" RuleId="10080" RulesetId="22"><![CDATA[Calculated Expenses:  --Housing Expenses: $125  --Monthly Liabilities: $25  --Total Expenses: $150]]></Message>
+          <Message Type="Findings" RuleId="10081" RulesetId="16"><![CDATA[Gross Target 1 payment: $675 (@ 40% DTI)]]></Message>
+          <Message Type="Findings" RuleId="1583" RulesetId="16"><![CDATA[Gross Target 1 rate reduction failed. Target payment: $675 (@ 40% DTI). -- Using payment based on Min Rate. Payment based on rate of 4% is $2132.22.]]></Message>
+          <Message Type="Findings" RuleId="1585" RulesetId="17"><![CDATA[Backend Target rate reduction failed. Target payment: $1350 (@ 75% DTI).]]></Message>
+          <Message Type="Findings" RuleId="10082" RulesetId="18"><![CDATA[Gross Target 2 payment: $475 (@ 30% DTI)]]></Message>
+          <Message Type="Findings" RuleId="540" RulesetId="81"><![CDATA[Term Rate threshold exceeded. Proposed Term is 60 months.]]></Message>
+          <Message Type="Findings" RuleId="10084" RulesetId="25"><![CDATA[FrontEnd/BackEnd DTI (based on proposed payment): 112.86/114.11%.]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="2" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Hardship Letter Document  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="3" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Financial Worksheet Document  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="4" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Income Documentation  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="5" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Credit Card Statements Documentation  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="7" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Property Valuation Documentation (eppraisal, Cyberhomes, Mortgage.com, AVM, BPO, comps)  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="8" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Upload Asset Documentation  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="9" PriorTo="15" Visibility="False" Critical="False" Responsible="PS-SalesLossMit"><![CDATA[ Calculate Borrower Fees  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="10" PriorTo="16" Visibility="False" Critical="False" Responsible="PS-ModUW"><![CDATA[ Full UW, Upload Additional Documentation from Borrower  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="11" PriorTo="23" Visibility="False" Critical="False" Responsible="PS-ModUW"><![CDATA[ Obtain Servicer/Investor Approval  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="12" PriorTo="23" Visibility="False" Critical="False" Responsible="PS-ModUW"><![CDATA[ Obtain Committee Approval  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="13" PriorTo="8" Visibility="False" Critical="False"><![CDATA[ Portfolio Manager / Loan Officer contact Borrower to Notify of Approval  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="14" PriorTo="8" Visibility="False" Critical="False"><![CDATA[ Portfolio Manager / Loan Officer generate Approval Letter  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="15" PriorTo="8" Visibility="False" Critical="False"><![CDATA[ Notify Portfolio Manager / Loan Officer of UW Suspension  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="16" PriorTo="8" Visibility="False" Critical="False"><![CDATA[ Notify Portfolio Manager / Loan Officer of UW Denial  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="17" PriorTo="10" Visibility="False" Critical="False"><![CDATA[ Batch data file submitted to Servicing Surveillance Group Daily, containing detailed mod data for Servicer Mod Process and Document creation  ]]></Message>
+          <Message Type="Condition" RuleId="9850" RulesetId="30" Id="18" PriorTo="24" Visibility="False" Critical="False" Responsible="MSD-Analyst"><![CDATA[ Upload Executed Docs received from Servicer  ]]></Message>
+     </Messages>
+     <DerivedParameters>
+          <DPM Name="Decision Date" Type="DSM" Order="0" ProductType="2">4/22/2010</DPM>
+          <DPM Name="Current Unpaid Balance" Type="DSM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="NPV" Type="DSM" Order="0" ProductType="4">114370.73</DPM>
+          <DPM Name="Decision" Type="DSM" Order="0" ProductType="6">Pass</DPM>
+          <DPM Name="Interest Rate After Modification" Type="DSM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Modified Cash Flow Term 12" Type="DSM" Order="0" ProductType="4">25586.59</DPM>
+          <DPM Name="Backend Rate" Type="DSM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Gross Target DTI1" Type="DSM" Order="0" ProductType="4">40</DPM>
+          <DPM Name="Gross Target DTI2" Type="DSM" Order="0" ProductType="4">30</DPM>
+          <DPM Name="Amortization Term After Modification" Type="DSM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Modified Cash Flow Term 1" Type="DSM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Proposed Term" Type="DSM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Backend Pmt" Type="DSM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="affordablePayment" Type="DSM" Order="0" ProductType="4">675</DPM>
+          <DPM Name="Proposed Interest Rate-DPM" Type="DSM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Best Fit Display" Type="DSM" Order="0" ProductType="6">All</DPM>
+          <DPM Name="Modified Cash Flow Term 24" Type="DSM" Order="0" ProductType="4">51173.18</DPM>
+          <DPM Name="Gross Target 1 Rate" Type="DSM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Display Grid" Type="DSM" Order="0" ProductType="6">Y</DPM>
+          <DPM Name="Gross Target 2 Payment" Type="DSM" Order="0" ProductType="4">475</DPM>
+          <DPM Name="DQ Interest" Type="DSM" Order="0" ProductType="4">5500.12</DPM>
+          <DPM Name="Unpaid Principal Balance After Modification" Type="DSM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Gross Target 1 Term" Type="DSM" Order="0" ProductType="4">274</DPM>
+          <DPM Name="Proposed Payment" Type="DSM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Principal And Interest Payment After Modification" Type="DSM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Proposed UPB" Type="DSM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Backend Target DTI" Type="DSM" Order="0" ProductType="4">75</DPM>
+          <DPM Name="Backend Term" Type="DSM" Order="0" ProductType="4">274</DPM>
+          <DPM Name="NPV Mod Rate Term" Type="DSM" Order="0" ProductType="4">114370.73</DPM>
+          <DPM Name="Rank" Type="DSM" Order="0" ProductType="4">1</DPM>
+          <DPM Name="Gross Target 1 Payment" Type="DSM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Monthly Income" Type="DPM" Order="0" ProductType="4">2000</DPM>
+          <DPM Name="Term" Type="DPM" Order="0" ProductType="4">1826</DPM>
+          <DPM Name="Todays Date" Type="DPM" Order="0" ProductType="2">4/22/2010</DPM>
+          <DPM Name="modRateTermRateTmp" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Monthly PI at Floor Rate" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="loanAmount" Type="DPM" Order="0" ProductType="4">377150.83</DPM>
+          <DPM Name="proposedFrontDTI" Type="DPM" Order="0" ProductType="4">112.86</DPM>
+          <DPM Name="Mortgage Owner" Type="DPM" Order="0" ProductType="6">Private</DPM>
+          <DPM Name="modForbearPayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="tmpTerm" Type="DPM" Order="0" ProductType="4">300</DPM>
+          <DPM Name="Target DTI" Type="DPM" Order="0" ProductType="4">30</DPM>
+          <DPM Name="Full UW Trigger" Type="DPM" Order="0" ProductType="6">No</DPM>
+          <DPM Name="Lien Number" Type="DPM" Order="0" ProductType="4">1</DPM>
+          <DPM Name="MSA Title" Type="DPM" Order="0" ProductType="6">Pacific</DPM>
+          <DPM Name="Hardship Term" Type="DPM" Order="0" ProductType="6">ShortTerm</DPM>
+          <DPM Name="Discount Rate Actual" Type="DPM" Order="0" ProductType="4">4.5</DPM>
+          <DPM Name="Debt Source Property" Type="DPM" Order="0" ProductType="6">Primary</DPM>
+          <DPM Name="modSAMRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="NPV Temp" Type="DPM" Order="0" ProductType="4">114370.73</DPM>
+          <DPM Name="Max Term Extension" Type="DPM" Order="0" ProductType="4">274</DPM>
+          <DPM Name="modForbearUPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Property Type" Type="DPM" Order="0" ProductType="6">DPUDS</DPM>
+          <DPM Name="modRateTermUPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Floor Term" Type="DPM" Order="0" ProductType="4">274</DPM>
+          <DPM Name="Term Rate Threshold" Type="DPM" Order="0" ProductType="4">3</DPM>
+          <DPM Name="Current Month" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Backend Target DTI-OO" Type="DPM" Order="0" ProductType="4">75</DPM>
+          <DPM Name="target1FailedFloorRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="modForgiveUPBTmp" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Motivation" Type="DPM" Order="0" ProductType="6">Wish To Stay</DPM>
+          <DPM Name="forgiveOverrideAmount" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Max LTV" Type="DPM" Order="0" ProductType="4">80</DPM>
+          <DPM Name="Max Forbearance Principle" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modForgivePaymentTmp" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="modSAMTerm" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="YearQuarterNo" Type="DPM" Order="0" ProductType="6">2012Q2</DPM>
+          <DPM Name="Division Name" Type="DPM" Order="0" ProductType="6">Pacific</DPM>
+          <DPM Name="LTV" Type="DPM" Order="0" ProductType="4">76.97</DPM>
+          <DPM Name="Capitalized UPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Gross Target DTI1-2ND" Type="DPM" Order="0" ProductType="4">45</DPM>
+          <DPM Name="Goal Payment" Type="DPM" Order="0" ProductType="4">1350</DPM>
+          <DPM Name="Current Occupancy" Type="DPM" Order="0" ProductType="6">Owner</DPM>
+          <DPM Name="modForgivePayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="modRateTermPayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Months in Default" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="rateTermSucceededFlag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Name="modForgiveTerm" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Calc4" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Monthly Liabilities" Type="DPM" Order="0" ProductType="4">25</DPM>
+          <DPM Name="Calc1" Type="DPM" Order="0" ProductType="4">1.252</DPM>
+          <DPM Name="Current Payment" Type="DPM" Order="0" ProductType="4">2147.32</DPM>
+          <DPM Name="targetBeFailedTargetPayment" Type="DPM" Order="0" ProductType="4">1350</DPM>
+          <DPM Name="Temp Number" Type="DPM" Order="0" ProductType="4">3</DPM>
+          <DPM Name="Max Forgive Principle" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modForgiveTermTmp" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Mod Term2" Type="DPM" Order="0" ProductType="4">24</DPM>
+          <DPM Name="Gross Target DTI2-2ND" Type="DPM" Order="0" ProductType="4">35</DPM>
+          <DPM Name="Todays Day" Type="DPM" Order="0" ProductType="6">22</DPM>
+          <DPM Name="Product Code" Type="DPM" Order="0" ProductType="4">2</DPM>
+          <DPM Name="Remaining Term" Type="DPM" Order="0" ProductType="4">274</DPM>
+          <DPM Name="forbearDecision" Type="DPM" Order="0" ProductType="6">Fail</DPM>
+          <DPM Name="Future HPI" Type="DPM" Order="0" ProductType="4">100.55</DPM>
+          <DPM Name="interest" Type="DPM" Order="0" ProductType="4">4.375</DPM>
+          <DPM Name="No of Units" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modSAMTermTmp" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Gross Target DTI2-NOO" Type="DPM" Order="0" ProductType="4">110</DPM>
+          <DPM Name="target1FailedTargetPayment" Type="DPM" Order="0" ProductType="4">675</DPM>
+          <DPM Name="Gross Target DTI1-OO" Type="DPM" Order="0" ProductType="4">40</DPM>
+          <DPM Name="Forbearance Amount" Type="DPM" Order="0" ProductType="4" />
+          <DPM Name="modSAMPayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Future Month" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Min Rate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Min UPB" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Backend Target DTI-2ND" Type="DPM" Order="0" ProductType="4">80</DPM>
+          <DPM Name="Rate Increment" Type="DPM" Order="0" ProductType="4">0.125</DPM>
+          <DPM Name="Mod Term1" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="forgiveDecision" Type="DPM" Order="0" ProductType="6">Fail</DPM>
+          <DPM Name="YearCurrentQuarter" Type="DPM" Order="0" ProductType="6">2010Q2</DPM>
+          <DPM Name="Max CLTV" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Foreclosure Hold Time" Type="DPM" Order="0" ProductType="4">10.64</DPM>
+          <DPM Name="Calc3" Type="DPM" Order="0" ProductType="4">0.005</DPM>
+          <DPM Name="Calc2" Type="DPM" Order="0" ProductType="4">536.883</DPM>
+          <DPM Name="modRateTermTermTmp" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="modForbearTermTmp" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Future Income" Type="DPM" Order="0" ProductType="6">Improve</DPM>
+          <DPM Name="assumptionMsg" Type="DPM" Order="0" ProductType="6">--  Hardship Severity: Moderate--  Hardship Term: ShortTerm--  Future Income: Improve--  Borrower Intent: Wish To Stay--  Property Valuation Type: AVM--  Months In Default: 4</DPM>
+          <DPM Name="Maturity Date" Type="DPM" Order="0" ProductType="2">3/1/2033</DPM>
+          <DPM Name="Housing Region" Type="DPM" Order="0" ProductType="6">Stable</DPM>
+          <DPM Name="Min Rate-SAM" Type="DPM" Order="0" ProductType="4">5</DPM>
+          <DPM Name="targetBeFailedPayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="forbearFlag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Name="Hardship Severity" Type="DPM" Order="0" ProductType="6">Moderate</DPM>
+          <DPM Name="modRateTermTerm" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Monthly Payment at Floor Rate" Type="DPM" Order="0" ProductType="4">2257.22</DPM>
+          <DPM Name="Discount Rate" Type="DPM" Order="0" ProductType="4">0.004</DPM>
+          <DPM Name="Payment" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="forbearOverrideAmount" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modRateTermUPBTmp" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="modForbearUPBTmp" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="target1FailedPayment" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="Future Year" Type="DPM" Order="0" ProductType="6">2012</DPM>
+          <DPM Name="Backend DTI" Type="DPM" Order="0" ProductType="4">75</DPM>
+          <DPM Name="Forgive Max Principle" Type="DPM" Order="0" ProductType="5">0</DPM>
+          <DPM Name="modForbearTerm" Type="DPM" Order="0" ProductType="4">60</DPM>
+          <DPM Name="Forgive Max Interest" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Current Year" Type="DPM" Order="0" ProductType="4">2010</DPM>
+          <DPM Name="Valuation Type" Type="DPM" Order="0" ProductType="6">AVM</DPM>
+          <DPM Name="Current UPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Payment Date" Type="DPM" Order="0" ProductType="2">4/22/2015</DPM>
+          <DPM Name="Target Payment" Type="DPM" Order="0" ProductType="4">475</DPM>
+          <DPM Name="Forbearance Max Principle" Type="DPM" Order="0" ProductType="5">0</DPM>
+          <DPM Name="Months Delinquent" Type="DPM" Order="0" ProductType="4">3</DPM>
+          <DPM Name="Borrower Contribution" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Income Type" Type="DPM" Order="0" ProductType="6">Borr Income</DPM>
+          <DPM Name="Min Rate-RateTerm" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Future Quarter" Type="DPM" Order="0" ProductType="6">Q2</DPM>
+          <DPM Name="modForgiveRateTmp" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="overrideStepRateTerm" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Name="Max UPB" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modSAMPaymentTmp" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="modForbearRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="modSAMUPBTmp" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="Housing Expenses" Type="DPM" Order="0" ProductType="4">125</DPM>
+          <DPM Name="Backend Target DTI-NOO" Type="DPM" Order="0" ProductType="4">75</DPM>
+          <DPM Name="Current HPI" Type="DPM" Order="0" ProductType="4">98.09</DPM>
+          <DPM Name="Global Parameter" Type="DPM" Order="0" ProductType="4">1</DPM>
+          <DPM Name="modSAMRateTmp" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Rate Matrix Group" Type="DPM" Order="0" ProductType="6">1</DPM>
+          <DPM Name="Forbearance Max Interest" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="proposedBackDTI" Type="DPM" Order="0" ProductType="4">114.11</DPM>
+          <DPM Name="Present Monthly Expenses" Type="DPM" Order="0" ProductType="4">150</DPM>
+          <DPM Name="REO Hold Time" Type="DPM" Order="0" ProductType="4">7</DPM>
+          <DPM Name="Status" Type="DPM" Order="0" ProductType="1">False</DPM>
+          <DPM Name="samFlag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Name="Foreclosure Hold Time No Mod" Type="DPM" Order="0" ProductType="4">18</DPM>
+          <DPM Name="Current Quarter" Type="DPM" Order="0" ProductType="6">Q2</DPM>
+          <DPM Name="Future Date" Type="DPM" Order="0" ProductType="2">4/22/2012</DPM>
+          <DPM Name="Min LTV" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="modForgiveRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Min CLTV" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Name="Temp String" Type="DPM" Order="0" ProductType="6">22/2012 12:00:00 AM</DPM>
+          <DPM Name="propertyValue" Type="DPM" Order="0" ProductType="4">490000</DPM>
+          <DPM Name="modForgiveUPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="CLTV" Type="DPM" Order="0" ProductType="4">97.38</DPM>
+          <DPM Name="Min Rate-Forgive" Type="DPM" Order="0" ProductType="4">5</DPM>
+          <DPM Name="State of the Subject Property" Type="DPM" Order="0" ProductType="6">CA</DPM>
+          <DPM Name="forgiveFlag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Name="modForbearPaymentTmp" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="modForbearRateTmp" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="modSAMUPB" Type="DPM" Order="0" ProductType="4">382650.95</DPM>
+          <DPM Name="REO Foreclosure Expense Percentage" Type="DPM" Order="0" ProductType="4">0.02</DPM>
+          <DPM Name="samDecision" Type="DPM" Order="0" ProductType="6">Fail</DPM>
+          <DPM Name="Borrower Deposit Reqd" Type="DPM" Order="0" ProductType="5">0</DPM>
+          <DPM Name="modRateTermRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Gross Target DTI1-NOO" Type="DPM" Order="0" ProductType="4">110</DPM>
+          <DPM Name="tempMsg" Type="DPM" Order="0" ProductType="6">--  Months In Default: 4</DPM>
+          <DPM Name="targetBeFailedFloorRate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="Floor Rate" Type="DPM" Order="0" ProductType="4">4</DPM>
+          <DPM Name="tempForbearAmount" Type="DPM" Order="0" ProductType="4" />
+          <DPM Name="REO Foreclosure Time" Type="DPM" Order="0" ProductType="4">24</DPM>
+          <DPM Name="Available Products" Type="DPM" Order="0" ProductType="6">1|2|6|7|8|9|10</DPM>
+          <DPM Name="Gross Target DTI2-OO" Type="DPM" Order="0" ProductType="4">30</DPM>
+          <DPM Name="modRateTermPaymentTmp" Type="DPM" Order="0" ProductType="4">2132.22</DPM>
+          <DPM Name="YearFutureQuarter" Type="DPM" Order="0" ProductType="6">2012Q2</DPM>
+          <DPM Name="Min Rate-Forbear" Type="DPM" Order="0" ProductType="4">5</DPM>
+          <DPM Name="Test Backend" Type="DPM" Order="0" ProductType="6">No</DPM>
+          <DPM Name="Current Interest Rate" Type="DPM" Order="0" ProductType="4">4.375</DPM>
+          <DPM Name="Current Quarter No." Type="DPM" Order="0" ProductType="4">2</DPM>
+     </DerivedParameters>
+</Decision>
+</PRODUCT_DATA>

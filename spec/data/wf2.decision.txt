@@ -1,0 +1,705 @@
+****CalculateAppParam: Application InputXML 
+
+<DECISION_REQUEST><APPLICATION ApplicationID="6824" OrganizationID="27" CreatedDate="01/12/2013" ModifiedDate="03/06/2013" Summary="Batch Upload Application" StateID="3" State="01 New File" SpouseIncludeFlag="N" SpouseQualFlag="N" JointFlag="N" UserID="478" UserName="Import User" OrganizationName="Loan Import" ForwardDate="03/06/2013" UDFStr11="test" UDFStr12="test" UserTypeId="" Source="Internal" ActName="HSBC" InBankruptcy="N" BankruptcyStatus="None" BankruptcyReaffirmation="N" HideMessages="N" CalculatedCSPMonthlyGrossIncome="2822.7800" CalculatedVerifiedGrossIncome="0.0000" IncomeTolerance="25.0000"><ORGANIZATION OrganizationID="27" UDFInt1="0" UDFInt2="0" UDFInt3="0" UDFInt4="0" UDFInt5="0" UDFStr1="" UDFStr2="" UDFStr3="" UDFStr4="" UDFStr5=""/><USER UserID="478" IsSupervisor="0" UDFInt1="0" UDFInt2="0" UDFInt3="0" UDFInt4="0" UDFInt5="0" UDFStr1="" UDFStr2="" UDFStr3="" UDFStr4="" UDFStr5="" SubmittedUser=""/><APPLICATIONTEAM><APPLICATIONTEAM_USER FirstName="Import" LastName="User" OrganizationName="Loan Import" OriginType="Internal" UserType="Originator" UserID="478" LoginID="Import" UDFStr1="" UDFStr2="" UDFStr3="" UDFStr4="" UDFStr5=""><APPLICATIONTEAM_USER_ORGANIZATION Address="" City="" Region="CA" Zip="" PhoneNumber="" OrganizationID="27"/></APPLICATIONTEAM_USER><APPLICATIONTEAM_USER FirstName="The" LastName="Borrower" OrganizationName="HSBC Corporate" OriginType="Internal" UserType="Borrower" UserID="704" LoginID="borrower" UDFStr1="" UDFStr2="" UDFStr3="" UDFStr4="" UDFStr5=""><APPLICATIONTEAM_USER_ORGANIZATION Address="" City="" Zip="" PhoneNumber="" OrganizationID="2"/></APPLICATIONTEAM_USER></APPLICATIONTEAM><APPLICANTS><APPLICANT BorrowerID="12824" FirstName="INDIAN E EROS" NationalId="256477503" DateOfBirth="07/25/1956" IsPrimary="Y" Score="0" ForeignNationalIndicator="N"><EMPLOYMENTS><EMPLOYMENT EmploymentID="24824" IsSelfEmployed="N" Type="Primary" CurrentType="WageEarner" Retired="0" W2="Y"/><EMPLOYMENT EmploymentID="26580" IsSelfEmployed="N" Type="Previous" Retired="0" W2="Y"/></EMPLOYMENTS><RESIDENCES><RESIDENCE ResidenceID="12824" IsPresent="Y" IsMailing="N"/></RESIDENCES></APPLICANT><APPLICANT BorrowerID="13702" NationalId="000000000" IsPrimary="N" ForeignNationalIndicator="N"><EMPLOYMENTS><EMPLOYMENT EmploymentID="25702" IsSelfEmployed="N" Type="Primary" Retired="0" W2="Y"/><EMPLOYMENT EmploymentID="27458" IsSelfEmployed="N" Type="Previous" Retired="0" W2="Y"/></EMPLOYMENTS><RESIDENCES><RESIDENCE ResidenceID="13702" IsPresent="Y" IsMailing="N"/></RESIDENCES></APPLICANT></APPLICANTS><ASSETS/><EXPENSES><EXPENSE ExpenseID="18824" Amount="0.0000" IsCurrent="Y" Type="HomeownerAssociationDues" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="19702" Amount="0.0000" IsCurrent="Y" Type="HazardInsurance" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="20580" Amount="1.0000" IsCurrent="Y" Type="RealEstateTaxes" FrequencyID="3" MonthlyAmount="1.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426778" Amount="0.0000" IsCurrent="Y" Type="IRAContributions401k" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426779" Amount="0.0000" IsCurrent="Y" Type="Academic" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426780" Amount="0.0000" IsCurrent="Y" Type="CableSatelliteInternet" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426781" Amount="0.0000" IsCurrent="Y" Type="CharitableDonations" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426782" Amount="0.0000" IsCurrent="Y" Type="ChildRelatedElderlyCare" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426783" Amount="0.0000" IsCurrent="Y" Type="Clothes" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426784" Amount="1.0000" IsCurrent="Y" Type="Electricity" FrequencyID="3" MonthlyAmount="1.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426785" Amount="0.0000" IsCurrent="Y" Type="Food" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426786" Amount="0.0000" IsCurrent="Y" Type="GarbageCollection" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426787" Amount="0.0000" IsCurrent="Y" Type="Medical" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426788" Amount="0.0000" IsCurrent="Y" Type="HealthInsurance" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426789" Amount="0.0000" IsCurrent="Y" Type="NaturalGasOil" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426790" Amount="0.0000" IsCurrent="Y" Type="OtherDiscretionary" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426791" Amount="0.0000" IsCurrent="Y" Type="OtherFinancingPAndI" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426792" Amount="0.0000" IsCurrent="Y" Type="PropertyMaintenance" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426793" Amount="0.0000" IsCurrent="Y" Type="Transportation" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426794" Amount="0.0000" IsCurrent="Y" Type="WaterSewer" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="Y"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426795" Amount="0.0000" IsCurrent="Y" Type="Alimony" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426796" Amount="0.0000" IsCurrent="Y" Type="Carpayment1" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426797" Amount="0.0000" IsCurrent="Y" Type="CreditCard1" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426798" Amount="0.0000" IsCurrent="Y" Type="EscrowPayment" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426799" Amount="0.0000" IsCurrent="Y" Type="FloodInsurance" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426800" Amount="0.0000" IsCurrent="Y" Type="Installments" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426801" Amount="0.0000" IsCurrent="Y" Type="AutoInsuarnce" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426802" Amount="0.0000" IsCurrent="Y" Type="OpenCreditLine" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426803" Amount="0.0000" IsCurrent="Y" Type="PMI" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE><EXPENSE ExpenseID="426804" Amount="0.0000" IsCurrent="Y" Type="StudentLoan" FrequencyID="3" MonthlyAmount="0.0000" BorrowerID="12824" UnpaidBalance="0.0000" IsDiscretionary="N"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></EXPENSE></EXPENSES><INCOMES><INCOME IncomeID="2472" Amount="0.0000" Type="Alimony" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2473" Amount="2822.7800" Type="BaseEmplIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="1" MonthlyAmount="2822.7800" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2474" Amount="0.0000" Type="Bonuses" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2475" Amount="0.0000" Type="ChildSupport" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2476" Amount="0.0000" Type="Commissions" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2477" Amount="0.0000" Type="DividendsOrInterest" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2478" Amount="0.0000" Type="Other" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2479" Amount="0.0000" Type="Overtime" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2480" Amount="0.0000" Type="PensionOrRetirementIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2481" Amount="0.0000" Type="NetRentalIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2482" Amount="0.0000" Type="RentalIncomeOtherProperties" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2483" Amount="0.0000" Type="SelfEmploymentIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2484" Amount="0.0000" Type="SocialSecurityOrDisabilityIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2485" Amount="0.0000" Type="TipsOrGratuities" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2486" Amount="0.0000" Type="TrustIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME><INCOME IncomeID="2487" Amount="0.0000" Type="UnemploymentOrWelfareIncome" IsFederalTaxExempted="0" FrequencyId="3" IsVerified="0" MonthlyAmount="0.0000" BorrowerID="12824"><APPLICANTS><APPLICANT ApplicantIDREF="12824" IsPrimary="Y" NationalId="256477503"/></APPLICANTS></INCOME></INCOMES><PARAMETERS><PPM Name="UDF TDR Flag" Value="0"/><PPM Name="UDF Disability Insurance Premium" Value="00000.00"/><PPM Name="UDF Initial Tax / Insurance Required Date"/><PPM Name="UDF Trial Payment Received Date 3"/><PPM Name="UDF Initial Tax / Insurance Complete Date"/><PPM Name="Borrower Intends Short Sale"/><PPM Name="UDF AppDebugCheck1"/><PPM Name="UDF Current Deferred Interest"/><PPM Name="UDF Current Deferred Principal"/><PPM Name="UDF DebugCheck1" Value="N"/><PPM Name="UDF DebugCheck2" Value="N"/><PPM Name="UDF DebugCheck3" Value="Y"/><PPM Name="UDF DebugText1" Value=""/><PPM Name="UDF DebugText2" Value=""/><PPM Name="UDF Due Day"/><PPM Name="UDF Initial Tax / Insurance Complete"/><PPM Name="UDF IUI Insurance Premium"/><PPM Name="UDF Life Insurance Premium"/><PPM Name="UDF Reli Insurance Premium"/><PPM Name="UDF Use Validation Scripting" Value="N"/><PPM Name="ManualCredit" Value="Y"/></PARAMETERS><LOANS><LOAN LoanID="6824" LoanNumber="6824" Amount="145539.1600" Rate="5.2500" LienNumber="1" Duration="360" ComboFlag="N" LienType="1st" HighOverDueActivities="0" MediumOverDueActivities="0" LowOverDueActivities="0" LoanStage="25 Underwriting Review" CurrentStage="25 Underwriting Review" PI="903.5300" OriginalLoanAmount="107294.3900" SellerLoanNumber="0984883198" MortgageType="ConventionalwoPMI" IOIndicator="N" Decision="Y" RemainingOriginalTerm="0" PastDueAmount="8084.4100" MaturityDate="12/31/2036" EscrowPaymentAmount="0.00000" NoteResetRate="0.0000" GSELoanNumber="0000000000" NoteDate="12/06/2006" SuspenseAmount="0.0000" EscrowShortageForAdvances="0.0000" ProductBeforeMod="FixedRate" OriginalRate="5.66000" PayArrearagesAtOnceWithLiqAssets="N" PayArrearagesInInstmntWithLiqAssets="N" FNMAHomeSaverNote="N" CurrentlyInLoanMod="N" PreviousModifiedUnderHMP="N" BorrowerAgreesEscrowSetup="N" Approval="Y" MIPartialClaimPayment="57.2200" InternalStatusCode="1LMCode-NotActive" NPVLock="0" ProductID="37" LTVAtOrigination="73.0000" PriorLoanMod="N" ImminentDefaultFlag="N" TimeInCurrentStage="3" DenialExplanation="30" AncillaryAmount="21.3400" OriginalLoanStandardSecurityInstrument="Y" InterVivosTrust="N" CurrentMaturityDate="12/31/2036" PreviousModificationForbearanceAmount="0.0000" IOIndicatorCurrent="N" CurrentNextRateResetDate="12/11/2036" PastTwoYearsTaxesPaid="N" EscrowBalance="0.0000" RecoverableCorporateAdvances="0.0000" StageChangeDate="03/06/2013" ARMFlag="N" OriginationFrontEndRatio="0.0000" CurrentPaymentDueDay="11" ServicingSystem="CL" PMIInsurance="N" CurrentPrincipalPayment="882.1900" CurrentIOPayment="0.0000" IncompletenessLetterSentCount="1" FFIEC="N" AgencyType="app" PendingServiceRelease="N" HasEscrowAccount="N" HOAFeesCurrent="N" CurrentlyOnActiveMod="N" CorpAdvancesForDQTaxes="0.0000" UpcomingTaxAdvances="0.0000" CorpAdvancesForForcedPlacedInsurance="144.7000" CorpAdvancesNonTaxNonInsurance="0.0000" BorrowerRequiredtoPayDownpayment="Y" BorrowerSendDocsBeforeExpirationDate="N" ReconsiderationReason="CustomerAppeal" AllDocsReceived="Complete" LoanDocsReceivedDate="03/06/2013" OptOutofNewMod="N" PendingInvestorAccount="N" MinARMAdjustment="0.0000" MaxARMAdjustment="0.0000" ARMChangeFrequency="0" ARMFloor="0.0000" ARMCeiling="0.0000" PrepayFlag="N" GrossDisposableIncomeatOrigination="1993.0000" InvestmentPropertyAtOrigination="N" PayrightRewardsFlag="N" PreviousModNoOrLowIncome="N" TroubledDebtReservesFlag="N" BorrowerAgreedToSendDocuments="N" TaxWatchandInsuranceProjectionsCompleted="N" CreditType="N" ContractualInterestRate="7.3500" IsPrincipalWriteDown="N" IsPersonalHomeLoan="N" ContractualPIPayment="1088.0500" InterestMethodType="000" AssociationDuesEscrowed="N" OfferMeetsFHAGuidelines="N" EscrowPaymentCapitalized="162.2700" EscrowPaymentNotCapitalized="162.2700" EscrowPaymentPartial="0.0000" ReinstatementAmount="0.0000" OptionalInsuranceAmount="57.2200" PreviouslyModifiedUnderHAMPTier2="N" DeclineApproval="N" CompletedDocs="Y" PCOValue="0.0000" VendorCode="0000000" ServicingAdvances="0.0000" StatusCode2="N" StageAlias="Application In Review"><LOCKS><LOCK Date="03/06/2013 13:58:19.452" Type="DODLock" User="12345678" IsProgram="N"><LOCKEDITEM Name="Delinquency Status" Type="DTS" Value="MoreThan180DaysDelinquent"/><LOCKEDITEM Name="Has Escrow Account" Type="DTS" Value="N"/></LOCK><LOCK Date="03/06/2013 14:16:18.769" Type="TrialPeriodStartLock" User="" IsProgram="N"><LOCKEDITEM Name="2nd Trial Period Payment Date" Type="DSM" Value="5/5/2013"/><LOCKEDITEM Name="3rd Trial Period Payment Date" Type="DSM" Value="6/4/2013"/><LOCKEDITEM Name="Amortization Term After Modification" Type="DSM" Value=""/><LOCKEDITEM Name="Expected Trial Period Payments Total" Type="DSM" Value="658.47"/><LOCKEDITEM Name="First Trial Period Payment Date" Type="DSM" Value="4/5/2013"/><LOCKEDITEM Name="Interest Rate After Modification" Type="DSM" Value="0.000"/><LOCKEDITEM Name="Length of Trial Period" Type="DSM" Value="3"/><LOCKEDITEM Name="Principal And Interest Payment After Modification" Type="DSM" Value=""/><LOCKEDITEM Name="Qual Payment Due Date Final" Type="DSM" Value="6/4/2013"/><LOCKEDITEM Name="Trial Period Started" Type="DSM" Value="Y"/></LOCK><LOCK Date="03/06/2013 14:16:18.940" Type="NPVDataLock" User="" IsProgram="N"><LOCKEDITEM Name="ForbearanceAmount" Type="DSM" Value=""/><LOCKEDITEM Name="Interest Rate" Type="DSM" Value="0.000"/><LOCKEDITEM Name="ModificationTerm" Type="DSM" Value="60"/><LOCKEDITEM Name="Monthly Gross Income" Type="DSM" Value="2822.78"/><LOCKEDITEM Name="New Term" Type="DSM" Value="0"/><LOCKEDITEM Name="NewBalance" Type="DSM" Value="0.00"/><LOCKEDITEM Name="NewPI" Type="DSM" Value=""/><LOCKEDITEM Name="NewRate" Type="DSM" Value=""/><LOCKEDITEM Name="NewTerm" Type="DSM" Value=""/><LOCKEDITEM Name="NPV Run Date" Type="DSM" Value="3/6/2013"/><LOCKEDITEM Name="PMMS Interest Rate" Type="DSM" Value="3.51000"/><LOCKEDITEM Name="Rate After Mod" Type="DSM"/><LOCKEDITEM Name="Type Of Modification" Type="DSM" Value="PWD"/><LOCKEDITEM Name="VersionID" Type="DSM" Value="0"/></LOCK></LOCKS><DEFAULT ReasonForDefault="Curtailmentofincome" DelinquencyStatus="MoreThan180DaysDelinquent" AbilityToResumeCurrentMtgPmt="N" DQFEES="1916.0000" DQPIPayment="7939.7100" DelinquentCounselorCode="app" AccountInLitigation="N" BankruptcyLitigation="N" ChangeofCircumstance="N" IncomePreviouslyUsedForCategory1Mod="N" DelinquencyStatusCode="0"/><INVESTOR InvestorCode="00609"/><MSP/><SERVICER/><LISTINGAGENT/><CONDITIONS><CONDITION Type="Trial Period" Count="1" Status="Open"/><CONDITION Type="Trial Period" Count="1" Status="Satisfied"/></CONDITIONS><CONDITIONS><CONDITION_DETAIL Description=" Two (2) sequential pay stubs (dated within last 60 calendar days of the application date)  " PriorToType="Trial Period" Status="Satisfied" Category="Financials" Name="Income-Paystubs" Modified="03/06/2013"/><CONDITION_DETAIL Description=" Other Documents (Use this button to upload any required documents that are not specifically listed above.) Alimony, child support, or separate maintenance income need NOT be revealed if you do NOT wish to have it considered as a basis for repaying this obligation.  " PriorToType="Trial Period" Status="Open" Category="Other" Name="zOther Docs" Modified="03/06/2013"/></CONDITIONS><PREVIOUSMODS ModCount="2" ModsLast60MonthsCount="2" PreviousModDTI="0.0000" NoOrLowIncome="N" PreviousModificationDeferredInterest="4628.8600" Category2ModTerm="99"><PREVIOUSMOD Category1ModCount="0" Category1ModActivatedCount="1" Category1FailedTrialsCount="0" Category1FailedTrialPmtsCount="0" Category1FailedTrialNSFCount="0" CategoryFailedTrialDocNotSentCount="0" Category1ModFailedCount="0" Category1InterestRate="0.0000" Category1MonthlyPayment="0.0000" Category1ModTerm="0" Category1ModDisposableIncome="0.0000" Category1ModTotalIncome="0.0000" LastRestructureDate="11/01/2011"><Category1 Forbearance="N"/></PREVIOUSMOD></PREVIOUSMODS><Decision GuidelineId="34" GuidelineName="FAP II Loan Modification Program Guideline" ExecutionTime="2013-03-06T14:37:16.873"><DerivedParameters><DPM Name="ForeclosureNPVValue" Value="0.00"/><DPM Name="BPO Needed" Value="N"/><DPM Name="Trial Period Completed" Value="N"/><DPM Name="Low Income Flag" Value="N"/><DPM Name="Foreclosure NPV Value" Value="999999999.99"/><DPM Name="Days Since Last Appraisal" Value="5"/><DPM Name="Type Of Modification" Value="PWD"/><DPM Name="Can Change Stage" Value="Y"/><DPM Name="NPVModFor6Months" Value="0"/><DPM Name="Material Change Rate" Value="999.99"/></DerivedParameters></Decision><AFTERMOD AmortizationTermAfterModification="24" InterestRateAfterModification="5.0000" PrincipalForbearanceAmount="0.0000"/><OTHERLOAN IOIndicator="N"/><HAUP/><NPVRESULTFROMTREASURY WaterfallTest="N" DeminimisTest="N" ForbearanceFlag="N" NPVRunSuccessful="N" PRAWaterfallTest="N" PRANPVTest="N"/><OVERRIDES/><TASKS><TASK TaskID="446" TaskDefinitionID="1" TaskStage="20 Pending Docs" Name="Submit Docs" Status="Completed" StatusUser="Pamela" StatusDateTime="03/06/2013" TaskType="Workflow"/><TASK TaskID="447" TaskDefinitionID="2" TaskStage="22 Docs Verification" Name="Review Docs" Status="Completed" StatusUser="Pamela" StatusDateTime="03/06/2013" TaskType="Workflow"/><TASK TaskID="448" TaskDefinitionID="9" TaskStage="99 Decline Application" Name="Sending Denial Letter" Status="Open" TaskType="Workflow"/><TASK TaskID="449" TaskDefinitionID="3" TaskStage="35 In Trial" Name="Awaiting Payments" Status="Open" TaskType="Workflow"/></TASKS><TITLE_COMPANY/><PRODUCT ProductID="37" Name="FAP II Loan Modification"/><CLOSING_COMPANY/></LOAN></LOANS><COLLATERALS><COLLATERAL CollID="6824" AddressL2="00100 BLUEVIOLET STREET" City="HAMPTON" PostalCode="60644-4259" RegionValue="IL" Units="1" RealEstateType="SingleFamily" LoanID="6824" NonWarrantableCondo="0" HUDRepo="0" ModelHomeLeaseback="0" InheritedProperty="0" ValidAVM="N" ValidFlood="N" Occupied="N" Listed="N" Condition="Excellent" OccupancyStatus="BorrowerOccupied" ForeclosureStatus="None" TenantCooperation="N" PermissionToContactAgent="N" HOAorManagementCompany="N" OriginationValue="212000.0000" PropertyDamage="N" PoolID="6331" Cancellation="N" RescindedMICoverage="N" AbilitytoContribute="N" ReasonforDefaultResolved="N" ChargedOff="N" RentalPropertyCertified="N"><HAMPCOUNTIES><COUNTY ZipCode="60644" Region="21" MSAName="Chicago-Naperville-Joliet IL-IN-WI"/></HAMPCOUNTIES><VALUATIONS><VALUATION Type="Limitedappraisal" Date="03/01/2013" AsIsValue="100000.0000" IsCurrent="Y"/><VALUATION Type="AutomatedValuationModel" IsCurrent="N"/><VALUATION Type="BrokerPriceOpinion" IsCurrent="N"/><VALUATION Type="Fullappraisal" IsCurrent="N"/><VALUATION Type="AutomatedValuationModelOther" IsCurrent="N"/></VALUATIONS><SHORTSALE MIApprovalRequiredforSS="N" AllowrentafterSS="N" AllowDILifSSFails="N" AllowDeedforLease="N" ListPropertyAsIs="N" AcceptSaleifNetProceedsMet="N" VendorRetainedtoAssistListingAgentwithSS="N" PreviousShortSaleAttemptFailed="N"/><LIQUIDATION TitleDelayorIssue="N" LegalDelayorIssue="N"/></COLLATERAL></COLLATERALS><DEDUCTIONS><DEDUCTION DEDUCTIONID="2719" Amount="0.0000" Type="FederalIncomeTax" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2720" Amount="0.0000" Type="FederalIncomeTax" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2721" Amount="0.0000" Type="StateIncomeTax" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2722" Amount="0.0000" Type="StateIncomeTax" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2723" Amount="0.0000" Type="CountyCityTax" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2724" Amount="0.0000" Type="CountyCityTax" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2725" Amount="0.0000" Type="IRAContributions401k" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2726" Amount="0.0000" Type="IRAContributions401k" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2727" Amount="0.0000" Type="LoanDeduction401k" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2728" Amount="0.0000" Type="LoanDeduction401k" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2729" Amount="0.0000" Type="HealthInsurance" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2730" Amount="0.0000" Type="HealthInsurance" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2731" Amount="0.0000" Type="FlexibleSpendingAccount" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2732" Amount="0.0000" Type="FlexibleSpendingAccount" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2733" Amount="0.0000" Type="RetirementorSocialSecurityTax" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2734" Amount="0.0000" Type="RetirementorSocialSecurityTax" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2735" Amount="0.0000" Type="OtherDeductions" FrequencyId="3" BorrowerID="12824" MonthlyAmount="0.0000"/><DEDUCTION DEDUCTIONID="2736" Amount="0.0000" Type="OtherDeductions" FrequencyId="3" BorrowerID="13702" MonthlyAmount="0.0000"/></DEDUCTIONS></APPLICATION><WORKFLOWEVENT Name="WorkflowProductSelectionPostEvent"><EVENTATTRIBUTES /></WORKFLOWEVENT></DECISION_REQUEST>
+
+
+PRIMARY PARAMETER VALUES***********Output XML*******
+<PARAMS><_DATA_SET _Name='ORIGINAL LOAN STANDARD SECURITY' _Value='Y'/><_DATA_SET _Name='LOCKED MODIFICATIONTERM' _Value='60'/><_DATA_SET _Name='CORPORATE ADVANCES NON TAX NON INSURANCE' _Value='0'/><_DATA_SET _Name='SAVED-WITHDRAWN DECISION' _Value=''/><_DATA_SET _Name='UPCOMING TAX ADVANCES' _Value='0'/><_DATA_SET _Name='DOCUMENT EXCEPTION REASON' _Value=''/><_DATA_SET _Name='HAS ESCROW ACCOUNT' _Value='N'/><_DATA_SET _Name='INTERNAL STATUS CODE' _Value='1LMCode-NotActive'/><_DATA_SET _Name='SAVED-HARD DECLINE DECISION' _Value=''/><_DATA_SET _Name='MODIFICATION AGREEMENT RECEIVED DATE' _Value=''/><_DATA_SET _Name='PROPERTY OCCUPANCY STATUS' _Value='BorrowerOccupied'/><_DATA_SET _Name='DQ FEES' _Value='1916'/><_DATA_SET _Name='MATURITY DATE' _Value='12/31/2036 12:00:00 AM'/><_DATA_SET _Name='APPROVAL' _Value='Y'/><_DATA_SET _Name='PRODUCT BEFORE MODIFICATION' _Value='FixedRate'/><_DATA_SET _Name='FIRST NAME BORR2' _Value=''/><_DATA_SET _Name='CURRENTLY ON ACTIVE MOD' _Value='N'/><_DATA_SET _Name='OTHER CURRENT MONTHLY PAYMENT' _Value=''/><_DATA_SET _Name='CONDITION COUNT-TOTAL OPEN' _Value='1'/><_DATA_SET _Name='SAVED-DECLINE DECISION' _Value=''/><_DATA_SET _Name='BORROWER AGREES ESCROW SETUP' _Value='N'/><_DATA_SET _Name='BANKRUPTCY CHAPTER' _Value=''/><_DATA_SET _Name='ALL DOCUMENTS RECEIVED' _Value='Complete'/><_DATA_SET _Name='HAZARD INSURANCE DUE DATE' _Value=''/><_DATA_SET _Name='LOCKED HAS ESCROW ACCOUNT' _Value='N'/><_DATA_SET _Name='SAVED-BPO NEEDED' _Value='N'/><_DATA_SET _Name='FFIEC' _Value='N'/><_DATA_SET _Name='ACCOUNT IN LITIGATION' _Value='N'/><_DATA_SET _Name='DOD LOCK DATE' _Value='3/6/2013 1:58:19 PM'/><_DATA_SET _Name='CURRENT LOAN STAGE' _Value='25 Underwriting Review'/><_DATA_SET _Name='ESCROW BALANCE' _Value='0'/><_DATA_SET _Name='TODAYS DATE' _Value='3/6/2013 12:00:00 AM'/><_DATA_SET _Name='CONDITION STATUS-OTHER DOCS' _Value='Open'/><_DATA_SET _Name='UDF USE VALIDATION SCRIPTING' _Value='N'/><_DATA_SET _Name='DOC TIMING EXCEPTION REASON' _Value=''/><_DATA_SET _Name='DOCUMENT EXPIRATION DATE' _Value=''/><_DATA_SET _Name='SAVED-DAYS SINCE LAST APPRAISAL' _Value='5'/><_DATA_SET _Name='STATE OF THE SUBJECT PROPERTY' _Value='IL'/><_DATA_SET _Name='TEXTAREA1' _Value='test'/><_DATA_SET _Name='MOD AGREEMENT VALIDATED' _Value=''/><_DATA_SET _Name='FORECLOSURE STATUS' _Value='None'/><_DATA_SET _Name='DELINQUENT COUNSELOR CODE' _Value='app'/><_DATA_SET _Name='SAVED-CIT 944 FLAG' _Value=''/><_DATA_SET _Name='UDF DEBUGCHECK3' _Value='Y'/><_DATA_SET _Name='PREVIOUS MOD CATEGORY2 ACTIVATED DATE' _Value=''/><_DATA_SET _Name='TROUBLED DEBT RESERVES FLAG' _Value='N'/><_DATA_SET _Name='PROPERTY CONDITION' _Value='Excellent'/><_DATA_SET _Name='BANKRUPTCY LITIGATION' _Value='N'/><_DATA_SET _Name='COMPLETED DOCS' _Value='Y'/><_DATA_SET _Name='RESENT MOD AGREEMENT RECEIVED DATE' _Value=''/><_DATA_SET _Name='LIEN NUMBER' _Value='1'/><_DATA_SET _Name='CURRENT MONTHLY PAYMENT' _Value='903.53'/><_DATA_SET _Name='CORPORATE ADVANCES FOR DQ TAXES' _Value='0'/><_DATA_SET _Name='SAVED-CAN CHANGE STAGE' _Value='Y'/><_DATA_SET _Name='PRIMARY BORROWER CURRENT EMPLOYMENT TYPE' _Value='WageEarner'/><_DATA_SET _Name='FORECLOSURE SALE SCHEDULED DATE' _Value=''/><_DATA_SET _Name='PROJECTED FORECLOSURE SALE DATE' _Value=''/><_DATA_SET _Name='SAVED-TRIAL PERIOD COMPLETED' _Value='N'/><_DATA_SET _Name='DELINQUENCY STATUS' _Value='MoreThan180DaysDelinquent'/><_DATA_SET _Name='NOTE DATE' _Value='12/6/2006 12:00:00 AM'/><_DATA_SET _Name='PROPERTY TAXES DUE DATE' _Value=''/><_DATA_SET _Name='STATUS CODE 2' _Value='N'/><_DATA_SET _Name='ACCOUNT NAME' _Value='HSBC'/><_DATA_SET _Name='BANKRUPTCY STATUS' _Value='None'/><_DATA_SET _Name='LIENTYPE' _Value='1st'/><_DATA_SET _Name='SAVED-EXCLUSION DECISION' _Value=''/><_DATA_SET _Name='LOAN AMOUNT' _Value='145539.16'/><_DATA_SET _Name='DOCS RECEIVED DATE' _Value='3/6/2013 12:00:00 AM'/><_DATA_SET _Name='DENIAL REASON' _Value=''/><_DATA_SET _Name='PROPERTY VALUATION TYPE' _Value='Limitedappraisal'/><_DATA_SET _Name='REASON FOR DEFAULT' _Value='Curtailmentofincome'/><_DATA_SET _Name='NO OR LOW INCOME' _Value='N'/><_DATA_SET _Name='POOL ID' _Value='6331'/><_DATA_SET _Name='CO BORROWER CURRENT EMPLOYMENT TYPE' _Value=''/><_DATA_SET _Name='INTEREST METHOD TYPE' _Value='000'/><_DATA_SET _Name='PROPERTY TYPE' _Value='SingleFamily'/><_DATA_SET _Name='AGENCY TYPE' _Value='app'/></PARAMS>
+**********Primary Parameters Ends at 3/6/2013 2:37:17 PM**********
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+******Guideline****************
+
+<Guideline Id=37 Name=WF-ProdSel-Post Version=980/>
+
+<Decision GuidelineId="37" GuidelineName="WF-ProdSel-Post" Rulecount="0" ExecutionTime="3/6/2013 2:37:17 PM" ExecutionResult="True">
+     <Rules>	<Rule Name="CanChangeStage-Abort Execution Rule" Id="79749" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Initialization PLK.1" Id="92231" ConditionResult="True">
+		<DPM Name="Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Exclusion Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Hard Decline Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Decline Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Withdrawn Decision" Type="DPM">Pass</DPM>
+		<DPM Name="Best Fit Display" Type="DPM">All</DPM>
+		<DPM Name="Display Grid" Type="DPM">Y</DPM>
+		<DPM Name="Todays Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="Decision Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="Exclusion Stage" Type="DPM">N</DPM>
+		<DPM Name="Hard Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Decline Stage" Type="DPM">N</DPM>
+		<DPM Name="Withdrawn Stage" Type="DPM">N</DPM>
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Withdrawn" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+		<DPM Name="BPO Needed" Type="DPM">N</DPM>
+		<DPM Name="CIT 944 Flag" Type="DPM"></DPM>
+		<DPM Name="Days Since Last Appraisal" Type="DPM">5</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.1" Id="90731" ConditionResult="True">
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+		<DPM Name="Doc Timing Exception" Type="DPM">N</DPM>
+		<DPM Name="Doc Due Date Exception Flag" Type="DPM">N</DPM>
+		<DPM Name="Has Documentation Exception" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.2" Id="90732" ConditionResult="True">
+		<DPM Name="Override Exclusions" Type="DPM">N</DPM>
+		<DPM Name="Override Hard Declines" Type="DPM">N</DPM>
+		<DPM Name="Override Declines" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.3" Id="90733" ConditionResult="False">
+	</Rule>
+	<Rule Name="Initialization-ExceptionOverrides PLK.4" Id="90734" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-CurrentStage" Id="73331" ConditionResult="True">
+		<DPM Name="Current Stage" Type="DPM">25 Underwriting Review</DPM>
+		<DPM Name="Stage" Type="DPM">25</DPM>
+		<DPM Name="stageNum" Type="DPM">25</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.1" Id="90735" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Status" Type="DPM">N</DPM>
+		<DPM Name="FFIEC" Type="DPM">N</DPM>
+		<DPM Name="Has Permanent Hardship" Type="DPM">N</DPM>
+		<DPM Name="Death Flag" Type="DPM">N</DPM>
+		<DPM Name="Trial Period Started" Type="DPM">N</DPM>
+		<DPM Name="Application Date" Type="DPM">3/6/2013 12:00:00 AM</DPM>
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+		<DPM Name="Agency Flag" Type="DPM">N</DPM>
+		<DPM Name="Can Validate Input Fields" Type="DPM">Y</DPM>
+		<DPM Name="Litigation Flag" Type="DPM">N</DPM>
+		<DPM Name="Income Calc Type" Type="DPM">Verified</DPM>
+		<DPM Name="DocRcvd-Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Mediation Flag" Type="DPM">N</DPM>
+		<DPM Name="Foreclosure Redemption Flag" Type="DPM">N</DPM>
+		<DPM Name="Stipulation Flag" Type="DPM">N</DPM>
+		<DPM Name="REO Flag" Type="DPM">N</DPM>
+		<DPM Name="Stop Code" Type="DPM">0</DPM>
+		<DPM Name="Currently On Mod" Type="DPM">0</DPM>
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+		<DPM Name="Escrow Balance" Type="DPM">0</DPM>
+		<DPM Name="Pending Escrow Change" Type="DPM">N</DPM>
+		<DPM Name="Has Previous 6 Payment Mod" Type="DPM">N</DPM>
+		<DPM Name="Permanent Eligible Flag" Type="DPM">N</DPM>
+		<DPM Name="PWD Available" Type="DPM">N</DPM>
+		<DPM Name="Has DQ Taxes" Type="DPM">N</DPM>
+		<DPM Name="CIT 690 Flag" Type="DPM">N</DPM>
+		<DPM Name="DocRcvd-Resent Modification Agreement" Type="DPM">N</DPM>
+		<DPM Name="Is Securitized" Type="DPM">N</DPM>
+		<DPM Name="IsDSILoan" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.2" Id="90736" ConditionResult="True">
+		<DPM Name="Docs Received Flag" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.3" Id="90737" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.4" Id="90738" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.5" Id="90739" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.6" Id="90740" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.7" Id="90741" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.8" Id="90742" ConditionResult="True">
+		<DPM Name="Application Date" Type="DPM">3/6/2013 1:58:19 PM</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.9" Id="90743" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.10" Id="90744" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.11" Id="90745" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.12" Id="90746" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.13" Id="90747" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.14" Id="90748" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.15" Id="90749" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.16" Id="90750" ConditionResult="True">
+		<DPM Name="Delinquency Status" Type="DPM">7</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.17" Id="90751" ConditionResult="True">
+		<DPM Name="First Lien Indicator" Type="DPM">1</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.18" Id="90752" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.19" Id="90753" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.20" Id="90754" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.21" Id="90755" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.22" Id="90756" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.23" Id="90757" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.24" Id="90758" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.25" Id="90759" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.26" Id="90760" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.27" Id="90761" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.28" Id="90762" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.29" Id="90763" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.30" Id="90764" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.31" Id="90765" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.32" Id="90766" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.33" Id="90767" ConditionResult="True">
+		<DPM Name="TDR Flag Actual" Type="DPM">0</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.34" Id="90768" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.35" Id="90769" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.36" Id="90770" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.37" Id="90771" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.38" Id="90772" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.39" Id="90773" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.40" Id="90774" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.41" Id="90775" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.42" Id="90776" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.43" Id="90777" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.44" Id="90778" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.45" Id="90779" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.46" Id="90780" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.47" Id="90781" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.48" Id="90782" ConditionResult="True">
+		<DPM Name="Escrowed" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.49" Id="90783" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.50" Id="90784" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.51" Id="90785" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.52" Id="90786" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.53" Id="90787" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.54" Id="90788" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.55" Id="90789" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.56" Id="90790" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.57" Id="90791" ConditionResult="True">
+		<DPM Name="Property Valuation Type" Type="DPM">E</DPM>
+		<DPM Name="Property Valuation Method" Type="DPM">A</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.58" Id="90792" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.59" Id="90793" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.60" Id="90794" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.61" Id="90795" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.62" Id="90796" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.63" Id="90797" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.64" Id="90798" ConditionResult="True">
+		<DPM Name="Has DQ Taxes" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.65" Id="90799" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.66" Id="90800" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set Flags-v2 PLK.67" Id="92624" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-Exclusion" Id="73377" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDecline" Id="73378" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-Decline" Id="73379" ConditionResult="True">
+		<DPM Name="Decline Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-Withdrawn" Id="79860" ConditionResult="True">
+		<DPM Name="Withdrawn Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="Set-StageType-ExclusionOverride" Id="73380" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-HardDeclineOverride" Id="73381" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-DeclineOverride" Id="73382" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-WithdrawnOverride" Id="79861" ConditionResult="False">
+	</Rule>
+	<Rule Name="Set-StageType-ConditionStage" Id="87200" ConditionResult="True">
+		<DPM Name="Condition Stage" Type="DPM">Y</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclusion-Decline Init PLK.1" Id="92227" ConditionResult="True">
+		<DPM Name="Exclusion Decision" Type="DPM"></DPM>
+		<DPM Name="Decline Decision" Type="DPM"></DPM>
+		<DPM Name="Withdrawn Decision" Type="DPM"></DPM>
+		<DPM Name="Hard Decline Decision" Type="DPM"></DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.1" Id="92233" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.2" Id="92234" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.3" Id="92235" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.4" Id="92236" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-LoanIsDeclining PLK.5" Id="92237" ConditionResult="True">
+		<DPM Name="Loan Is Declining" Type="DPM">N</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-FromCustEligibility PLK.1" Id="92232" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.1" Id="92239" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.2" Id="92240" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.3" Id="92241" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.4" Id="92242" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.5" Id="92243" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.6" Id="92244" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.7" Id="92245" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.8" Id="92246" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.9" Id="92247" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.10" Id="92248" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.11" Id="92249" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.12" Id="92250" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Documents PLK.13" Id="92251" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">30</DPM>
+		<DPM Name="tempString" Type="DPM">Only Other Docs Condition is OPEN. Stage 25 =&gt; 30</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.1" Id="92228" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.2" Id="92229" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-TrialPeriod PLK.3" Id="92230" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.1" Id="92217" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.2" Id="92218" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.3" Id="92219" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.4" Id="92220" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.5" Id="92221" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.6" Id="92222" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.7" Id="92223" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.8" Id="92224" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Mod Agreement PLK.9" Id="92225" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.1" Id="92283" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.2" Id="92284" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.3" Id="92285" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Post-Exclude Decline Stage Change PLK.4" Id="92286" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.1" Id="92287" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.2" Id="92288" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.3" Id="92289" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.4" Id="92290" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.5" Id="92291" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.6" Id="92292" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.7" Id="92293" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.8" Id="92294" ConditionResult="False">
+	</Rule>
+	<Rule Name="StageChange-Map StageTo PLK.9" Id="92295" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">30 Trial Period Decision</DPM>
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.1" Id="92255" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.2" Id="92256" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.3" Id="92257" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.4" Id="92258" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.5" Id="92259" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.6" Id="92260" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.7" Id="92261" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.8" Id="92262" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.9" Id="92263" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.10" Id="92264" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.11" Id="92265" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.12" Id="92266" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.13" Id="92267" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.14" Id="92268" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.15" Id="92269" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.16" Id="92270" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.17" Id="92271" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.18" Id="92272" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.19" Id="92273" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.20" Id="92274" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.21" Id="92275" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.22" Id="92276" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.23" Id="92277" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.24" Id="92278" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.25" Id="92279" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.26" Id="92280" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.27" Id="92281" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation PLK.28" Id="92282" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Validation-PreventStageChange PLK.1" Id="92238" ConditionResult="False">
+	</Rule>
+	<Rule Name="ProdSel-Debug-PreventStageChange PLK.1" Id="92226" ConditionResult="True">
+		<DPM Name="_wfaction_stageto" Type="DPM">DOES_NOT_EXIST</DPM>
+		<DPM Name="tempString" Type="DPM">DBG: Stage Change Prevented.</DPM>
+	</Rule>
+</Rules>
+<Decision GuidelineId="37" GuidelineName="WF-ProdSel-Post" Rulecount="0" ExecutionTime="3/6/2013 2:37:17 PM" ExecutionResult="True">
+     <DerivedParameters>
+          <DPM Id="1352" Name="Currently On Mod" Type="DSM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1389" Name="Has Previous 6 Payment Mod" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="726" Name="Display Grid" Type="DSM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1445" Name="CIT 690 Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="747" Name="_wfaction_stageto" Type="DSM" Order="0" ProductType="6">DOES_NOT_EXIST</DPM>
+          <DPM Id="727" Name="Decision" Type="DSM" Order="0" ProductType="6">Pass</DPM>
+          <DPM Id="1008" Name="Has Documentation Exception" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="725" Name="Agency Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1436" Name="PWD Available" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1434" Name="Days Since Last Appraisal" Type="DSM" Order="0" ProductType="4">5</DPM>
+          <DPM Id="1169" Name="Hard Decline Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="1443" Name="DocRcvd-Resent Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1416" Name="Property Valuation Method" Type="DSM" Order="0" ProductType="6">A</DPM>
+          <DPM Id="704" Name="Foreclosure Status" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1251" Name="Withdrawn Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="807" Name="Application Date" Type="DSM" Order="0" ProductType="2">3/6/2013 1:58:19 PM</DPM>
+          <DPM Id="746" Name="Best Fit Display" Type="DSM" Order="0" ProductType="6">All</DPM>
+          <DPM Id="1403" Name="BPO Needed" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1405" Name="CIT 944 Flag" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="838" Name="Trial Period Started" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1076" Name="FFIEC" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="789" Name="Delinquency Status" Type="DSM" Order="0" ProductType="6">7</DPM>
+          <DPM Id="1168" Name="Decline Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="797" Name="First Lien Indicator" Type="DSM" Order="0" ProductType="4">1</DPM>
+          <DPM Id="1171" Name="Exclusion Decision" Type="DSM" Order="0" ProductType="6" />
+          <DPM Id="1112" Name="Litigation Flag" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1212" Name="TDR Flag Actual" Type="DSM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1065" Name="Has Permanent Hardship" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1419" Name="Property Valuation Type" Type="DSM" Order="0" ProductType="6">E</DPM>
+          <DPM Id="1071" Name="Current Stage" Type="DSM" Order="0" ProductType="6">25 Underwriting Review</DPM>
+          <DPM Id="894" Name="Doc Timing Exception" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="983" Name="DocRcvd-Modification Agreement" Type="DSM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1254" Name="Foreclosure Redemption Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1035" Name="Override Exclusions" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="915" Name="Doc Due Date Exception Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1460" Name="Death Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1124" Name="Permanent Eligible Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1170" Name="Loan Is Declining" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1351" Name="Stop Code" Type="DPM" Order="0" ProductType="6">0</DPM>
+          <DPM Id="1142" Name="Docs Received Flag" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1250" Name="Mediation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1225" Name="stageNum" Type="DPM" Order="0" ProductType="4">25</DPM>
+          <DPM Id="846" Name="Exclusion Stage" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1408" Name="Condition Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="749" Name="tempString" Type="DPM" Order="0" ProductType="6">DBG: Stage Change Prevented.</DPM>
+          <DPM Id="1193" Name="Can Validate Input Fields" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1381" Name="Escrow Balance" Type="DPM" Order="0" ProductType="4">0</DPM>
+          <DPM Id="1359" Name="REO Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1194" Name="Stage" Type="DPM" Order="0" ProductType="6">25</DPM>
+          <DPM Id="1483" Name="IsDSILoan" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1444" Name="Has DQ Taxes" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1383" Name="Pending Escrow Change" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1252" Name="Withdrawn Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="1075" Name="Override Declines" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="1006" Name="Decline Stage" Type="DPM" Order="0" ProductType="6">Y</DPM>
+          <DPM Id="881" Name="Override Hard Declines" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="995" Name="Income Calc Type" Type="DPM" Order="0" ProductType="6">Verified</DPM>
+          <DPM Id="1247" Name="Stipulation Flag" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="695" Name="Escrowed" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="860" Name="Hard Decline Stage" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="697" Name="Todays Date" Type="DPM" Order="0" ProductType="2">3/6/2013</DPM>
+          <DPM Id="1448" Name="Is Securitized" Type="DPM" Order="0" ProductType="6">N</DPM>
+          <DPM Id="714" Name="Decision Date" Type="DPM" Order="0" ProductType="2">3/6/2013</DPM>
+          <DPM Id="1253" Name="Override Withdrawn" Type="DPM" Order="0" ProductType="6">N</DPM>
+     </DerivedParameters>
+</Decision></Decision>
+

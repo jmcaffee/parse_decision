@@ -127,4 +127,133 @@ describe ParseDecision::Parser do
 
   end
 
+  describe "parsed workflow2 decisions" do
+
+    let(:src_log)       { 'spec/data/wf2.decision.txt' }
+
+    let(:log_output)    { outdir+'/wf2.decision.txt' }
+    let(:app_output)    { outdir+'/01-APP.xml' }
+    let(:rules_output)  { outdir+'/01-WF-ProdSel-Post-Rules.xml' }
+
+      # Reference files
+      let(:app_reference)     { 'spec/data/reference/workflow-2/01-APP.xml' }
+      let(:rules_reference)   { 'spec/data/reference/workflow-2/01-WF-ProdSel-Post-Rules.xml' }
+
+      let(:app_result)        { file_to_array( app_output ) }
+      let(:rules_result)      { file_to_array( rules_output ) }
+      let(:app_ref_file)      { file_to_array( app_reference ) }
+      let(:rules_ref_file)    { file_to_array( rules_reference ) }
+
+    it "contain rules" do
+      parser.parse src_log, outdir
+
+      app_result.should include '<DECISION_REQUEST>'
+      rules_result.should include '<Rule Name='
+    end
+
+    it "match reference output files" do
+      parser.parse src_log, outdir
+
+      app_result.should eq app_ref_file
+      rules_result.should eq rules_ref_file
+    end
+
+  end
+
+  describe "parsed multi-product decisions" do
+
+    let(:src_log)       { 'spec/data/multiproduct.decision.txt' }
+
+    let(:app_output)    { outdir+'/01-APP.xml' }
+    let(:rules_output1) { outdir+'/01-Mod-Forbear-PRODUCT.xml' }
+    let(:rules_output2) { outdir+'/01-Mod-Forgive-PRODUCT.xml' }
+    let(:rules_output3) { outdir+'/01-Mod-RateTerm-PRODUCT.xml' }
+    let(:rules_output4) { outdir+'/01-Mod-SAM-PRODUCT.xml' }
+    let(:log_output)    { outdir+'/multiproduct.decision.txt' }
+
+      # Reference files
+      let(:app_reference)     { 'spec/data/reference/multiproduct/01-APP.xml' }
+      let(:rules_reference1)  { 'spec/data/reference/multiproduct/01-Mod-Forbear-PRODUCT.xml' }
+      let(:rules_reference2)  { 'spec/data/reference/multiproduct/01-Mod-Forgive-PRODUCT.xml' }
+      let(:rules_reference3)  { 'spec/data/reference/multiproduct/01-Mod-RateTerm-PRODUCT.xml' }
+      let(:rules_reference4)  { 'spec/data/reference/multiproduct/01-Mod-SAM-PRODUCT.xml' }
+
+      let(:app_result)        { file_to_array( app_output ) }
+      let(:rules_result1)     { file_to_array( rules_output1 ) }
+      let(:rules_result2)     { file_to_array( rules_output2 ) }
+      let(:rules_result3)     { file_to_array( rules_output3 ) }
+      let(:rules_result4)     { file_to_array( rules_output4 ) }
+      let(:app_ref_file)      { file_to_array( app_reference ) }
+      let(:rules_ref_file1)   { file_to_array( rules_reference1 ) }
+      let(:rules_ref_file2)   { file_to_array( rules_reference2 ) }
+      let(:rules_ref_file3)   { file_to_array( rules_reference3 ) }
+      let(:rules_ref_file4)   { file_to_array( rules_reference4 ) }
+
+    it "contain rules" do
+      parser.parse src_log, outdir
+
+      app_result.should include '<DECISION_REQUEST>'
+      rules_result1.should include '<Rule Name='
+      rules_result2.should include '<Rule Name='
+      rules_result3.should include '<Rule Name='
+      rules_result4.should include '<Rule Name='
+    end
+
+    it "match reference output files" do
+      parser.parse src_log, outdir
+
+      app_result.should eq app_ref_file
+      rules_result1.should eq rules_ref_file1
+      rules_result2.should eq rules_ref_file2
+      rules_result3.should eq rules_ref_file3
+      rules_result4.should eq rules_ref_file4
+    end
+
+  end
+
+  describe "parsed web decisions" do
+
+    let(:src_log)       { 'spec/data/web.decision.txt' }
+
+    let(:app_output1)   { outdir+'/01-APP.xml' }
+    let(:app_output2)   { outdir+'/02-APP.xml' }
+    let(:rules_output1) { outdir+'/01-Product01-PRODUCT.xml' }
+    let(:rules_output2) { outdir+'/02-Product01-PRODUCT.xml' }
+    let(:log_output)    { outdir+'/web.decision.txt' }
+
+      # Reference files
+      let(:app_reference1)    { 'spec/data/reference/web/01-APP.xml' }
+      let(:app_reference2)    { 'spec/data/reference/web/02-APP.xml' }
+      let(:rules_reference1)  { 'spec/data/reference/web/01-Product01-PRODUCT.xml' }
+      let(:rules_reference2)  { 'spec/data/reference/web/02-Product01-PRODUCT.xml' }
+
+      let(:app_result1)       { file_to_array( app_output1 ) }
+      let(:app_result2)       { file_to_array( app_output2 ) }
+      let(:rules_result1)     { file_to_array( rules_output1 ) }
+      let(:rules_result2)     { file_to_array( rules_output2 ) }
+      let(:app_ref_file1)     { file_to_array( app_reference1 ) }
+      let(:app_ref_file2)     { file_to_array( app_reference2 ) }
+      let(:rules_ref_file1)   { file_to_array( rules_reference1 ) }
+      let(:rules_ref_file2)   { file_to_array( rules_reference2 ) }
+
+    it "contain rules" do
+      parser.parse src_log, outdir
+
+      app_result1.should include '<DECISION_REQUEST>'
+      app_result2.should include '<DECISION_REQUEST>'
+      rules_result1.should include '<Rule Name='
+      rules_result2.should include '<Rule Name='
+    end
+
+    it "match reference output files" do
+      parser.parse src_log, outdir
+
+      app_result1.should eq app_ref_file1
+      app_result2.should eq app_ref_file2
+      rules_result1.should eq rules_ref_file1
+      rules_result2.should eq rules_ref_file2
+    end
+
+  end
+
 end
