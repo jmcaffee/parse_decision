@@ -19,8 +19,8 @@ describe ParseDecision::Parser do
     expect { parser.parseFile(wfsrc_log) }.to raise_error("outdir missing")
   end
 
-    let(:wfrules_output)  { outdir+'/01-WF-DataClearing-Pre-Rules.xml' }
-    let(:wfapp_output)    { outdir+'/01-APP.xml' }
+    let(:wfrules_output)  { outdir+'/001-WF-DataClearing-Pre-Rules.xml' }
+    let(:wfapp_output)    { outdir+'/001-APP.xml' }
     let(:wflog_output)    { outdir+'/wf.decision.txt' }
 
     let(:wfrules_file)    { Pathname.new wfrules_output }
@@ -38,8 +38,8 @@ describe ParseDecision::Parser do
   describe "parsed workflow decisions" do
 
       # Reference files
-      let(:wfapp_reference)     { 'spec/data/reference/workflow/01-APP.xml' }
-      let(:wfrules_reference)   { 'spec/data/reference/workflow/01-WF-DataClearing-Pre-Rules.xml' }
+      let(:wfapp_reference)     { 'spec/data/reference/workflow/001-APP.xml' }
+      let(:wfrules_reference)   { 'spec/data/reference/workflow/001-WF-DataClearing-Pre-Rules.xml' }
 
       let(:wfrules_result)      { file_to_array( wfrules_output ) }
       let(:wfapp_result)        { file_to_array( wfapp_output ) }
@@ -66,12 +66,12 @@ describe ParseDecision::Parser do
     let(:src_log)       { 'spec/data/prod.decision.txt' }
 
     let(:log_output)    { outdir+'/prod.decision.txt' }
-    let(:app_output)    { outdir+'/02-APP.xml' }
-    let(:rules_output)  { outdir+'/02-FAPIILoanModification-PRODUCT.xml' }
+    let(:app_output)    { outdir+'/002-APP.xml' }
+    let(:rules_output)  { outdir+'/002-FAPIILoanModification-PRODUCT.xml' }
 
       # Reference files
-      let(:app_reference)     { 'spec/data/reference/product/02-APP.xml' }
-      let(:rules_reference)   { 'spec/data/reference/product/02-FAPIILoanModification-PRODUCT.xml' }
+      let(:app_reference)     { 'spec/data/reference/product/002-APP.xml' }
+      let(:rules_reference)   { 'spec/data/reference/product/002-FAPIILoanModification-PRODUCT.xml' }
 
       let(:app_result)        { file_to_array( app_output ) }
       let(:rules_result)      { file_to_array( rules_output ) }
@@ -99,12 +99,12 @@ describe ParseDecision::Parser do
     let(:src_log)       { 'spec/data/prod.decision.txt' }
 
     let(:log_output)    { outdir+'/prod.decision.txt' }
-    let(:app_output)    { outdir+'/01-APP.xml' }
-    let(:rules_output)  { outdir+'/01-Validation-Rules.xml' }
+    let(:app_output)    { outdir+'/001-APP.xml' }
+    let(:rules_output)  { outdir+'/001-Validation-Rules.xml' }
 
       # Reference files
-      let(:app_reference)     { 'spec/data/reference/product/01-APP.xml' }
-      let(:rules_reference)   { 'spec/data/reference/product/01-Validation-Rules.xml' }
+      let(:app_reference)     { 'spec/data/reference/product/001-APP.xml' }
+      let(:rules_reference)   { 'spec/data/reference/product/001-Validation-Rules.xml' }
 
       let(:app_result)        { file_to_array( app_output ) }
       let(:rules_result)      { file_to_array( rules_output ) }
@@ -132,12 +132,12 @@ describe ParseDecision::Parser do
     let(:src_log)       { 'spec/data/wf2.decision.txt' }
 
     let(:log_output)    { outdir+'/wf2.decision.txt' }
-    let(:app_output)    { outdir+'/01-APP.xml' }
-    let(:rules_output)  { outdir+'/01-WF-ProdSel-Post-Rules.xml' }
+    let(:app_output)    { outdir+'/001-APP.xml' }
+    let(:rules_output)  { outdir+'/001-WF-ProdSel-Post-Rules.xml' }
 
       # Reference files
-      let(:app_reference)     { 'spec/data/reference/workflow-2/01-APP.xml' }
-      let(:rules_reference)   { 'spec/data/reference/workflow-2/01-WF-ProdSel-Post-Rules.xml' }
+      let(:app_reference)     { 'spec/data/reference/workflow-2/001-APP.xml' }
+      let(:rules_reference)   { 'spec/data/reference/workflow-2/001-WF-ProdSel-Post-Rules.xml' }
 
       let(:app_result)        { file_to_array( app_output ) }
       let(:rules_result)      { file_to_array( rules_output ) }
@@ -164,19 +164,19 @@ describe ParseDecision::Parser do
 
     let(:src_log)       { 'spec/data/multiproduct.decision.txt' }
 
-    let(:app_output)    { outdir+'/01-APP.xml' }
-    let(:rules_output1) { outdir+'/01-Mod-Forbear-PRODUCT.xml' }
-    let(:rules_output2) { outdir+'/01-Mod-Forgive-PRODUCT.xml' }
-    let(:rules_output3) { outdir+'/01-Mod-RateTerm-PRODUCT.xml' }
-    let(:rules_output4) { outdir+'/01-Mod-SAM-PRODUCT.xml' }
+    let(:app_output)    { outdir+'/001-APP.xml' }
+    let(:rules_output1) { outdir+'/001-Mod-Forbear-PRODUCT.xml' }
+    let(:rules_output2) { outdir+'/001-Mod-Forgive-PRODUCT.xml' }
+    let(:rules_output3) { outdir+'/001-Mod-RateTerm-PRODUCT.xml' }
+    let(:rules_output4) { outdir+'/001-Mod-SAM-PRODUCT.xml' }
     let(:log_output)    { outdir+'/multiproduct.decision.txt' }
 
       # Reference files
-      let(:app_reference)     { 'spec/data/reference/multiproduct/01-APP.xml' }
-      let(:rules_reference1)  { 'spec/data/reference/multiproduct/01-Mod-Forbear-PRODUCT.xml' }
-      let(:rules_reference2)  { 'spec/data/reference/multiproduct/01-Mod-Forgive-PRODUCT.xml' }
-      let(:rules_reference3)  { 'spec/data/reference/multiproduct/01-Mod-RateTerm-PRODUCT.xml' }
-      let(:rules_reference4)  { 'spec/data/reference/multiproduct/01-Mod-SAM-PRODUCT.xml' }
+      let(:app_reference)     { 'spec/data/reference/multiproduct/001-APP.xml' }
+      let(:rules_reference1)  { 'spec/data/reference/multiproduct/001-Mod-Forbear-PRODUCT.xml' }
+      let(:rules_reference2)  { 'spec/data/reference/multiproduct/001-Mod-Forgive-PRODUCT.xml' }
+      let(:rules_reference3)  { 'spec/data/reference/multiproduct/001-Mod-RateTerm-PRODUCT.xml' }
+      let(:rules_reference4)  { 'spec/data/reference/multiproduct/001-Mod-SAM-PRODUCT.xml' }
 
       let(:app_result)        { file_to_array( app_output ) }
       let(:rules_result1)     { file_to_array( rules_output1 ) }
@@ -215,17 +215,17 @@ describe ParseDecision::Parser do
 
     let(:src_log)       { 'spec/data/web.decision.txt' }
 
-    let(:app_output1)   { outdir+'/01-APP.xml' }
-    let(:app_output2)   { outdir+'/02-APP.xml' }
-    let(:rules_output1) { outdir+'/01-Product01-PRODUCT.xml' }
-    let(:rules_output2) { outdir+'/02-Product01-PRODUCT.xml' }
+    let(:app_output1)   { outdir+'/001-APP.xml' }
+    let(:app_output2)   { outdir+'/002-APP.xml' }
+    let(:rules_output1) { outdir+'/001-Product01-PRODUCT.xml' }
+    let(:rules_output2) { outdir+'/002-Product01-PRODUCT.xml' }
     let(:log_output)    { outdir+'/web.decision.txt' }
 
       # Reference files
-      let(:app_reference1)    { 'spec/data/reference/web/01-APP.xml' }
-      let(:app_reference2)    { 'spec/data/reference/web/02-APP.xml' }
-      let(:rules_reference1)  { 'spec/data/reference/web/01-Product01-PRODUCT.xml' }
-      let(:rules_reference2)  { 'spec/data/reference/web/02-Product01-PRODUCT.xml' }
+      let(:app_reference1)    { 'spec/data/reference/web/001-APP.xml' }
+      let(:app_reference2)    { 'spec/data/reference/web/002-APP.xml' }
+      let(:rules_reference1)  { 'spec/data/reference/web/001-Product01-PRODUCT.xml' }
+      let(:rules_reference2)  { 'spec/data/reference/web/002-Product01-PRODUCT.xml' }
 
       let(:app_result1)       { file_to_array( app_output1 ) }
       let(:app_result2)       { file_to_array( app_output2 ) }

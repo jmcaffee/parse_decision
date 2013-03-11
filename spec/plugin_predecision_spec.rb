@@ -61,7 +61,7 @@ describe "Plugin::PreDecisionGuideline" do
         When (:result) { plug.execute( context, line ) }
 
         Then { result.should eq true }
-        Then { plug.outfile.should eq "00-TestGdl-Rules.xml" }
+        Then { plug.outfile.should eq "000-TestGdl-Rules.xml" }
       end
 
       context "stop accepting lines after #{end_string} received" do

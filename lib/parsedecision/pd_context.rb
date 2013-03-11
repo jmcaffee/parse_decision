@@ -127,7 +127,7 @@ module ParseDecision
     end
 
     def indexStr()
-      return "%02d" % @index
+      return "%03d" % @index
     end
 
 
