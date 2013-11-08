@@ -123,6 +123,59 @@ describe ParseDecision::Parser do
 
   end
 
+  describe "parsed validation decisions with discard data" do
+
+    let(:src_log)       { 'spec/data/validation.decision.txt' }
+
+    let(:log_output)    { outdir+'/validation.decision.txt' }
+    let(:app_output)    { outdir+'/001-APP.xml' }
+    let(:rules_output)  { outdir+'/001-Validation-Rules.xml' }
+
+      # Reference files
+      let(:app_reference)     { 'spec/data/reference/validation/001-APP.xml' }
+      let(:rules_reference)   { 'spec/data/reference/validation/001-Validation-Rules.xml' }
+
+      let(:app_result)        { file_to_array( app_output ) }
+      let(:rules_result)      { file_to_array( rules_output ) }
+      let(:app_ref_file)      { file_to_array( app_reference ) }
+      let(:rules_ref_file)    { file_to_array( rules_reference ) }
+
+    it "contain request XML" do
+      parser.parse src_log, outdir
+
+      app_result.should include '<DECISION_REQUEST>'
+    end
+
+    it "contain Decision open tag element" do
+      parser.parse src_log, outdir
+
+      rules_result.should include '<Decision GuidelineId="39"'
+    end
+
+    it "contain Rules open tag" do
+      parser.parse src_log, outdir
+
+      rules_result.should include '<Rules>'
+    end
+
+    it "contain at least one rule tag" do
+      parser.parse src_log, outdir
+
+      app_result.should include '<DECISION_REQUEST>'
+      rules_result.should include '<Decision GuidelineId="39"'
+      rules_result.should include '<Rules>'
+      rules_result.should include '<Rule Name='
+    end
+
+    it "match reference output files" do
+      parser.parse src_log, outdir
+
+      app_result.should eq app_ref_file
+      rules_result.should eq rules_ref_file
+    end
+
+  end
+
   describe "parsed workflow2 decisions" do
 
     let(:src_log)       { 'spec/data/wf2.decision.txt' }

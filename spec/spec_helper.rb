@@ -16,9 +16,37 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
+
 require 'rspec/given'
 require_relative '../lib/parsedecision'
 require 'pathname'
+
+# To activate tracing, use the following example command line:
+#
+#   TRACE=on rspec spec
+#
+if ENV["TRACE"] == '1' || ENV["TRACE"] == 'on'
+  puts '##'*20
+  puts
+  puts "ENV[TRACE] = on. Tracing activated"
+  puts
+  puts '##'*20
+
+  # See http://www.blackbytes.info/2012/06/ruby-tracing/ for further details.
+  set_trace_func proc { |event, file, line, id, binding, classname|
+    # Limit output to plugin method calls.
+    if event == 'call' && file.include?('parsedecision/plugin')
+      #printf "%8s %s:%-2d %10s %8s\n", event, file, line, id, classname
+
+      # Shorten the class name and filename strings by stripping of the prefixes.
+      clsname = classname.to_s.sub!("ParseDecision::Plugin::", "")
+      file.sub!("c:/Users/Jeff/ams/tools/ruby/parsedecision/lib/parsedecision/", "")
+
+      printf "%28s %30s %s:%-2d\n", clsname, id, file, line
+    end
+  }
+end
+
 
 def file_to_array(filepath)
   dump = String.new

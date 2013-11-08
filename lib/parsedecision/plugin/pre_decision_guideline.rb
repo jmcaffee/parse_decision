@@ -25,6 +25,7 @@ module Plugin
       @fnameTemplate    = "@INDEX@-@GDL@-Rules.xml"
       @searchStrPpms    = "<PARAMS><_DATA_SET"
       @searchStrGdl     = "<Guideline "
+      @searchStrGdl2    = "******Guideline*"
       @searchStrGdlEnd  = "<Decision GuidelineId"
       @searchRulesEnd   = "</Decision>"
       @ppmData      = ""
@@ -63,7 +64,7 @@ module Plugin
         return true
       end
 
-      if ln.include?(@searchStrGdl)
+      if ln.include?(@searchStrGdl) || ln.include?(@searchStrGdl2)
         context.state = :preDecisionGdl
         @ruleData.clear
         open_discard_element

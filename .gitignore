@@ -11,3 +11,4 @@ test/data/output/
 test/data/output-webdecision/
 test/data/pdconfig.yml
 tmp/
+trace.log
