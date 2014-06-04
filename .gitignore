@@ -12,3 +12,6 @@ test/data/output-webdecision/
 test/data/pdconfig.yml
 tmp/
 trace.log
+
+# Don't checkin Gemfile.lock
+Gemfile.lock
