@@ -8,7 +8,7 @@
 ##############################################################################
 
 require 'ktcommon/ktcfg'
-require 'parsedecision/version'
+require 'parse_decision/version'
 
 ##############################################################################
 # Everything is contained in module ParseDecision
@@ -53,7 +53,7 @@ module ParseDecision
       #appDataPath  = ENV["APPDATA"]          # APPDATA returns AppData\Roaming on Vista/W7
       appDataPath   = ENV["LOCALAPPDATA"]       # LOCALAPPDATA returns AppData\Local on Vista/W7
       appDataPath   ||= ENV["HOME"]
-      @cfg[:appPath]  = File.rubypath(File.join(appDataPath, "parsedecision"))
+      @cfg[:appPath]  = File.rubypath(File.join(appDataPath, "parse_decision"))
       @cfg[:version]  = ParseDecision::VERSION
       @cfg[:file]   = "2.decision.txt"
       @cfg[:logging]  = false

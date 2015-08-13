@@ -5,7 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-  config.treat_symbols_as_metadata_keys_with_true_values = true
+  #config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
 
@@ -14,11 +14,24 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = 'random'
+
+  # Allow the use of (old) should syntax, AND expect:
+  config.expect_with :rspec do |c|
+    # Disable the `expect` sytax...
+    #c.syntax = :should
+
+    # ...or disable the `should` syntax...
+    #c.syntax = :expect
+
+    # ...or explicitly enable both
+    c.syntax = [:should, :expect]
+  end
+
 end
 
 
 require 'rspec/given'
-require_relative '../lib/parsedecision'
+require_relative '../lib/parse_decision'
 require 'pathname'
 
 # To activate tracing, use the following example command line:
@@ -35,12 +48,12 @@ if ENV["TRACE"] == '1' || ENV["TRACE"] == 'on'
   # See http://www.blackbytes.info/2012/06/ruby-tracing/ for further details.
   set_trace_func proc { |event, file, line, id, binding, classname|
     # Limit output to plugin method calls.
-    if event == 'call' && file.include?('parsedecision/plugin')
+    if event == 'call' && file.include?('parse_decision/plugin')
       #printf "%8s %s:%-2d %10s %8s\n", event, file, line, id, classname
 
       # Shorten the class name and filename strings by stripping of the prefixes.
       clsname = classname.to_s.sub!("ParseDecision::Plugin::", "")
-      file.sub!("c:/Users/Jeff/ams/tools/ruby/parsedecision/lib/parsedecision/", "")
+      file.sub!("c:/Users/Jeff/ams/tools/ruby/parse_decision/lib/parse_decision/", "")
 
       printf "%28s %30s %s:%-2d\n", clsname, id, file, line
     end

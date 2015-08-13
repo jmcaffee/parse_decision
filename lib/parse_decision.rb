@@ -1,5 +1,5 @@
 ##############################################################################
-# File:: parsedecision.rb
+# File:: parse_decision.rb
 # Purpose:: Include file for ParseDecision library
 #
 # Author::    Jeff McAffee 03/12/2010
@@ -26,8 +26,8 @@ $LOGGING = false
 # Uncomment line below to force logging:
 #$LOGGING = true   # TODO: Change this flag to false when releasing production build.
 
-require "#{File.join( File.dirname(__FILE__), 'parsedecision','version')}"
-require "#{File.join( File.dirname(__FILE__), 'parsedecision','config')}"
+require "#{File.join( File.dirname(__FILE__), 'parse_decision','version')}"
+require "#{File.join( File.dirname(__FILE__), 'parse_decision','config')}"
 
 logcfg = ParseDecision::Config.new.load
 if(logcfg.key?(:logging) && (true == logcfg[:logging]) )
@@ -36,13 +36,13 @@ end
 
 if($LOGGING)
   # Create a new log file each time:
-  file = File.open('parsedecision.log', File::WRONLY | File::APPEND | File::CREAT | File::TRUNC)
+  file = File.open('parse_decision.log', File::WRONLY | File::APPEND | File::CREAT | File::TRUNC)
   $LOG = Logger.new(file)
   $LOG.level = Logger::DEBUG
   #$LOG.level = Logger::INFO
 else
-  if(File.exists?('parsedecision.log'))
-FileUtils.rm('parsedecision.log')
+  if(File.exists?('parse_decision.log'))
+FileUtils.rm('parse_decision.log')
 end
 end
 $LOG.info "**********************************************************************"
@@ -50,8 +50,8 @@ $LOG.info "Logging started for ParseDecision library."
 $LOG.info "**********************************************************************"
 
 
-class_files = File.join( File.dirname(__FILE__), 'parsedecision', '*.rb')
-$: << File.join( File.dirname(__FILE__), 'parsedecision')  # Add directory to the include file array.
+class_files = File.join( File.dirname(__FILE__), 'parse_decision', '*.rb')
+$: << File.join( File.dirname(__FILE__), 'parse_decision')  # Add directory to the include file array.
 Dir.glob(class_files) do | class_file |
     require class_file[/\w+\.rb$/]
 end

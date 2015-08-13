@@ -8,9 +8,9 @@ AMS application.
 
 ### Rake Task Usage
 
-The rake task can be included in a rakefile by requiring parsedecision like so:
+The rake task can be included in a rakefile by requiring parse_decision like so:
 
-    require 'parsedecision'
+    require 'parse_decision'
 
 and called as:
 
@@ -31,7 +31,7 @@ archiving purposes.
 Usage info can be retrieved from the application by calling it with the -h or --help
 options:
 
-    $ parsedecision --help
+    $ parse_decision --help
 
 
 ## Notes

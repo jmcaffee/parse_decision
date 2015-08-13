@@ -17,7 +17,7 @@ describe ParseDecision::Plugin::Plugin do
   end
 
   it "#execute returns false by default" do
-    plugin.execute(context, "").should be_false
+    plugin.execute(context, "").should be_falsy
   end
 
   it "#apply_template replaces substrings in a template" do

@@ -7,7 +7,7 @@
 # Website::   http://ktechsystems.com
 ##############################################################################
 
-require 'parsedecision'
+require 'parse_decision'
 class ParseDecisionTask
 
 	def execute(logSrcPath, destDir, verbose=false)

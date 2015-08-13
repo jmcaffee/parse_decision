@@ -9,7 +9,7 @@
 
 require 'ktcommon/ktpath'
 require 'ktcommon/ktcmdline'
-require 'parsedecision/plugin'
+require 'parse_decision/plugin'
 require 'pathname'
 
       #$LOG.level = Logger::ERROR

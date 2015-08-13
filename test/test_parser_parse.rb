@@ -14,7 +14,7 @@ require 'logger'
 
 require 'fileutils'
 
-require 'parsedecision'
+require 'parse_decision'
 
 class  TestParserParse < Test::Unit::TestCase #(3)
     include FileUtils

@@ -25,7 +25,7 @@ PROJNAME        = "ParseDecision"
 
 # Bring in the library's version constant
 $:.unshift File.expand_path("../lib", __FILE__)
-require "parsedecision/version"
+require "parse_decision/version"
 
 PKG_VERSION = ParseDecision::VERSION
 PKG_FILES   = Dir["**/*"].select { |d| d =~ %r{^(README|bin/|data/|ext/|lib/|spec/|test/)} }
@@ -160,10 +160,10 @@ spec = Gem::Specification.new do |s|
   s.require_path = 'lib'
   #s.autorequire = 'rake'
   s.files = PKG_FILES
-  s.executables = "parsedecision"
+  s.executables = "parse_decision"
   s.author = "Jeff McAffee"
   s.email = "gems@ktechdesign.com"
-  s.homepage = "http://gems.ktechdesign.com"
+  s.homepage = "https://github.com/jmcaffee/parse_decision"
   s.description = <<EOF
 ParseDecision parses AMS decision logs.
 EOF

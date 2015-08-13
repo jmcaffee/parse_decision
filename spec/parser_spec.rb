@@ -26,9 +26,9 @@ describe ParseDecision::Parser do
   it "parses a file" do
     parser.parse wfsrc_log, outdir
 
-    wfrules_file.exist?.should be_true
-    wfapp_file.exist?.should be_true
-    wfsource_file.exist?.should be_true
+    wfrules_file.exist?.should be_truthy
+    wfapp_file.exist?.should be_truthy
+    wfsource_file.exist?.should be_truthy
   end
 
   describe "parsed workflow decisions" do
